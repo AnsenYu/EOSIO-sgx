@@ -1,0 +1,19 @@
+{
+  "name": "eos-transfers",
+  "version": "0.0.1",
+  "author": {
+    "name": "Julien Heller",
+    "url": "https://block.one/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "demux": "^1.0.3",
+    "demux-eos": "1.0.1",
+    "bindings": "~1.2.1",
+    "nan": "^2.11.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "gypfile": true
+}

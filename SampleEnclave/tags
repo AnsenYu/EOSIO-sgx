@@ -1,0 +1,1573 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDON_REGISTER_FUNCTION_ARGS_TYPE	node_modules/nan/nan.h	/^  typedef v8::Handle<v8::Object> ADDON_REGISTER_FUNCTION_ARGS_TYPE;$/;"	t	namespace:Nan
+AR.host	build/Makefile	/^AR.host ?= ar$/;"	m
+AR.target	build/Makefile	/^AR.target ?= $(AR)$/;"	m
+ASCII	node_modules/nan/nan.h	/^enum Encoding {ASCII, UTF8, BASE64, UCS2, BINARY, HEX, BUFFER};$/;"	e	enum:Nan::Encoding
+ATOM_0_21_MODULE_VERSION	node_modules/nan/nan.h	28;"	d
+AddGCEpilogueCallback	node_modules/nan/nan.h	/^  inline void AddGCEpilogueCallback($/;"	f	namespace:Nan
+AddGCPrologueCallback	node_modules/nan/nan.h	/^  inline void AddGCPrologueCallback($/;"	f	namespace:Nan
+AdjustExternalMemory	node_modules/nan/nan.h	/^  inline int AdjustExternalMemory(int bc) {$/;"	f	namespace:Nan
+App_C_Flags	Makefile	/^App_C_Flags := -fPIC -Wno-attributes $(App_Include_Paths)$/;"	m
+App_Cpp_Files	Makefile	/^App_Cpp_Files := App\/App.cpp $(wildcard App\/Edger8rSyntax\/*.cpp) $(wildcard App\/TrustedLibrary\/*.cpp)$/;"	m
+App_Cpp_Flags	Makefile	/^App_Cpp_Flags := $(App_C_Flags)$/;"	m
+App_Cpp_Objects	Makefile	/^App_Cpp_Objects := $(App_Cpp_Files:.cpp=.o)$/;"	m
+App_Include_Paths	Makefile	/^App_Include_Paths := -IInclude -IApp -I$(SGX_SDK)\/include$/;"	m
+App_Link_Flags	Makefile	/^App_Link_Flags := -L$(SGX_LIBRARY_PATH) -l$(Urts_Library_Name) -lpthread $/;"	m
+App_Name	Makefile	/^App_Name := librand.so$/;"	m
+AsyncBareProgressQueueWorker	node_modules/nan/nan.h	/^  explicit AsyncBareProgressQueueWorker($/;"	f	class:Nan::AsyncBareProgressQueueWorker
+AsyncBareProgressQueueWorker	node_modules/nan/nan.h	/^class AsyncBareProgressQueueWorker : public AsyncBareProgressWorkerBase {$/;"	c	namespace:Nan
+AsyncBareProgressWorker	node_modules/nan/nan.h	/^  explicit AsyncBareProgressWorker($/;"	f	class:Nan::AsyncBareProgressWorker
+AsyncBareProgressWorker	node_modules/nan/nan.h	/^class AsyncBareProgressWorker : public AsyncBareProgressWorkerBase {$/;"	c	namespace:Nan
+AsyncBareProgressWorkerBase	node_modules/nan/nan.h	/^  explicit AsyncBareProgressWorkerBase($/;"	f	class:Nan::AsyncBareProgressWorkerBase
+AsyncBareProgressWorkerBase	node_modules/nan/nan.h	/^\/* abstract *\/ class AsyncBareProgressWorkerBase : public AsyncWorker {$/;"	c	namespace:Nan
+AsyncClose_	node_modules/nan/nan.h	/^  inline static void AsyncClose_(uv_handle_t* handle) {$/;"	f	class:Nan::AsyncBareProgressWorkerBase
+AsyncExecute	node_modules/nan/nan.h	/^inline void AsyncExecute (uv_work_t* req) {$/;"	f	namespace:Nan
+AsyncExecuteComplete	node_modules/nan/nan.h	/^inline void AsyncExecuteComplete (uv_work_t* req) {$/;"	f	namespace:Nan
+AsyncProgressQueueWorker	node_modules/nan/nan.h	/^  explicit AsyncProgressQueueWorker($/;"	f	class:Nan::AsyncProgressQueueWorker
+AsyncProgressQueueWorker	node_modules/nan/nan.h	/^class AsyncProgressQueueWorker : public AsyncBareProgressQueueWorker<T> {$/;"	c	namespace:Nan
+AsyncProgressWorker	node_modules/nan/nan.h	/^typedef AsyncProgressWorkerBase<char> AsyncProgressWorker;$/;"	t	namespace:Nan
+AsyncProgressWorkerBase	node_modules/nan/nan.h	/^  explicit AsyncProgressWorkerBase($/;"	f	class:Nan::AsyncProgressWorkerBase
+AsyncProgressWorkerBase	node_modules/nan/nan.h	/^class AsyncProgressWorkerBase : public AsyncBareProgressWorker<T> {$/;"	c	namespace:Nan
+AsyncQueueWorker	node_modules/nan/nan.h	/^inline void AsyncQueueWorker (AsyncWorker* worker) {$/;"	f	namespace:Nan
+AsyncResource	node_modules/nan/nan.h	/^  AsyncResource($/;"	f	class:Nan::AsyncResource
+AsyncResource	node_modules/nan/nan.h	/^class AsyncResource {$/;"	c	namespace:Nan
+AsyncWorker	node_modules/nan/nan.h	/^  explicit AsyncWorker(Callback *callback_,$/;"	f	class:Nan::AsyncWorker
+AsyncWorker	node_modules/nan/nan.h	/^\/* abstract *\/ class AsyncWorker {$/;"	c	namespace:Nan
+BASE64	node_modules/nan/nan.h	/^enum Encoding {ASCII, UTF8, BASE64, UCS2, BINARY, HEX, BUFFER};$/;"	e	enum:Nan::Encoding
+BINARY	node_modules/nan/nan.h	/^enum Encoding {ASCII, UTF8, BASE64, UCS2, BINARY, HEX, BUFFER};$/;"	e	enum:Nan::Encoding
+BUFFER	node_modules/nan/nan.h	/^enum Encoding {ASCII, UTF8, BASE64, UCS2, BINARY, HEX, BUFFER};$/;"	e	enum:Nan::Encoding
+BUFFER_SIZE	Enclave/TrustedLibrary/Thread.cpp	41;"	d	file:
+BUILDTYPE	build/Makefile	/^BUILDTYPE ?= Release$/;"	m
+BoundScript	node_modules/nan/nan.h	/^typedef v8::Script             BoundScript;$/;"	t	namespace:Nan
+Build_Mode	Makefile	/^	Build_Mode = HW_DEBUG$/;"	m
+Build_Mode	Makefile	/^	Build_Mode = HW_PRERELEASE$/;"	m
+Build_Mode	Makefile	/^	Build_Mode = HW_RELEASE$/;"	m
+Build_Mode	Makefile	/^	Build_Mode = SIM_DEBUG$/;"	m
+Build_Mode	Makefile	/^	Build_Mode = SIM_PRERELEASE$/;"	m
+Build_Mode	Makefile	/^	Build_Mode = SIM_RELEASE$/;"	m
+CC.host	build/Makefile	/^CC.host ?= gcc$/;"	m
+CC.target	build/Makefile	/^CC.target ?= $(CC)$/;"	m
+CC_BELOW_4_9	Makefile	/^CC_BELOW_4_9 := $(shell expr "`$(CC) -dumpversion`" \\< "4.9")$/;"	m
+CFLAGS.host	build/Makefile	/^CFLAGS.host ?= $(CPPFLAGS_host) $(CFLAGS_host)$/;"	m
+CFLAGS.target	build/Makefile	/^CFLAGS.target ?= $(CPPFLAGS) $(CFLAGS)$/;"	m
+CFLAGS_CC_Debug	build/hello.target.mk	/^CFLAGS_CC_Debug := \\$/;"	m
+CFLAGS_CC_Release	build/hello.target.mk	/^CFLAGS_CC_Release := \\$/;"	m
+CFLAGS_C_Debug	build/hello.target.mk	/^CFLAGS_C_Debug :=$/;"	m
+CFLAGS_C_Release	build/hello.target.mk	/^CFLAGS_C_Release :=$/;"	m
+CFLAGS_Debug	build/hello.target.mk	/^CFLAGS_Debug := \\$/;"	m
+CFLAGS_Release	build/hello.target.mk	/^CFLAGS_Release := \\$/;"	m
+CHECK_ENCLAVE_POINTER	Enclave/Enclave_t.c	20;"	d	file:
+CHECK_REF_POINTER	Enclave/Enclave_t.c	10;"	d	file:
+CHECK_UNIQUE_POINTER	Enclave/Enclave_t.c	15;"	d	file:
+CXX.host	build/Makefile	/^CXX.host ?= g++$/;"	m
+CXX.target	build/Makefile	/^CXX.target ?= $(CXX)$/;"	m
+CXXFLAGS.host	build/Makefile	/^CXXFLAGS.host ?= $(CPPFLAGS_host) $(CXXFLAGS_host)$/;"	m
+CXXFLAGS.target	build/Makefile	/^CXXFLAGS.target ?= $(CPPFLAGS) $(CXXFLAGS)$/;"	m
+Call	node_modules/nan/nan.h	/^  Call(int argc, v8::Local<v8::Value> argv[]) const {$/;"	f	class:Nan::Callback
+Call	node_modules/nan/nan.h	/^  Call(int argc, v8::Local<v8::Value> argv[], AsyncResource* resource) const {$/;"	f	class:Nan::Callback
+Call	node_modules/nan/nan.h	/^  Call(v8::Local<v8::Object> target$/;"	f	class:Nan::Callback
+Call	node_modules/nan/nan.h	/^inline MaybeLocal<v8::Value> Call($/;"	f	namespace:Nan
+Call	node_modules/nan/nan_maybe_43_inl.h	/^inline MaybeLocal<v8::Value> Call($/;"	f
+Call	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline MaybeLocal<v8::Value> Call($/;"	f
+CallAsConstructor	node_modules/nan/nan_maybe_43_inl.h	/^inline MaybeLocal<v8::Value> CallAsConstructor($/;"	f
+CallAsConstructor	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline MaybeLocal<v8::Value> CallAsConstructor($/;"	f
+CallAsFunction	node_modules/nan/nan_maybe_43_inl.h	/^inline MaybeLocal<v8::Value> CallAsFunction($/;"	f
+CallAsFunction	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline MaybeLocal<v8::Value> CallAsFunction($/;"	f
+Call_	node_modules/nan/nan.h	/^  MaybeLocal<v8::Value> Call_(v8::Isolate *isolate$/;"	f	class:Nan::Callback
+Call_	node_modules/nan/nan.h	/^  v8::Local<v8::Value> Call_(v8::Isolate *isolate$/;"	f	class:Nan::Callback
+Call_	node_modules/nan/nan.h	/^  v8::Local<v8::Value> Call_(v8::Local<v8::Object> target$/;"	f	class:Nan::Callback
+Callback	node_modules/nan/nan.h	/^  Callback() {}$/;"	f	class:Nan::Callback
+Callback	node_modules/nan/nan.h	/^  explicit Callback(const v8::Local<v8::Function> &fn) : handle_(fn) {}$/;"	f	class:Nan::Callback
+Callback	node_modules/nan/nan.h	/^class Callback {$/;"	c	namespace:Nan
+Callback	node_modules/nan/nan_weak.h	/^  typedef void (*Callback)(const WeakCallbackInfo<T>& data);$/;"	t	class:WeakCallbackInfo
+Callee	node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Local<v8::Function> Callee() const { return info_.Callee(); }$/;"	f	class:FunctionCallbackInfo
+Callee	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Local<v8::Function> Callee() const { return args_.Callee(); }$/;"	f	class:FunctionCallbackInfo
+CanContinue	node_modules/nan/nan.h	/^  inline bool CanContinue() const { return try_catch_.CanContinue(); }$/;"	f	class:Nan::TryCatch
+ClearWeak	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline void ClearWeak() { persistent.ClearWeak(); }$/;"	f	class:PersistentBase
+CloneElementAt	node_modules/nan/nan_maybe_43_inl.h	/^inline MaybeLocal<v8::Object> CloneElementAt($/;"	f
+CloneElementAt	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline MaybeLocal<v8::Object> CloneElementAt($/;"	f
+CompileScript	node_modules/nan/nan.h	/^  inline MaybeLocal<BoundScript> CompileScript($/;"	f	namespace:Nan
+ContextDisposedNotification	node_modules/nan/nan.h	/^  inline void ContextDisposedNotification() {$/;"	f	namespace:Nan
+Copy	node_modules/nan/nan_persistent_12_inl.h	/^  inline void Copy(const Persistent<S, M2> &that) {$/;"	f	class:Persistent
+Copy	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline static void Copy(const Persistent<S, M> &source,$/;"	f	class:NonCopyablePersistentTraits
+Copy	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline void Copy(const Persistent<S, M2> &that) {$/;"	f	class:Persistent
+Copy	node_modules/nan/nan_persistent_pre_12_inl.h	/^  static inline void Copy(const Persistent<S, M> &source,$/;"	f	struct:CopyablePersistentTraits
+CopyBuffer	node_modules/nan/nan.h	/^  inline MaybeLocal<v8::Object> CopyBuffer($/;"	f	namespace:Nan
+CopyablePersistent	node_modules/nan/nan_persistent_pre_12_inl.h	/^  typedef Persistent<T, CopyablePersistentTraits<T> > CopyablePersistent;$/;"	t	struct:CopyablePersistentTraits
+CopyablePersistentTraits	node_modules/nan/nan.h	/^class CopyablePersistentTraits :$/;"	c	namespace:Nan
+CopyablePersistentTraits	node_modules/nan/nan_persistent_pre_12_inl.h	/^struct CopyablePersistentTraits {$/;"	s
+Crypto_Library_Name	Makefile	/^Crypto_Library_Name := sgx_tcrypto$/;"	m
+DEFS_Debug	build/hello.target.mk	/^DEFS_Debug := \\$/;"	m
+DEFS_Release	build/hello.target.mk	/^DEFS_Release := \\$/;"	m
+DEPFLAGS	build/Makefile	/^DEPFLAGS = -MMD -MF $(depfile).raw$/;"	m
+Data	node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Local<v8::Value> Data() const { return data_; }$/;"	f	class:FunctionCallbackInfo
+Data	node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Local<v8::Value> Data() const { return data_; }$/;"	f	class:PropertyCallbackInfo
+Data	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Local<v8::Value> Data() const { return data_; }$/;"	f	class:FunctionCallbackInfo
+Data	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Local<v8::Value> Data() const { return data_; }$/;"	f	class:PropertyCallbackInfoBase
+DecodeBytes	node_modules/nan/nan.h	/^inline ssize_t DecodeBytes($/;"	f	namespace:Nan
+DecodeWrite	node_modules/nan/nan.h	/^inline ssize_t DecodeWrite($/;"	f	namespace:Nan
+DefineOwnProperty	node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<bool> DefineOwnProperty($/;"	f
+DefineOwnProperty	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<bool> DefineOwnProperty($/;"	f
+DefineOwnPropertyHelper	node_modules/nan/nan_define_own_property_helper.h	/^inline Maybe<bool> DefineOwnPropertyHelper($/;"	f	namespace:imp
+Delete	node_modules/nan/nan_maybe_43_inl.h	/^Maybe<bool> Delete(v8::Local<v8::Object> obj, uint32_t index) {$/;"	f
+Delete	node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<bool> Delete($/;"	f
+Delete	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<bool> Delete($/;"	f
+DeletePrivate	node_modules/nan/nan_private.h	/^inline Maybe<bool> DeletePrivate($/;"	f
+Destroy	node_modules/nan/nan.h	/^  virtual void Destroy() {$/;"	f	class:Nan::AsyncBareProgressWorkerBase
+Destroy	node_modules/nan/nan.h	/^  virtual void Destroy() {$/;"	f	class:Nan::AsyncWorker
+E	node_modules/nan/nan.h	/^  enum E {kParameter, kInternalFields};$/;"	g	struct:Nan::WeakCallbackType
+ENCLAVE_FILENAME	App/App.h	53;"	d
+ENCLAVE_T_H__	Enclave/Enclave_t.h	2;"	d
+ENCLAVE_U_H__	App/Enclave_u.h	2;"	d
+ENUM_FOO_0	App/Enclave_u.h	/^	ENUM_FOO_0 = 0,$/;"	e	enum:enum_foo_t
+ENUM_FOO_0	Enclave/Enclave_t.h	/^	ENUM_FOO_0 = 0,$/;"	e	enum:enum_foo_t
+ENUM_FOO_1	App/Enclave_u.h	/^	ENUM_FOO_1 = 1,$/;"	e	enum:enum_foo_t
+ENUM_FOO_1	Enclave/Enclave_t.h	/^	ENUM_FOO_1 = 1,$/;"	e	enum:enum_foo_t
+Empty	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline void Empty() { persistent.Clear(); }$/;"	f	class:PersistentBase
+EmptyString	node_modules/nan/nan.h	/^  inline v8::Local<v8::String> EmptyString() {$/;"	f	namespace:Nan
+Enclave_C_Flags	Makefile	/^Enclave_C_Flags := $(Enclave_Include_Paths) -nostdinc -fvisibility=hidden -fpie -ffunction-sections -fdata-sections$/;"	m
+Enclave_Config_File	Makefile	/^Enclave_Config_File := Enclave\/Enclave.config.xml$/;"	m
+Enclave_Cpp_Files	Makefile	/^Enclave_Cpp_Files := Enclave\/Enclave.cpp $(wildcard Enclave\/Edger8rSyntax\/*.cpp) $(wildcard Enclave\/TrustedLibrary\/*.cpp)$/;"	m
+Enclave_Cpp_Flags	Makefile	/^Enclave_Cpp_Flags := $(Enclave_C_Flags) -nostdinc++$/;"	m
+Enclave_Cpp_Objects	Makefile	/^Enclave_Cpp_Objects := $(Enclave_Cpp_Files:.cpp=.o)$/;"	m
+Enclave_Include_Paths	Makefile	/^Enclave_Include_Paths := -IInclude -IEnclave -I$(SGX_SDK)\/include -I$(SGX_SDK)\/include\/tlibc -I$(SGX_SDK)\/include\/libcxx$/;"	m
+Enclave_Link_Flags	Makefile	/^Enclave_Link_Flags := -Wl,--no-undefined -nostdlib -nodefaultlibs -nostartfiles -L$(SGX_LIBRARY_PATH) \\$/;"	m
+Enclave_Name	Makefile	/^Enclave_Name := enclave.so$/;"	m
+Enclave_ocall_function_allow	App/Enclave_u.c	/^static sgx_status_t SGX_CDECL Enclave_ocall_function_allow(void* pms)$/;"	f	file:
+Enclave_ocall_pointer_in	App/Enclave_u.c	/^static sgx_status_t SGX_CDECL Enclave_ocall_pointer_in(void* pms)$/;"	f	file:
+Enclave_ocall_pointer_in_out	App/Enclave_u.c	/^static sgx_status_t SGX_CDECL Enclave_ocall_pointer_in_out(void* pms)$/;"	f	file:
+Enclave_ocall_pointer_out	App/Enclave_u.c	/^static sgx_status_t SGX_CDECL Enclave_ocall_pointer_out(void* pms)$/;"	f	file:
+Enclave_ocall_pointer_user_check	App/Enclave_u.c	/^static sgx_status_t SGX_CDECL Enclave_ocall_pointer_user_check(void* pms)$/;"	f	file:
+Enclave_ocall_print_string	App/Enclave_u.c	/^static sgx_status_t SGX_CDECL Enclave_ocall_print_string(void* pms)$/;"	f	file:
+Enclave_sgx_oc_cpuidex	App/Enclave_u.c	/^static sgx_status_t SGX_CDECL Enclave_sgx_oc_cpuidex(void* pms)$/;"	f	file:
+Enclave_sgx_thread_set_multiple_untrusted_events_ocall	App/Enclave_u.c	/^static sgx_status_t SGX_CDECL Enclave_sgx_thread_set_multiple_untrusted_events_ocall(void* pms)$/;"	f	file:
+Enclave_sgx_thread_set_untrusted_event_ocall	App/Enclave_u.c	/^static sgx_status_t SGX_CDECL Enclave_sgx_thread_set_untrusted_event_ocall(void* pms)$/;"	f	file:
+Enclave_sgx_thread_setwait_untrusted_events_ocall	App/Enclave_u.c	/^static sgx_status_t SGX_CDECL Enclave_sgx_thread_setwait_untrusted_events_ocall(void* pms)$/;"	f	file:
+Enclave_sgx_thread_wait_untrusted_event_ocall	App/Enclave_u.c	/^static sgx_status_t SGX_CDECL Enclave_sgx_thread_wait_untrusted_event_ocall(void* pms)$/;"	f	file:
+Encode	node_modules/nan/nan.h	/^inline v8::Local<v8::Value> Encode($/;"	f	namespace:Nan
+Encode	node_modules/nan/nan_string_bytes.h	/^static Local<Value> Encode(const char* buf,$/;"	f	namespace:imp
+Encoding	node_modules/nan/nan.h	/^enum Encoding {ASCII, UTF8, BASE64, UCS2, BINARY, HEX, BUFFER};$/;"	g	namespace:Nan
+Equals	node_modules/nan/nan_maybe_43_inl.h	/^Maybe<bool> Equals(v8::Local<v8::Value> a, v8::Local<v8::Value>(b)) {$/;"	f
+Equals	node_modules/nan/nan_maybe_pre_43_inl.h	/^Maybe<bool> Equals(v8::Handle<v8::Value> a, v8::Handle<v8::Value>(b)) {$/;"	f
+ErrnoException	node_modules/nan/nan.h	/^  inline v8::Local<v8::Value> ErrnoException($/;"	f	namespace:Nan
+ErrorMessage	node_modules/nan/nan.h	/^  const char* ErrorMessage() const {$/;"	f	class:Nan::AsyncWorker
+EscapableHandleScope	node_modules/nan/nan.h	/^  inline EscapableHandleScope() : scope(v8::Isolate::GetCurrent()) {}$/;"	f	class:Nan::EscapableHandleScope
+EscapableHandleScope	node_modules/nan/nan.h	/^class EscapableHandleScope {$/;"	c	namespace:Nan
+Escape	node_modules/nan/nan.h	/^  inline v8::Local<T> Escape(v8::Local<T> value) {$/;"	f	class:Nan::EscapableHandleScope
+Exception	node_modules/nan/nan.h	/^  inline v8::Local<v8::Value> Exception() const {$/;"	f	class:Nan::TryCatch
+Execute	node_modules/nan/nan.h	/^  void Execute() \/*final override*\/ {$/;"	f	class:Nan::AsyncBareProgressQueueWorker
+Execute	node_modules/nan/nan.h	/^  void Execute() \/*final override*\/ {$/;"	f	class:Nan::AsyncBareProgressWorker
+ExecutionProgress	node_modules/nan/nan.h	/^    explicit ExecutionProgress(AsyncBareProgressQueueWorker *that)$/;"	f	class:Nan::AsyncBareProgressQueueWorker::ExecutionProgress
+ExecutionProgress	node_modules/nan/nan.h	/^    explicit ExecutionProgress(AsyncBareProgressWorker *that) : that_(that) {}$/;"	f	class:Nan::AsyncBareProgressWorker::ExecutionProgress
+ExecutionProgress	node_modules/nan/nan.h	/^  class ExecutionProgress {$/;"	c	class:Nan::AsyncBareProgressQueueWorker
+ExecutionProgress	node_modules/nan/nan.h	/^  class ExecutionProgress {$/;"	c	class:Nan::AsyncBareProgressWorker
+Export	node_modules/nan/nan.h	/^Export(ADDON_REGISTER_FUNCTION_ARGS_TYPE target, const char *name,$/;"	f	namespace:Nan
+ExternalOneByteStringResource	node_modules/nan/nan.h	/^    ExternalOneByteStringResource;$/;"	t	namespace:Nan
+FALSE	App/App.h	49;"	d
+FTH	node_modules/nan/nan_new.h	/^  typedef v8::Local<v8::FunctionTemplate> FTH;$/;"	t	struct:imp::Factory
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::Array> : FactoryBase<v8::Array> {$/;"	s	namespace:imp
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::Boolean> : FactoryBase<v8::Boolean> {$/;"	s	namespace:imp
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::BooleanObject> : FactoryBase<v8::BooleanObject> {$/;"	s	namespace:imp
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::Context> : FactoryBase<v8::Context> {$/;"	s	namespace:imp
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::Date> : MaybeFactoryBase<v8::Date> {$/;"	s	namespace:imp
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::External> : FactoryBase<v8::External> {$/;"	s	namespace:imp
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::Function> : FactoryBase<v8::Function> {$/;"	s	namespace:imp
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::FunctionTemplate> : FactoryBase<v8::FunctionTemplate> {$/;"	s	namespace:imp
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::Int32> : IntegerFactory<v8::Int32> {};$/;"	s	namespace:imp
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::Integer> : IntegerFactory<v8::Integer> {};$/;"	s	namespace:imp
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::Number> : FactoryBase<v8::Number> {$/;"	s	namespace:imp
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::NumberObject> : FactoryBase<v8::NumberObject> {$/;"	s	namespace:imp
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::Object> : FactoryBase<v8::Object> {$/;"	s	namespace:imp
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::ObjectTemplate> : FactoryBase<v8::ObjectTemplate> {$/;"	s	namespace:imp
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::RegExp> : MaybeFactoryBase<v8::RegExp> {$/;"	s	namespace:imp
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::Script> : MaybeFactoryBase<v8::Script> {$/;"	s	namespace:imp
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::Signature> : FactoryBase<v8::Signature> {$/;"	s	namespace:imp
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::String> : MaybeFactoryBase<v8::String> {$/;"	s	namespace:imp
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::StringObject> : FactoryBase<v8::StringObject> {$/;"	s	namespace:imp
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::Uint32> : FactoryBase<v8::Uint32> {$/;"	s	namespace:imp
+Factory	node_modules/nan/nan_new.h	/^struct Factory<v8::UnboundScript> : MaybeFactoryBase<v8::UnboundScript> {$/;"	s	namespace:imp
+FactoryBase	node_modules/nan/nan_new.h	/^template <typename T> struct FactoryBase {$/;"	s	namespace:imp
+False	node_modules/nan/nan.h	/^  inline v8::Local<v8::Boolean> False() {$/;"	f	namespace:Nan
+FatalException	node_modules/nan/nan.h	/^  inline void FatalException(const TryCatch& try_catch) {$/;"	f	namespace:Nan
+ForceSet	node_modules/nan/nan_maybe_43_inl.h	/^NAN_DEPRECATED inline Maybe<bool> ForceSet($/;"	f
+ForceSet	node_modules/nan/nan_maybe_pre_43_inl.h	/^NAN_DEPRECATED inline Maybe<bool> ForceSet($/;"	f
+FreeCallback	node_modules/nan/nan.h	/^typedef void (*FreeCallback)(char *data, void *hint);$/;"	t	namespace:Nan
+FreeData	node_modules/nan/nan.h	/^  inline void FreeData(char *data, void *hint) {$/;"	f	namespace:Nan
+FromJust	node_modules/nan/nan_maybe_pre_43_inl.h	/^  inline T FromJust() const {$/;"	f	class:Maybe
+FromMaybe	node_modules/nan/nan_maybe_pre_43_inl.h	/^  inline T FromMaybe(const T& default_value) const {$/;"	f	class:Maybe
+FromMaybe	node_modules/nan/nan_maybe_pre_43_inl.h	/^  inline v8::Local<S> FromMaybe(v8::Local<S> default_value) const {$/;"	f	class:MaybeLocal
+FunctionCallback	node_modules/nan/nan_callbacks.h	/^typedef void(*FunctionCallback)(const FunctionCallbackInfo<v8::Value>&);$/;"	t
+FunctionCallbackInfo	node_modules/nan/nan_callbacks_12_inl.h	/^  explicit inline FunctionCallbackInfo($/;"	f	class:FunctionCallbackInfo
+FunctionCallbackInfo	node_modules/nan/nan_callbacks_12_inl.h	/^class FunctionCallbackInfo {$/;"	c
+FunctionCallbackInfo	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  explicit inline FunctionCallbackInfo($/;"	f	class:FunctionCallbackInfo
+FunctionCallbackInfo	node_modules/nan/nan_callbacks_pre_12_inl.h	/^class FunctionCallbackInfo {$/;"	c
+FunctionCallbackWrapper	node_modules/nan/nan_callbacks_12_inl.h	/^void FunctionCallbackWrapper(const v8::FunctionCallbackInfo<v8::Value> &info) {$/;"	f	namespace:imp
+FunctionCallbackWrapper	node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Value> FunctionCallbackWrapper(const v8::Arguments &args) {$/;"	f	namespace:imp
+GCEpilogueCallback	node_modules/nan/nan.h	/^  typedef v8::Isolate::GCCallback GCEpilogueCallback;$/;"	t	namespace:Nan
+GCEpilogueCallback	node_modules/nan/nan.h	/^  typedef v8::Isolate::GCEpilogueCallback GCEpilogueCallback;$/;"	t	namespace:Nan
+GCPrologueCallback	node_modules/nan/nan.h	/^  typedef v8::Isolate::GCCallback GCPrologueCallback;$/;"	t	namespace:Nan
+GCPrologueCallback	node_modules/nan/nan.h	/^  typedef v8::Isolate::GCPrologueCallback GCPrologueCallback;$/;"	t	namespace:Nan
+GYP_CFLAGS	build/hello.target.mk	/^$(OBJS): GYP_CFLAGS := $(DEFS_$(BUILDTYPE)) $(INCS_$(BUILDTYPE))  $(CFLAGS_$(BUILDTYPE)) $(CFLAGS_C_$(BUILDTYPE))$/;"	m
+GYP_CXXFLAGS	build/hello.target.mk	/^$(OBJS): GYP_CXXFLAGS := $(DEFS_$(BUILDTYPE)) $(INCS_$(BUILDTYPE))  $(CFLAGS_$(BUILDTYPE)) $(CFLAGS_CC_$(BUILDTYPE))$/;"	m
+GYP_LDFLAGS	build/hello.target.mk	/^$(obj).target\/hello.node: GYP_LDFLAGS := $(LDFLAGS_$(BUILDTYPE))$/;"	m
+Get	node_modules/nan/nan_maybe_43_inl.h	/^MaybeLocal<v8::Value> Get(v8::Local<v8::Object> obj, uint32_t index) {$/;"	f
+Get	node_modules/nan/nan_maybe_43_inl.h	/^inline MaybeLocal<v8::Value> Get($/;"	f
+Get	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline MaybeLocal<v8::Value> Get($/;"	f
+GetCurrentContext	node_modules/nan/nan.h	/^  inline v8::Local<v8::Context> GetCurrentContext() {$/;"	f	namespace:Nan
+GetCurrentEventLoop	node_modules/nan/nan.h	/^inline uv_loop_t* GetCurrentEventLoop() {$/;"	f	namespace:Nan
+GetEndColumn	node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<int> GetEndColumn(v8::Local<v8::Message> msg) {$/;"	f
+GetEndColumn	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<int> GetEndColumn(v8::Handle<v8::Message> msg) {$/;"	f
+GetExternalResource	node_modules/nan/nan.h	/^GetExternalResource(v8::Local<v8::String> str) {$/;"	f	namespace:Nan::imp
+GetFromPersistent	node_modules/nan/nan.h	/^  GetFromPersistent(const v8::Local<v8::String> &key) const {$/;"	f	class:Nan::AsyncWorker
+GetFromPersistent	node_modules/nan/nan.h	/^  inline v8::Local<v8::Value> GetFromPersistent(const char *key) const {$/;"	f	class:Nan::AsyncWorker
+GetFromPersistent	node_modules/nan/nan.h	/^  inline v8::Local<v8::Value> GetFromPersistent(uint32_t index) const {$/;"	f	class:Nan::AsyncWorker
+GetFunction	node_modules/nan/nan.h	/^  inline v8::Local<v8::Function> GetFunction() const {$/;"	f	class:Nan::Callback
+GetFunction	node_modules/nan/nan_maybe_43_inl.h	/^inline MaybeLocal<v8::Function> GetFunction($/;"	f
+GetFunction	node_modules/nan/nan_maybe_pre_43_inl.h	/^MaybeLocal<v8::Function> GetFunction(v8::Handle<v8::FunctionTemplate> t) {$/;"	f
+GetHeapStatistics	node_modules/nan/nan.h	/^  inline void GetHeapStatistics($/;"	f	namespace:Nan
+GetInternalField	node_modules/nan/nan_weak.h	/^  inline void *GetInternalField(int index) const {$/;"	f	class:WeakCallbackInfo
+GetInternalFieldPointer	node_modules/nan/nan.h	/^  inline void* GetInternalFieldPointer($/;"	f	namespace:Nan
+GetIsolate	node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Isolate *GetIsolate() const { return info_.GetIsolate(); }$/;"	f	class:FunctionCallbackInfo
+GetIsolate	node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Isolate *GetIsolate() const {$/;"	f	class:ReturnValue
+GetIsolate	node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Isolate* GetIsolate() const { return info_.GetIsolate(); }$/;"	f	class:PropertyCallbackInfo
+GetIsolate	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Isolate *GetIsolate() const { return args_.GetIsolate(); }$/;"	f	class:FunctionCallbackInfo
+GetIsolate	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Isolate *GetIsolate() const {$/;"	f	class:ReturnValue
+GetIsolate	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Isolate* GetIsolate() const { return info_.GetIsolate(); }$/;"	f	class:PropertyCallbackInfoBase
+GetIsolate	node_modules/nan/nan_weak.h	/^  inline v8::Isolate *GetIsolate() const { return isolate_; }$/;"	f	class:WeakCallbackInfo
+GetIsolateData	node_modules/nan/nan.h	/^  inline T *GetIsolateData($/;"	f	namespace:Nan
+GetLineNumber	node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<int> GetLineNumber(v8::Local<v8::Message> msg) {$/;"	f
+GetLineNumber	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<int> GetLineNumber(v8::Handle<v8::Message> msg) {$/;"	f
+GetOwnPropertyNames	node_modules/nan/nan_maybe_43_inl.h	/^MaybeLocal<v8::Array> GetOwnPropertyNames(v8::Local<v8::Object> obj) {$/;"	f
+GetOwnPropertyNames	node_modules/nan/nan_maybe_pre_43_inl.h	/^MaybeLocal<v8::Array> GetOwnPropertyNames(v8::Handle<v8::Object> obj) {$/;"	f
+GetParameter	node_modules/nan/nan_weak.h	/^  inline T *GetParameter() const { return static_cast<T*>(parameter_); }$/;"	f	class:WeakCallbackInfo
+GetPrivate	node_modules/nan/nan_private.h	/^GetPrivate(v8::Local<v8::Object> object, v8::Local<v8::String> key) {$/;"	f
+GetPropertyAttributes	node_modules/nan/nan_maybe_43_inl.h	/^inline v8::PropertyAttribute GetPropertyAttributes($/;"	f
+GetPropertyAttributes	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<v8::PropertyAttribute> GetPropertyAttributes($/;"	f
+GetPropertyNames	node_modules/nan/nan_maybe_43_inl.h	/^MaybeLocal<v8::Array> GetPropertyNames(v8::Local<v8::Object> obj) {$/;"	f
+GetPropertyNames	node_modules/nan/nan_maybe_pre_43_inl.h	/^MaybeLocal<v8::Array> GetPropertyNames(v8::Handle<v8::Object> obj) {$/;"	f
+GetRealNamedProperty	node_modules/nan/nan_maybe_43_inl.h	/^inline MaybeLocal<v8::Value> GetRealNamedProperty($/;"	f
+GetRealNamedProperty	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline MaybeLocal<v8::Value> GetRealNamedProperty($/;"	f
+GetRealNamedPropertyInPrototypeChain	node_modules/nan/nan_maybe_43_inl.h	/^inline MaybeLocal<v8::Value> GetRealNamedPropertyInPrototypeChain($/;"	f
+GetRealNamedPropertyInPrototypeChain	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline MaybeLocal<v8::Value> GetRealNamedPropertyInPrototypeChain($/;"	f
+GetReturnValue	node_modules/nan/nan_callbacks_12_inl.h	/^  inline ReturnValue<T> GetReturnValue() const {$/;"	f	class:FunctionCallbackInfo
+GetReturnValue	node_modules/nan/nan_callbacks_12_inl.h	/^  inline ReturnValue<T> GetReturnValue() const {$/;"	f	class:PropertyCallbackInfo
+GetReturnValue	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline ReturnValue<T> GetReturnValue() const { return return_value_; }$/;"	f	class:PropertyCallbackInfo
+GetReturnValue	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline ReturnValue<T> GetReturnValue() const {$/;"	f	class:FunctionCallbackInfo
+GetReturnValue	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline ReturnValue<v8::Array> GetReturnValue() const {$/;"	f	class:PropertyCallbackInfo
+GetReturnValue	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline ReturnValue<v8::Boolean> GetReturnValue() const {$/;"	f	class:PropertyCallbackInfo
+GetReturnValue	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline ReturnValue<v8::Integer> GetReturnValue() const {$/;"	f	class:PropertyCallbackInfo
+GetSourceLine	node_modules/nan/nan_maybe_43_inl.h	/^MaybeLocal<v8::String> GetSourceLine(v8::Local<v8::Message> msg) {$/;"	f
+GetSourceLine	node_modules/nan/nan_maybe_pre_43_inl.h	/^MaybeLocal<v8::String> GetSourceLine(v8::Handle<v8::Message> msg) {$/;"	f
+GetStartColumn	node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<int> GetStartColumn(v8::Local<v8::Message> msg) {$/;"	f
+GetStartColumn	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<int> GetStartColumn(v8::Handle<v8::Message> msg) {$/;"	f
+GetterCallback	node_modules/nan/nan_callbacks.h	/^typedef void(*GetterCallback)$/;"	t
+GetterCallbackWrapper	node_modules/nan/nan_callbacks_12_inl.h	/^void GetterCallbackWrapper($/;"	f	namespace:imp
+GetterCallbackWrapper	node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Value> GetterCallbackWrapper($/;"	f	namespace:imp
+Global	node_modules/nan/nan_persistent_12_inl.h	/^  Global(const v8::PersistentBase<S> &that) :  \/\/ NOLINT(runtime\/explicit)$/;"	f	class:Global
+Global	node_modules/nan/nan_persistent_12_inl.h	/^  inline Global() : v8::Global<T>() {}$/;"	f	class:Global
+Global	node_modules/nan/nan_persistent_12_inl.h	/^  inline Global() : v8::UniquePersistent<T>() {}$/;"	f	class:Global
+Global	node_modules/nan/nan_persistent_12_inl.h	/^  template<typename S> inline Global(v8::Local<S> that) :$/;"	f	class:Global
+Global	node_modules/nan/nan_persistent_12_inl.h	/^class Global : public v8::Global<T> {$/;"	c
+Global	node_modules/nan/nan_persistent_12_inl.h	/^class Global : public v8::UniquePersistent<T> {$/;"	c
+Global	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline Global() : PersistentBase<T>(0) { }$/;"	f	class:Global
+Global	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline Global(RValue rvalue)  \/\/ NOLINT(runtime\/explicit)$/;"	f	class:Global
+Global	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline Global(const PersistentBase<S> &that)  \/\/ NOLINT(runtime\/explicit)$/;"	f	class:Global
+Global	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline Global(v8::Local<S> that)  \/\/ NOLINT(runtime\/explicit)$/;"	f	class:Global
+Global	node_modules/nan/nan_persistent_pre_12_inl.h	/^class Global : public PersistentBase<T> {$/;"	c
+HEX	node_modules/nan/nan.h	/^enum Encoding {ASCII, UTF8, BASE64, UCS2, BINARY, HEX, BUFFER};$/;"	e	enum:Nan::Encoding
+HandleErrorCallback	node_modules/nan/nan.h	/^  virtual void HandleErrorCallback() {$/;"	f	class:Nan::AsyncWorker
+HandleOKCallback	node_modules/nan/nan.h	/^  virtual void HandleOKCallback() {$/;"	f	class:Nan::AsyncWorker
+HandleScope	node_modules/nan/nan.h	/^  inline HandleScope() : scope() {}$/;"	f	class:Nan::HandleScope
+HandleScope	node_modules/nan/nan.h	/^  inline HandleScope() : scope(v8::Isolate::GetCurrent()) {}$/;"	f	class:Nan::HandleScope
+HandleScope	node_modules/nan/nan.h	/^class HandleScope {$/;"	c	namespace:Nan
+Has	node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<bool> Has($/;"	f
+Has	node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<bool> Has(v8::Local<v8::Object> obj, uint32_t index) {$/;"	f
+Has	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<bool> Has($/;"	f
+HasCaught	node_modules/nan/nan.h	/^  inline bool HasCaught() const { return try_catch_.HasCaught(); }$/;"	f	class:Nan::TryCatch
+HasOwnProperty	node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<bool> HasOwnProperty($/;"	f
+HasOwnProperty	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<bool> HasOwnProperty($/;"	f
+HasPrivate	node_modules/nan/nan_private.h	/^HasPrivate(v8::Local<v8::Object> object, v8::Local<v8::String> key) {$/;"	f
+HasRealIndexedProperty	node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<bool> HasRealIndexedProperty($/;"	f
+HasRealIndexedProperty	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<bool> HasRealIndexedProperty($/;"	f
+HasRealNamedCallbackProperty	node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<bool> HasRealNamedCallbackProperty($/;"	f
+HasRealNamedCallbackProperty	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<bool> HasRealNamedCallbackProperty($/;"	f
+HasRealNamedProperty	node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<bool> HasRealNamedProperty($/;"	f
+HasRealNamedProperty	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<bool> HasRealNamedProperty($/;"	f
+Holder	node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Local<v8::Object> Holder() const { return info_.Holder(); }$/;"	f	class:FunctionCallbackInfo
+Holder	node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Local<v8::Object> Holder() const { return info_.Holder(); }$/;"	f	class:PropertyCallbackInfo
+Holder	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Local<v8::Object> Holder() const { return args_.Holder(); }$/;"	f	class:FunctionCallbackInfo
+Holder	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Local<v8::Object> Holder() const { return info_.Holder(); }$/;"	f	class:PropertyCallbackInfoBase
+INCS_Debug	build/hello.target.mk	/^INCS_Debug := \\$/;"	m
+INCS_Release	build/hello.target.mk	/^INCS_Release := \\$/;"	m
+IOJS_1_0_MODULE_VERSION	node_modules/nan/nan.h	29;"	d
+IOJS_1_1_MODULE_VERSION	node_modules/nan/nan.h	30;"	d
+IOJS_2_0_MODULE_VERSION	node_modules/nan/nan.h	31;"	d
+IOJS_3_0_MODULE_VERSION	node_modules/nan/nan.h	32;"	d
+IdleNotification	node_modules/nan/nan.h	/^  inline bool IdleNotification(int idle_time_in_ms) {$/;"	f	namespace:Nan
+IndexDeleterCallback	node_modules/nan/nan_callbacks.h	/^typedef void(*IndexDeleterCallback)($/;"	t
+IndexDeleterCallbackWrapper	node_modules/nan/nan_callbacks_12_inl.h	/^void IndexDeleterCallbackWrapper($/;"	f	namespace:imp
+IndexDeleterCallbackWrapper	node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Boolean> IndexDeleterCallbackWrapper($/;"	f	namespace:imp
+IndexEnumeratorCallback	node_modules/nan/nan_callbacks.h	/^typedef void(*IndexEnumeratorCallback)$/;"	t
+IndexEnumeratorCallbackWrapper	node_modules/nan/nan_callbacks_12_inl.h	/^void IndexEnumeratorCallbackWrapper($/;"	f	namespace:imp
+IndexEnumeratorCallbackWrapper	node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Array> IndexEnumeratorCallbackWrapper($/;"	f	namespace:imp
+IndexGetterCallback	node_modules/nan/nan_callbacks.h	/^typedef void(*IndexGetterCallback)($/;"	t
+IndexGetterCallbackWrapper	node_modules/nan/nan_callbacks_12_inl.h	/^void IndexGetterCallbackWrapper($/;"	f	namespace:imp
+IndexGetterCallbackWrapper	node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Value> IndexGetterCallbackWrapper($/;"	f	namespace:imp
+IndexQueryCallback	node_modules/nan/nan_callbacks.h	/^typedef void(*IndexQueryCallback)($/;"	t
+IndexQueryCallbackWrapper	node_modules/nan/nan_callbacks_12_inl.h	/^void IndexQueryCallbackWrapper($/;"	f	namespace:imp
+IndexQueryCallbackWrapper	node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Integer> IndexQueryCallbackWrapper($/;"	f	namespace:imp
+IndexSetterCallback	node_modules/nan/nan_callbacks.h	/^typedef void(*IndexSetterCallback)($/;"	t
+IndexSetterCallbackWrapper	node_modules/nan/nan_callbacks_12_inl.h	/^void IndexSetterCallbackWrapper($/;"	f	namespace:imp
+IndexSetterCallbackWrapper	node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Value> IndexSetterCallbackWrapper($/;"	f	namespace:imp
+Init	hello.cc	/^void Init(v8::Local<v8::Object> exports) {$/;"	f
+IntegerFactory	node_modules/nan/nan_new.h	/^struct IntegerFactory : FactoryBase<T> {$/;"	s	namespace:imp
+IsConstructCall	node_modules/nan/nan_callbacks_12_inl.h	/^  inline bool IsConstructCall() const { return info_.IsConstructCall(); }$/;"	f	class:FunctionCallbackInfo
+IsConstructCall	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline bool IsConstructCall() const { return args_.IsConstructCall(); }$/;"	f	class:FunctionCallbackInfo
+IsEmpty	node_modules/nan/nan.h	/^  inline bool IsEmpty() const {$/;"	f	class:Nan::Callback
+IsEmpty	node_modules/nan/nan_maybe_pre_43_inl.h	/^  inline bool IsEmpty() const { return val_.IsEmpty(); }$/;"	f	class:MaybeLocal
+IsEmpty	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline bool IsEmpty() const { return persistent.IsEmpty(); }$/;"	f	class:PersistentBase
+IsExternal	node_modules/nan/nan.h	/^IsExternal(v8::Local<v8::String> str) {$/;"	f	namespace:Nan::imp
+IsIndependent	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline bool IsIndependent() const { return persistent.IsIndependent(); }$/;"	f	class:PersistentBase
+IsJust	node_modules/nan/nan_maybe_pre_43_inl.h	/^  inline bool IsJust() const { return has_value_; }$/;"	f	class:Maybe
+IsNearDeath	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline bool IsNearDeath() const { return persistent.IsNearDeath(); }$/;"	f	class:PersistentBase
+IsNothing	node_modules/nan/nan_maybe_pre_43_inl.h	/^  inline bool IsNothing() const { return !has_value_; }$/;"	f	class:Maybe
+IsWeak	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline bool IsWeak() const { return persistent.IsWeak(); }$/;"	f	class:PersistentBase
+JSON	node_modules/nan/nan_json.h	/^  JSON() {$/;"	f	class:JSON
+JSON	node_modules/nan/nan_json.h	/^class JSON {$/;"	c
+Just	node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<T> Just(const T& t) {$/;"	f
+Just	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<T> Just(const T& t) {$/;"	f
+LDFLAGS.host	build/Makefile	/^LDFLAGS.host ?=$/;"	m
+LDFLAGS.target	build/Makefile	/^LDFLAGS.target ?= $(LDFLAGS)$/;"	m
+LDFLAGS_Debug	build/hello.target.mk	/^LDFLAGS_Debug := \\$/;"	m
+LDFLAGS_Release	build/hello.target.mk	/^LDFLAGS_Release := \\$/;"	m
+LIBS	build/hello.target.mk	/^$(obj).target\/hello.node: LIBS := $(LIBS)$/;"	m
+LIBS	build/hello.target.mk	/^LIBS := \\$/;"	m
+LINK	build/Makefile	/^LINK ?= $(CXX.target)$/;"	m
+LINK.host	build/Makefile	/^LINK.host ?= $(CXX.host)$/;"	m
+LINK.target	build/Makefile	/^LINK.target ?= $(LINK)$/;"	m
+LOOPS_PER_THREAD	Include/user_types.h	36;"	d
+Length	node_modules/nan/nan_callbacks_12_inl.h	/^  inline int Length() const { return info_.Length(); }$/;"	f	class:FunctionCallbackInfo
+Length	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline int Length() const { return args_.Length(); }$/;"	f	class:FunctionCallbackInfo
+LowMemoryNotification	node_modules/nan/nan.h	/^  inline void LowMemoryNotification() {$/;"	f	namespace:Nan
+MAKEFLAGS	build/Makefile	/^MAKEFLAGS=-r$/;"	m
+MAX_PATH	App/App.cpp	39;"	d	file:
+MakeCallback	node_modules/nan/nan.h	/^  NAN_DEPRECATED inline v8::Local<v8::Value> MakeCallback($/;"	f	namespace:Nan
+MakeCallback	node_modules/nan/nan.h	/^  inline v8::Local<v8::Value> MakeCallback($/;"	f	namespace:Nan
+MakeMaybe	node_modules/nan/nan.h	/^MakeMaybe(MaybeMaybe<T> v) {$/;"	f	namespace:Nan
+MakeWeak	node_modules/nan/nan_object_wrap.h	/^  inline void MakeWeak() {$/;"	f	class:ObjectWrap
+MarkIndependent	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline void MarkIndependent() { persistent.MarkIndependent(); }$/;"	f	class:PersistentBase
+Maybe	node_modules/nan/nan_maybe_pre_43_inl.h	/^  Maybe() : has_value_(false) {}$/;"	f	class:Maybe
+Maybe	node_modules/nan/nan_maybe_pre_43_inl.h	/^  explicit Maybe(const T& t) : has_value_(true), value_(t) {}$/;"	f	class:Maybe
+Maybe	node_modules/nan/nan_maybe_pre_43_inl.h	/^class Maybe {$/;"	c
+MaybeFactoryBase	node_modules/nan/nan_new.h	/^template <typename T> struct MaybeFactoryBase {$/;"	s	namespace:imp
+MaybeLocal	node_modules/nan/nan_maybe_pre_43_inl.h	/^  MaybeLocal(v8::Local<S> that) : val_(that) {}  \/\/ NOLINT(runtime\/explicit)$/;"	f	class:MaybeLocal
+MaybeLocal	node_modules/nan/nan_maybe_pre_43_inl.h	/^  inline MaybeLocal() : val_(v8::Local<T>()) {}$/;"	f	class:MaybeLocal
+MaybeLocal	node_modules/nan/nan_maybe_pre_43_inl.h	/^class MaybeLocal {$/;"	c
+Maybefier	node_modules/nan/nan.h	/^template <typename T> struct Maybefier<MaybeLocal<T> > {$/;"	s	namespace:Nan::imp
+Maybefier	node_modules/nan/nan.h	/^template <typename T> struct Maybefier<v8::Local<T> > {$/;"	s	namespace:Nan::imp
+Message	node_modules/nan/nan.h	/^  inline v8::Local<v8::Message> Message() const {$/;"	f	class:Nan::TryCatch
+Method	hello.cc	/^void Method(const Nan::FunctionCallbackInfo<v8::Value>& info) {$/;"	f
+NAN_CALLBACKS_12_INL_H_	node_modules/nan/nan_callbacks_12_inl.h	10;"	d
+NAN_CALLBACKS_H_	node_modules/nan/nan_callbacks.h	10;"	d
+NAN_CALLBACKS_PRE_12_INL_H_	node_modules/nan/nan_callbacks_pre_12_inl.h	10;"	d
+NAN_CONCAT	node_modules/nan/nan.h	95;"	d
+NAN_CONCAT_HELPER	node_modules/nan/nan.h	96;"	d
+NAN_CONVERTERS_43_INL_H_	node_modules/nan/nan_converters_43_inl.h	10;"	d
+NAN_CONVERTERS_H_	node_modules/nan/nan_converters.h	10;"	d
+NAN_CONVERTERS_PRE_43_INL_H_	node_modules/nan/nan_converters_pre_43_inl.h	10;"	d
+NAN_DEFINE_OWN_PROPERTY_HELPER_H_	node_modules/nan/nan_define_own_property_helper.h	10;"	d
+NAN_DEPRECATED	node_modules/nan/nan.h	102;"	d
+NAN_DISALLOW_ASSIGN	node_modules/nan/nan.h	111;"	d
+NAN_DISALLOW_ASSIGN_COPY	node_modules/nan/nan.h	122;"	d
+NAN_DISALLOW_ASSIGN_COPY_MOVE	node_modules/nan/nan.h	134;"	d
+NAN_DISALLOW_ASSIGN_MOVE	node_modules/nan/nan.h	126;"	d
+NAN_DISALLOW_COPY	node_modules/nan/nan.h	112;"	d
+NAN_DISALLOW_COPY_MOVE	node_modules/nan/nan.h	130;"	d
+NAN_DISALLOW_MOVE	node_modules/nan/nan.h	113;"	d
+NAN_EXPORT	node_modules/nan/nan.h	2754;"	d
+NAN_GC_CALLBACK	node_modules/nan/nan.h	1161;"	d
+NAN_GC_CALLBACK	node_modules/nan/nan.h	737;"	d
+NAN_GETTER	node_modules/nan/nan.h	1474;"	d
+NAN_GETTER_ARGS_TYPE	node_modules/nan/nan.h	/^typedef const PropertyCallbackInfo<v8::Value>& NAN_GETTER_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_GETTER_RETURN_TYPE	node_modules/nan/nan.h	/^typedef void NAN_GETTER_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_HAS_CPLUSPLUS_11	node_modules/nan/nan.h	42;"	d
+NAN_HAS_CPLUSPLUS_11	node_modules/nan/nan.h	44;"	d
+NAN_H_	node_modules/nan/nan.h	22;"	d
+NAN_IMPLEMENTATION_12_INL_H_	node_modules/nan/nan_implementation_12_inl.h	10;"	d
+NAN_IMPLEMENTATION_PRE_12_INL_H_	node_modules/nan/nan_implementation_pre_12_inl.h	10;"	d
+NAN_INDEX_DELETER	node_modules/nan/nan.h	1515;"	d
+NAN_INDEX_DELETER_ARGS_TYPE	node_modules/nan/nan.h	/^    NAN_INDEX_DELETER_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_INDEX_DELETER_RETURN_TYPE	node_modules/nan/nan.h	/^typedef void NAN_INDEX_DELETER_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_INDEX_ENUMERATOR	node_modules/nan/nan.h	1512;"	d
+NAN_INDEX_ENUMERATOR_ARGS_TYPE	node_modules/nan/nan.h	/^    NAN_INDEX_ENUMERATOR_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_INDEX_ENUMERATOR_RETURN_TYPE	node_modules/nan/nan.h	/^typedef void NAN_INDEX_ENUMERATOR_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_INDEX_GETTER	node_modules/nan/nan.h	1503;"	d
+NAN_INDEX_GETTER_ARGS_TYPE	node_modules/nan/nan.h	/^typedef const PropertyCallbackInfo<v8::Value>& NAN_INDEX_GETTER_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_INDEX_GETTER_RETURN_TYPE	node_modules/nan/nan.h	/^typedef void NAN_INDEX_GETTER_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_INDEX_QUERY	node_modules/nan/nan.h	1519;"	d
+NAN_INDEX_QUERY_ARGS_TYPE	node_modules/nan/nan.h	/^    NAN_INDEX_QUERY_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_INDEX_QUERY_RETURN_TYPE	node_modules/nan/nan.h	/^typedef void NAN_INDEX_QUERY_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_INDEX_SETTER	node_modules/nan/nan.h	1507;"	d
+NAN_INDEX_SETTER_ARGS_TYPE	node_modules/nan/nan.h	/^typedef const PropertyCallbackInfo<v8::Value>& NAN_INDEX_SETTER_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_INDEX_SETTER_RETURN_TYPE	node_modules/nan/nan.h	/^typedef void NAN_INDEX_SETTER_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_INLINE	node_modules/nan/nan.h	98;"	d
+NAN_JSON_H_	node_modules/nan/nan_json.h	10;"	d
+NAN_JSON_H_NEED_PARSE	node_modules/nan/nan_json.h	13;"	d
+NAN_JSON_H_NEED_PARSE	node_modules/nan/nan_json.h	15;"	d
+NAN_JSON_H_NEED_STRINGIFY	node_modules/nan/nan_json.h	19;"	d
+NAN_JSON_H_NEED_STRINGIFY	node_modules/nan/nan_json.h	21;"	d
+NAN_MAYBE_43_INL_H_	node_modules/nan/nan_maybe_43_inl.h	10;"	d
+NAN_MAYBE_PRE_43_INL_H_	node_modules/nan/nan_maybe_pre_43_inl.h	10;"	d
+NAN_METHOD	node_modules/nan/nan.h	1472;"	d
+NAN_METHOD_ARGS_TYPE	node_modules/nan/nan.h	/^typedef const FunctionCallbackInfo<v8::Value>& NAN_METHOD_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_METHOD_RETURN_TYPE	node_modules/nan/nan.h	/^typedef void NAN_METHOD_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_MODULE_INIT	node_modules/nan/nan.h	152;"	d
+NAN_MODULE_WORKER_ENABLED	node_modules/nan/nan.h	157;"	d
+NAN_MODULE_WORKER_ENABLED	node_modules/nan/nan.h	166;"	d
+NAN_NEW_H_	node_modules/nan/nan_new.h	10;"	d
+NAN_OBJECT_WRAP_H_	node_modules/nan/nan_object_wrap.h	10;"	d
+NAN_PERSISTENT_12_INL_H_	node_modules/nan/nan_persistent_12_inl.h	10;"	d
+NAN_PERSISTENT_PRE_12_INL_H_	node_modules/nan/nan_persistent_pre_12_inl.h	10;"	d
+NAN_PRIVATE_H_	node_modules/nan/nan_private.h	10;"	d
+NAN_PROPERTY_DELETER	node_modules/nan/nan.h	1495;"	d
+NAN_PROPERTY_DELETER_ARGS_TYPE	node_modules/nan/nan.h	/^    NAN_PROPERTY_DELETER_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_PROPERTY_DELETER_RETURN_TYPE	node_modules/nan/nan.h	/^typedef void NAN_PROPERTY_DELETER_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_PROPERTY_ENUMERATOR	node_modules/nan/nan.h	1492;"	d
+NAN_PROPERTY_ENUMERATOR_ARGS_TYPE	node_modules/nan/nan.h	/^    NAN_PROPERTY_ENUMERATOR_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_PROPERTY_ENUMERATOR_RETURN_TYPE	node_modules/nan/nan.h	/^typedef void NAN_PROPERTY_ENUMERATOR_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_PROPERTY_GETTER	node_modules/nan/nan.h	1483;"	d
+NAN_PROPERTY_GETTER_ARGS_TYPE	node_modules/nan/nan.h	/^    NAN_PROPERTY_GETTER_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_PROPERTY_GETTER_RETURN_TYPE	node_modules/nan/nan.h	/^typedef void NAN_PROPERTY_GETTER_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_PROPERTY_QUERY	node_modules/nan/nan.h	1499;"	d
+NAN_PROPERTY_QUERY_ARGS_TYPE	node_modules/nan/nan.h	/^    NAN_PROPERTY_QUERY_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_PROPERTY_QUERY_RETURN_TYPE	node_modules/nan/nan.h	/^typedef void NAN_PROPERTY_QUERY_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_PROPERTY_SETTER	node_modules/nan/nan.h	1487;"	d
+NAN_PROPERTY_SETTER_ARGS_TYPE	node_modules/nan/nan.h	/^    NAN_PROPERTY_SETTER_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_PROPERTY_SETTER_RETURN_TYPE	node_modules/nan/nan.h	/^typedef void NAN_PROPERTY_SETTER_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_SETTER	node_modules/nan/nan.h	1478;"	d
+NAN_SETTER_ARGS_TYPE	node_modules/nan/nan.h	/^typedef const PropertyCallbackInfo<void>& NAN_SETTER_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_SETTER_RETURN_TYPE	node_modules/nan/nan.h	/^typedef void NAN_SETTER_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_STRINGIZE	node_modules/nan/nan.h	2750;"	d
+NAN_STRINGIZE2	node_modules/nan/nan.h	2749;"	d
+NAN_STRING_BYTES_H_	node_modules/nan/nan_string_bytes.h	23;"	d
+NAN_TEST_EXPRESSION	node_modules/nan/nan.h	2751;"	d
+NAN_TYPEDARRAY_CONTENTS_H_	node_modules/nan/nan_typedarray_contents.h	10;"	d
+NAN_WEAK_CALLBACK_DATA_TYPE_	node_modules/nan/nan_weak.h	229;"	d
+NAN_WEAK_CALLBACK_DATA_TYPE_	node_modules/nan/nan_weak.h	251;"	d
+NAN_WEAK_CALLBACK_DATA_TYPE_	node_modules/nan/nan_weak.h	38;"	d
+NAN_WEAK_CALLBACK_DATA_TYPE_	node_modules/nan/nan_weak.h	42;"	d
+NAN_WEAK_CALLBACK_SIG_	node_modules/nan/nan_weak.h	228;"	d
+NAN_WEAK_CALLBACK_SIG_	node_modules/nan/nan_weak.h	250;"	d
+NAN_WEAK_CALLBACK_SIG_	node_modules/nan/nan_weak.h	40;"	d
+NAN_WEAK_CALLBACK_SIG_	node_modules/nan/nan_weak.h	43;"	d
+NAN_WEAK_H_	node_modules/nan/nan_weak.h	10;"	d
+NAN_WEAK_PARAMETER_CALLBACK_DATA_TYPE_	node_modules/nan/nan_weak.h	162;"	d
+NAN_WEAK_PARAMETER_CALLBACK_DATA_TYPE_	node_modules/nan/nan_weak.h	17;"	d
+NAN_WEAK_PARAMETER_CALLBACK_DATA_TYPE_	node_modules/nan/nan_weak.h	204;"	d
+NAN_WEAK_PARAMETER_CALLBACK_DATA_TYPE_	node_modules/nan/nan_weak.h	24;"	d
+NAN_WEAK_PARAMETER_CALLBACK_DATA_TYPE_	node_modules/nan/nan_weak.h	31;"	d
+NAN_WEAK_PARAMETER_CALLBACK_SIG_	node_modules/nan/nan_weak.h	160;"	d
+NAN_WEAK_PARAMETER_CALLBACK_SIG_	node_modules/nan/nan_weak.h	202;"	d
+NAN_WEAK_PARAMETER_CALLBACK_SIG_	node_modules/nan/nan_weak.h	21;"	d
+NAN_WEAK_PARAMETER_CALLBACK_SIG_	node_modules/nan/nan_weak.h	28;"	d
+NAN_WEAK_PARAMETER_CALLBACK_SIG_	node_modules/nan/nan_weak.h	35;"	d
+NAN_WEAK_TWOFIELD_CALLBACK_DATA_TYPE_	node_modules/nan/nan_weak.h	163;"	d
+NAN_WEAK_TWOFIELD_CALLBACK_DATA_TYPE_	node_modules/nan/nan_weak.h	19;"	d
+NAN_WEAK_TWOFIELD_CALLBACK_DATA_TYPE_	node_modules/nan/nan_weak.h	205;"	d
+NAN_WEAK_TWOFIELD_CALLBACK_DATA_TYPE_	node_modules/nan/nan_weak.h	26;"	d
+NAN_WEAK_TWOFIELD_CALLBACK_DATA_TYPE_	node_modules/nan/nan_weak.h	33;"	d
+NAN_WEAK_TWOFIELD_CALLBACK_SIG_	node_modules/nan/nan_weak.h	161;"	d
+NAN_WEAK_TWOFIELD_CALLBACK_SIG_	node_modules/nan/nan_weak.h	203;"	d
+NAN_WEAK_TWOFIELD_CALLBACK_SIG_	node_modules/nan/nan_weak.h	22;"	d
+NAN_WEAK_TWOFIELD_CALLBACK_SIG_	node_modules/nan/nan_weak.h	29;"	d
+NAN_WEAK_TWOFIELD_CALLBACK_SIG_	node_modules/nan/nan_weak.h	36;"	d
+NAUV_UVVERSION	node_modules/nan/nan.h	78;"	d
+NAUV_UVVERSION	node_modules/nan/nan.h	82;"	d
+NAUV_WORK_CB	node_modules/nan/nan.h	/^  inline static NAUV_WORK_CB(AsyncProgress_) {$/;"	f	class:Nan::AsyncBareProgressWorkerBase
+NAUV_WORK_CB	node_modules/nan/nan.h	225;"	d
+NAUV_WORK_CB	node_modules/nan/nan.h	228;"	d
+NODE_0_10_MODULE_VERSION	node_modules/nan/nan.h	26;"	d
+NODE_0_12_MODULE_VERSION	node_modules/nan/nan.h	27;"	d
+NODE_10_0_MODULE_VERSION	node_modules/nan/nan.h	39;"	d
+NODE_4_0_MODULE_VERSION	node_modules/nan/nan.h	33;"	d
+NODE_5_0_MODULE_VERSION	node_modules/nan/nan.h	34;"	d
+NODE_6_0_MODULE_VERSION	node_modules/nan/nan.h	35;"	d
+NODE_7_0_MODULE_VERSION	node_modules/nan/nan.h	36;"	d
+NODE_8_0_MODULE_VERSION	node_modules/nan/nan.h	37;"	d
+NODE_9_0_MODULE_VERSION	node_modules/nan/nan.h	38;"	d
+Nan	node_modules/nan/nan.h	/^namespace Nan {$/;"	n
+NanErrnoException	node_modules/nan/nan.h	/^  NAN_DEPRECATED inline v8::Local<v8::Value> NanErrnoException($/;"	f	namespace:Nan
+NativeFunction	node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativeFunction)(const v8::FunctionCallbackInfo<v8::Value> &);$/;"	t	namespace:imp
+NativeFunction	node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Value> (*NativeFunction)(const v8::Arguments &);$/;"	t	class:imp::v8
+NativeGetter	node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativeGetter)$/;"	t	namespace:imp
+NativeGetter	node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Value> (*NativeGetter)$/;"	t	class:imp::v8
+NativeIndexDeleter	node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativeIndexDeleter)$/;"	t	namespace:imp
+NativeIndexDeleter	node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Boolean> (*NativeIndexDeleter)$/;"	t	class:imp::v8
+NativeIndexEnumerator	node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativeIndexEnumerator)$/;"	t	namespace:imp
+NativeIndexEnumerator	node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Array> (*NativeIndexEnumerator)$/;"	t	class:imp::v8
+NativeIndexGetter	node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativeIndexGetter)$/;"	t	namespace:imp
+NativeIndexGetter	node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Value> (*NativeIndexGetter)$/;"	t	class:imp::v8
+NativeIndexQuery	node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativeIndexQuery)$/;"	t	namespace:imp
+NativeIndexQuery	node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Integer> (*NativeIndexQuery)$/;"	t	class:imp::v8
+NativeIndexSetter	node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativeIndexSetter)($/;"	t	namespace:imp
+NativeIndexSetter	node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Value> (*NativeIndexSetter)$/;"	t	class:imp::v8
+NativePropertyDeleter	node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (NativePropertyDeleter)$/;"	t	namespace:imp
+NativePropertyDeleter	node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Boolean> (NativePropertyDeleter)$/;"	t	class:imp::v8
+NativePropertyEnumerator	node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativePropertyEnumerator)$/;"	t	namespace:imp
+NativePropertyEnumerator	node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Array> (*NativePropertyEnumerator)$/;"	t	class:imp::v8
+NativePropertyGetter	node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativePropertyGetter)$/;"	t	namespace:imp
+NativePropertyGetter	node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Value> (*NativePropertyGetter)$/;"	t	class:imp::v8
+NativePropertyQuery	node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativePropertyQuery)$/;"	t	namespace:imp
+NativePropertyQuery	node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Integer> (*NativePropertyQuery)$/;"	t	class:imp::v8
+NativePropertySetter	node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativePropertySetter)($/;"	t	namespace:imp
+NativePropertySetter	node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Value> (*NativePropertySetter)$/;"	t	class:imp::v8
+NativeSetter	node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativeSetter)($/;"	t	namespace:imp
+NativeSetter	node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef void (*NativeSetter)$/;"	t	namespace:imp
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Array>::New() {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Array>::New(int length) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Boolean>::New(bool value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::BooleanObject>::New(bool value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Context>::New( v8::ExtensionConfiguration* extensions$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Date>::New(double value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::External>::New(void * value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Function>::New( FunctionCallback callback$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::FunctionTemplate>::New( FunctionCallback callback$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Number>::New(double value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::NumberObject>::New(double value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Object>::New() {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::ObjectTemplate>::New() {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::RegExp>::New($/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Script>::New( v8::Local<v8::String> source$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Script>::New( v8::Local<v8::String> source) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Signature>::New(Factory<v8::Signature>::FTH receiver) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::String>::New($/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::String>::New() {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::String>::New(ExternalOneByteStringResource * value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::String>::New(const char * value, int length) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::String>::New(const uint16_t * value, int length) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::String>::New(std::string const& value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::String>::New(v8::String::ExternalStringResource * value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::StringObject>::New(v8::Local<v8::String> value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Uint32>::New(int32_t value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Uint32>::New(uint32_t value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::UnboundScript>::New( v8::Local<v8::String> source$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::UnboundScript>::New(v8::Local<v8::String> source) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_12_inl.h	/^IntegerFactory<T>::New(int32_t value) {$/;"	f	class:imp::IntegerFactory
+New	node_modules/nan/nan_implementation_12_inl.h	/^IntegerFactory<T>::New(uint32_t value) {$/;"	f	class:imp::IntegerFactory
+New	node_modules/nan/nan_implementation_12_inl.h	/^inline v8::Local<T> New(Global<T> const& p) {$/;"	f
+New	node_modules/nan/nan_implementation_12_inl.h	/^inline v8::Local<T> New(Persistent<T, M> const& p) {$/;"	f
+New	node_modules/nan/nan_implementation_12_inl.h	/^inline v8::Local<T> New(v8::Handle<T> h) {$/;"	f
+New	node_modules/nan/nan_implementation_12_inl.h	/^inline v8::Local<T> New(v8::Persistent<T, M> const& p) {$/;"	f
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Array>::New() {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Array>::New(int length) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Boolean>::New(bool value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::BooleanObject>::New(bool value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Context>::New( v8::ExtensionConfiguration* extensions$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Date>::New(double value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::External>::New(void * value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Function>::New( FunctionCallback callback$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::FunctionTemplate>::New( FunctionCallback callback$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Number>::New(double value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::NumberObject>::New(double value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Object>::New() {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::ObjectTemplate>::New() {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::RegExp>::New($/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Script>::New( v8::Local<v8::String> source$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Script>::New( v8::Local<v8::String> source) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Signature>::New(Factory<v8::Signature>::FTH receiver) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::String>::New($/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::String>::New() {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::String>::New(const char * value, int length) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::String>::New(const uint16_t * value, int length) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::String>::New(v8::String::ExternalAsciiStringResource * value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::String>::New(v8::String::ExternalStringResource * value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::StringObject>::New(v8::Local<v8::String> value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Uint32>::New(int32_t value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Uint32>::New(uint32_t value) {$/;"	f	class:imp::Factory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^IntegerFactory<T>::New(int32_t value) {$/;"	f	class:imp::IntegerFactory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^IntegerFactory<T>::New(uint32_t value) {$/;"	f	class:imp::IntegerFactory
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^inline v8::Local<T> New(Global<T> const& p) {$/;"	f
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^inline v8::Local<T> New(Persistent<T, M> const& p) {$/;"	f
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^inline v8::Local<T> New(v8::Handle<T> h) {$/;"	f
+New	node_modules/nan/nan_implementation_pre_12_inl.h	/^inline v8::Local<T> New(v8::Persistent<T> const& p) {$/;"	f
+New	node_modules/nan/nan_new.h	/^New( FunctionCallback callback$/;"	f
+New	node_modules/nan/nan_new.h	/^New() {$/;"	f
+New	node_modules/nan/nan_new.h	/^New(A0 arg0) {$/;"	f
+New	node_modules/nan/nan_new.h	/^New(A0 arg0, A1 arg1) {$/;"	f
+New	node_modules/nan/nan_new.h	/^New(A0 arg0, A1 arg1, A2 arg2) {$/;"	f
+New	node_modules/nan/nan_new.h	/^New(A0 arg0, A1 arg1, A2 arg2, A3 arg3) {$/;"	f
+New	node_modules/nan/nan_new.h	/^New(ExternalOneByteStringResource * value) {$/;"	f
+New	node_modules/nan/nan_new.h	/^New(bool value) {$/;"	f
+New	node_modules/nan/nan_new.h	/^New(const char * value) {$/;"	f
+New	node_modules/nan/nan_new.h	/^New(const char * value, int length) {$/;"	f
+New	node_modules/nan/nan_new.h	/^New(const uint16_t * value) {$/;"	f
+New	node_modules/nan/nan_new.h	/^New(const uint16_t * value, int length) {$/;"	f
+New	node_modules/nan/nan_new.h	/^New(double value) {$/;"	f
+New	node_modules/nan/nan_new.h	/^New(int32_t value) {$/;"	f
+New	node_modules/nan/nan_new.h	/^New(std::string const& value) {  \/\/ NOLINT(build\/include_what_you_use)$/;"	f
+New	node_modules/nan/nan_new.h	/^New(uint32_t value) {$/;"	f
+New	node_modules/nan/nan_new.h	/^New(v8::Local<v8::String> pattern, v8::RegExp::Flags flags) {$/;"	f
+New	node_modules/nan/nan_new.h	/^New(v8::String::ExternalStringResource * value) {$/;"	f
+NewBuffer	node_modules/nan/nan.h	/^  inline MaybeLocal<v8::Object> NewBuffer($/;"	f	namespace:Nan
+NewBuffer	node_modules/nan/nan.h	/^  inline MaybeLocal<v8::Object> NewBuffer(uint32_t size) {$/;"	f	namespace:Nan
+NewInstance	node_modules/nan/nan_maybe_43_inl.h	/^MaybeLocal<v8::Object> NewInstance($/;"	f
+NewInstance	node_modules/nan/nan_maybe_43_inl.h	/^MaybeLocal<v8::Object> NewInstance(v8::Local<v8::Function> h) {$/;"	f
+NewInstance	node_modules/nan/nan_maybe_43_inl.h	/^MaybeLocal<v8::Object> NewInstance(v8::Local<v8::ObjectTemplate> h) {$/;"	f
+NewInstance	node_modules/nan/nan_maybe_pre_43_inl.h	/^MaybeLocal<v8::Object> NewInstance($/;"	f
+NewInstance	node_modules/nan/nan_maybe_pre_43_inl.h	/^MaybeLocal<v8::Object> NewInstance(v8::Handle<v8::Function> h) {$/;"	f
+NewInstance	node_modules/nan/nan_maybe_pre_43_inl.h	/^MaybeLocal<v8::Object> NewInstance(v8::Handle<v8::ObjectTemplate> h) {$/;"	f
+NewOneByteString	node_modules/nan/nan.h	/^  NewOneByteString(const uint8_t * value, int length = -1) {$/;"	f	namespace:Nan
+NonCopyablePersistent	node_modules/nan/nan_persistent_pre_12_inl.h	/^      NonCopyablePersistent;$/;"	t	class:NonCopyablePersistentTraits
+NonCopyablePersistentTraits	node_modules/nan/nan.h	/^class NonCopyablePersistentTraits :$/;"	c	namespace:Nan
+NonCopyablePersistentTraits	node_modules/nan/nan_persistent_pre_12_inl.h	/^class NonCopyablePersistentTraits {$/;"	c
+Nothing	node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<T> Nothing() {$/;"	f
+Nothing	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<T> Nothing() {$/;"	f
+Null	node_modules/nan/nan.h	/^  inline v8::Local<v8::Primitive> Null() {$/;"	f	namespace:Nan
+NumberOfHandles	node_modules/nan/nan.h	/^  inline static int NumberOfHandles() {$/;"	f	class:Nan::EscapableHandleScope
+NumberOfHandles	node_modules/nan/nan.h	/^  inline static int NumberOfHandles() {$/;"	f	class:Nan::HandleScope
+OBJS	build/hello.target.mk	/^OBJS := \\$/;"	m
+OCALL_FUNCTION_ALLOW_DEFINED__	App/Enclave_u.h	57;"	d
+OCALL_POINTER_IN_DEFINED__	App/Enclave_u.h	45;"	d
+OCALL_POINTER_IN_OUT_DEFINED__	App/Enclave_u.h	53;"	d
+OCALL_POINTER_OUT_DEFINED__	App/Enclave_u.h	49;"	d
+OCALL_POINTER_USER_CHECK_DEFINED__	App/Enclave_u.h	41;"	d
+OCALL_PRINT_STRING_DEFINED__	App/Enclave_u.h	37;"	d
+ObjectProtoToString	node_modules/nan/nan_maybe_43_inl.h	/^inline MaybeLocal<v8::String> ObjectProtoToString($/;"	f
+ObjectProtoToString	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline MaybeLocal<v8::String> ObjectProtoToString($/;"	f
+ObjectWrap	node_modules/nan/nan_object_wrap.h	/^  ObjectWrap() {$/;"	f	class:ObjectWrap
+ObjectWrap	node_modules/nan/nan_object_wrap.h	/^class ObjectWrap {$/;"	c
+Parse	node_modules/nan/nan_json.h	/^  Nan::MaybeLocal<v8::Value> Parse(v8::Local<v8::String> json_string) {$/;"	f	class:JSON
+Pass	node_modules/nan/nan_persistent_pre_12_inl.h	/^  Global Pass() { return Global(RValue(this)); }$/;"	f	class:Global
+Persistent	node_modules/nan/nan_persistent_12_inl.h	/^  Persistent(const v8::Persistent<S, M2> &that) :  \/\/ NOLINT(runtime\/explicit)$/;"	f	class:Persistent
+Persistent	node_modules/nan/nan_persistent_12_inl.h	/^  inline Persistent() : v8::Persistent<T, M>() {}$/;"	f	class:Persistent
+Persistent	node_modules/nan/nan_persistent_12_inl.h	/^  template<typename S> inline Persistent(v8::Local<S> that) :$/;"	f	class:Persistent
+Persistent	node_modules/nan/nan_persistent_12_inl.h	/^template<typename T, typename M> class Persistent :$/;"	c
+Persistent	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline Persistent() {}$/;"	f	class:Persistent
+Persistent	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline Persistent(const Persistent &that) : PersistentBase<T>() {$/;"	f	class:Persistent
+Persistent	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline Persistent(const Persistent<S, M2> &that) :$/;"	f	class:Persistent
+Persistent	node_modules/nan/nan_persistent_pre_12_inl.h	/^  template<typename S> inline Persistent(v8::Handle<S> that)$/;"	f	class:Persistent
+Persistent	node_modules/nan/nan_persistent_pre_12_inl.h	/^template<typename T, typename M> class Persistent :$/;"	c
+PersistentBase	node_modules/nan/nan.h	/^class PersistentBase :$/;"	c	namespace:Nan
+PersistentBase	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline PersistentBase() :$/;"	f	class:PersistentBase
+PersistentBase	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline explicit PersistentBase(T *val) : persistent(val) {}$/;"	f	class:PersistentBase
+PersistentBase	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline explicit PersistentBase(v8::Persistent<T> that) :$/;"	f	class:PersistentBase
+PersistentBase	node_modules/nan/nan_persistent_pre_12_inl.h	/^class PersistentBase {$/;"	c
+PropertyCallbackInfo	node_modules/nan/nan_callbacks_12_inl.h	/^  explicit inline PropertyCallbackInfo($/;"	f	class:PropertyCallbackInfo
+PropertyCallbackInfo	node_modules/nan/nan_callbacks_12_inl.h	/^class PropertyCallbackInfo {$/;"	c
+PropertyCallbackInfo	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  explicit inline PropertyCallbackInfo($/;"	f	class:PropertyCallbackInfo
+PropertyCallbackInfo	node_modules/nan/nan_callbacks_pre_12_inl.h	/^class PropertyCallbackInfo : public PropertyCallbackInfoBase<T> {$/;"	c
+PropertyCallbackInfo	node_modules/nan/nan_callbacks_pre_12_inl.h	/^class PropertyCallbackInfo<v8::Array> :$/;"	c
+PropertyCallbackInfo	node_modules/nan/nan_callbacks_pre_12_inl.h	/^class PropertyCallbackInfo<v8::Boolean> :$/;"	c
+PropertyCallbackInfo	node_modules/nan/nan_callbacks_pre_12_inl.h	/^class PropertyCallbackInfo<v8::Integer> :$/;"	c
+PropertyCallbackInfoBase	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  explicit inline PropertyCallbackInfoBase($/;"	f	class:PropertyCallbackInfoBase
+PropertyCallbackInfoBase	node_modules/nan/nan_callbacks_pre_12_inl.h	/^class PropertyCallbackInfoBase {$/;"	c
+PropertyDeleterCallback	node_modules/nan/nan_callbacks.h	/^typedef void(*PropertyDeleterCallback)($/;"	t
+PropertyDeleterCallbackWrapper	node_modules/nan/nan_callbacks_12_inl.h	/^void PropertyDeleterCallbackWrapper($/;"	f	namespace:imp
+PropertyDeleterCallbackWrapper	node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Boolean> PropertyDeleterCallbackWrapper($/;"	f	namespace:imp
+PropertyEnumeratorCallback	node_modules/nan/nan_callbacks.h	/^typedef void(*PropertyEnumeratorCallback)$/;"	t
+PropertyEnumeratorCallbackWrapper	node_modules/nan/nan_callbacks_12_inl.h	/^void PropertyEnumeratorCallbackWrapper($/;"	f	namespace:imp
+PropertyEnumeratorCallbackWrapper	node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Array> PropertyEnumeratorCallbackWrapper($/;"	f	namespace:imp
+PropertyGetterCallback	node_modules/nan/nan_callbacks.h	/^typedef void(*PropertyGetterCallback)($/;"	t
+PropertyGetterCallbackWrapper	node_modules/nan/nan_callbacks_12_inl.h	/^void PropertyGetterCallbackWrapper($/;"	f	namespace:imp
+PropertyGetterCallbackWrapper	node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Value> PropertyGetterCallbackWrapper($/;"	f	namespace:imp
+PropertyQueryCallback	node_modules/nan/nan_callbacks.h	/^typedef void(*PropertyQueryCallback)($/;"	t
+PropertyQueryCallbackWrapper	node_modules/nan/nan_callbacks_12_inl.h	/^void PropertyQueryCallbackWrapper($/;"	f	namespace:imp
+PropertyQueryCallbackWrapper	node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Integer> PropertyQueryCallbackWrapper($/;"	f	namespace:imp
+PropertySetterCallback	node_modules/nan/nan_callbacks.h	/^typedef void(*PropertySetterCallback)($/;"	t
+PropertySetterCallbackWrapper	node_modules/nan/nan_callbacks_12_inl.h	/^void PropertySetterCallbackWrapper($/;"	f	namespace:imp
+PropertySetterCallbackWrapper	node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Value> PropertySetterCallbackWrapper($/;"	f	namespace:imp
+RValue	node_modules/nan/nan_persistent_pre_12_inl.h	/^    inline explicit RValue(Global* obj) : object(obj) {}$/;"	f	struct:Global::RValue
+RValue	node_modules/nan/nan_persistent_pre_12_inl.h	/^  struct RValue {$/;"	s	class:Global
+ReThrow	node_modules/nan/nan.h	/^  inline v8::Local<v8::Value> ReThrow() {$/;"	f	class:Nan::TryCatch
+Ref	node_modules/nan/nan_object_wrap.h	/^  virtual void Ref() {$/;"	f	class:ObjectWrap
+RemoveGCEpilogueCallback	node_modules/nan/nan.h	/^  inline void RemoveGCEpilogueCallback($/;"	f	namespace:Nan
+RemoveGCPrologueCallback	node_modules/nan/nan.h	/^  inline void RemoveGCPrologueCallback($/;"	f	namespace:Nan
+Reset	node_modules/nan/nan.h	/^  inline void Reset() { try_catch_.Reset(); }$/;"	f	class:Nan::TryCatch
+Reset	node_modules/nan/nan.h	/^  inline void Reset() {$/;"	f	class:Nan::Callback
+Reset	node_modules/nan/nan.h	/^  inline void Reset(const v8::Local<v8::Function> &fn) {$/;"	f	class:Nan::Callback
+Reset	node_modules/nan/nan_persistent_12_inl.h	/^  inline void Reset() { v8::PersistentBase<T>::Reset(); }$/;"	f	class:Global
+Reset	node_modules/nan/nan_persistent_12_inl.h	/^  inline void Reset() { v8::PersistentBase<T>::Reset(); }$/;"	f	class:Persistent
+Reset	node_modules/nan/nan_persistent_12_inl.h	/^  inline void Reset(const v8::Local<S> &other) {$/;"	f	class:Global
+Reset	node_modules/nan/nan_persistent_12_inl.h	/^  inline void Reset(const v8::Local<S> &other) {$/;"	f	class:Persistent
+Reset	node_modules/nan/nan_persistent_12_inl.h	/^  inline void Reset(const v8::PersistentBase<S> &other) {$/;"	f	class:Global
+Reset	node_modules/nan/nan_persistent_12_inl.h	/^  inline void Reset(const v8::PersistentBase<S> &other) {$/;"	f	class:Persistent
+Reset	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline void Reset() {$/;"	f	class:PersistentBase
+Reset	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline void Reset(const PersistentBase<S> &other) {$/;"	f	class:PersistentBase
+Reset	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline void Reset(const v8::Local<S> &other) {$/;"	f	class:PersistentBase
+ReturnValue	node_modules/nan/nan_callbacks_12_inl.h	/^  explicit inline ReturnValue(const ReturnValue<S>& that)$/;"	f	class:ReturnValue
+ReturnValue	node_modules/nan/nan_callbacks_12_inl.h	/^  explicit inline ReturnValue(const v8::ReturnValue<S> &value) :$/;"	f	class:ReturnValue
+ReturnValue	node_modules/nan/nan_callbacks_12_inl.h	/^class ReturnValue {$/;"	c
+ReturnValue	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  explicit inline ReturnValue(const ReturnValue<S>& that)$/;"	f	class:ReturnValue
+ReturnValue	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  explicit inline ReturnValue(v8::Isolate *isolate, v8::Persistent<S> *p) :$/;"	f	class:ReturnValue
+ReturnValue	node_modules/nan/nan_callbacks_pre_12_inl.h	/^class ReturnValue {$/;"	c
+ReturnValueImp	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  explicit ReturnValueImp(ReturnValue<T> that) :$/;"	f	class:imp::ReturnValueImp
+ReturnValueImp	node_modules/nan/nan_callbacks_pre_12_inl.h	/^class ReturnValueImp : public ReturnValue<T> {$/;"	c	namespace:imp
+RunScript	node_modules/nan/nan.h	/^  MaybeLocal<v8::Value> RunScript(v8::Local<v8::Script> script) {$/;"	f	namespace:Nan
+RunScript	node_modules/nan/nan.h	/^  inline MaybeLocal<v8::Value> RunScript($/;"	f	namespace:Nan
+SGX_ARCH	Makefile	/^	SGX_ARCH := x86$/;"	m
+SGX_ARCH	Makefile	/^SGX_ARCH ?= x64$/;"	m
+SGX_CAST	App/Enclave_u.h	14;"	d
+SGX_CAST	Enclave/Enclave_t.h	13;"	d
+SGX_COMMON_CFLAGS	Makefile	/^SGX_COMMON_CFLAGS := $(SGX_COMMON_FLAGS) -Wjump-misses-init -Wstrict-prototypes -Wunsuffixed-float-constants$/;"	m
+SGX_COMMON_CXXFLAGS	Makefile	/^SGX_COMMON_CXXFLAGS := $(SGX_COMMON_FLAGS) -Wnon-virtual-dtor -std=c++11$/;"	m
+SGX_COMMON_FLAGS	Makefile	/^	SGX_COMMON_FLAGS := -m32$/;"	m
+SGX_COMMON_FLAGS	Makefile	/^	SGX_COMMON_FLAGS := -m64$/;"	m
+SGX_DEBUG	Makefile	/^SGX_DEBUG ?= 1$/;"	m
+SGX_EDGER8R	Makefile	/^	SGX_EDGER8R := $(SGX_SDK)\/bin\/x64\/sgx_edger8r$/;"	m
+SGX_EDGER8R	Makefile	/^	SGX_EDGER8R := $(SGX_SDK)\/bin\/x86\/sgx_edger8r$/;"	m
+SGX_ENCLAVE_SIGNER	Makefile	/^	SGX_ENCLAVE_SIGNER := $(SGX_SDK)\/bin\/x64\/sgx_sign$/;"	m
+SGX_ENCLAVE_SIGNER	Makefile	/^	SGX_ENCLAVE_SIGNER := $(SGX_SDK)\/bin\/x86\/sgx_sign$/;"	m
+SGX_LIBRARY_PATH	Makefile	/^	SGX_LIBRARY_PATH := $(SGX_SDK)\/lib$/;"	m
+SGX_LIBRARY_PATH	Makefile	/^	SGX_LIBRARY_PATH := $(SGX_SDK)\/lib64$/;"	m
+SGX_MODE	Makefile	/^SGX_MODE ?= HW$/;"	m
+SGX_OC_CPUIDEX_DEFINED__	App/Enclave_u.h	61;"	d
+SGX_SDK	Makefile	/^SGX_SDK ?= \/opt\/intel\/sgxsdk$/;"	m
+SGX_THREAD_SETWAIT_UNTRUSTED_EVENTS_OCALL_DEFINED__	App/Enclave_u.h	73;"	d
+SGX_THREAD_SET_MULTIPLE_UNTRUSTED_EVENTS_OCALL_DEFINED__	App/Enclave_u.h	77;"	d
+SGX_THREAD_SET_UNTRUSTED_EVENT_OCALL_DEFINED__	App/Enclave_u.h	69;"	d
+SGX_THREAD_WAIT_UNTRUSTED_EVENT_OCALL_DEFINED__	App/Enclave_u.h	65;"	d
+SaveToPersistent	node_modules/nan/nan.h	/^  inline void SaveToPersistent($/;"	f	class:Nan::AsyncWorker
+Send	node_modules/nan/nan.h	/^    void Send(const T* data, size_t count) const {$/;"	f	class:Nan::AsyncBareProgressQueueWorker::ExecutionProgress
+Send	node_modules/nan/nan.h	/^    void Send(const T* data, size_t count) const {$/;"	f	class:Nan::AsyncBareProgressWorker::ExecutionProgress
+SendProgress_	node_modules/nan/nan.h	/^  void SendProgress_(const T *data, size_t count) {$/;"	f	class:Nan::AsyncProgressQueueWorker
+SendProgress_	node_modules/nan/nan.h	/^  void SendProgress_(const T *data, size_t count) {$/;"	f	class:Nan::AsyncProgressWorkerBase
+Service_Library_Name	Makefile	/^	Service_Library_Name := sgx_tservice$/;"	m
+Service_Library_Name	Makefile	/^	Service_Library_Name := sgx_tservice_sim$/;"	m
+Set	node_modules/nan/nan_callbacks_12_inl.h	/^  inline void Set(S *whatever) { TYPE_CHECK(S*, v8::Primitive); }$/;"	f	class:ReturnValue
+Set	node_modules/nan/nan_callbacks_12_inl.h	/^  inline void Set(bool value) {$/;"	f	class:ReturnValue
+Set	node_modules/nan/nan_callbacks_12_inl.h	/^  inline void Set(double i) {$/;"	f	class:ReturnValue
+Set	node_modules/nan/nan_callbacks_12_inl.h	/^  inline void Set(int32_t i) {$/;"	f	class:ReturnValue
+Set	node_modules/nan/nan_callbacks_12_inl.h	/^  inline void Set(uint32_t i) {$/;"	f	class:ReturnValue
+Set	node_modules/nan/nan_callbacks_12_inl.h	/^  template <typename S> inline void Set(const Global<S> &handle) {$/;"	f	class:ReturnValue
+Set	node_modules/nan/nan_callbacks_12_inl.h	/^  template <typename S> inline void Set(const v8::Local<S> &handle) {$/;"	f	class:ReturnValue
+Set	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline void Set(S *whatever) { TYPE_CHECK(S*, v8::Primitive); }$/;"	f	class:ReturnValue
+Set	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline void Set(bool value) {$/;"	f	class:ReturnValue
+Set	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline void Set(double i) {$/;"	f	class:ReturnValue
+Set	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline void Set(int32_t i) {$/;"	f	class:ReturnValue
+Set	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline void Set(uint32_t i) {$/;"	f	class:ReturnValue
+Set	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  template <typename S> inline void Set(const Global<S> &handle) {$/;"	f	class:ReturnValue
+Set	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  template <typename S> inline void Set(const v8::Local<S> &handle) {$/;"	f	class:ReturnValue
+Set	node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<bool> Set($/;"	f
+Set	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<bool> Set($/;"	f
+SetAccessor	node_modules/nan/nan.h	/^inline bool SetAccessor($/;"	f	namespace:Nan
+SetAccessor	node_modules/nan/nan.h	/^inline void SetAccessor($/;"	f	namespace:Nan
+SetAddHistogramSampleFunction	node_modules/nan/nan.h	/^  void SetAddHistogramSampleFunction(v8::AddHistogramSampleCallback cb) {$/;"	f	namespace:Nan
+SetCallAsFunctionHandler	node_modules/nan/nan.h	/^inline void SetCallAsFunctionHandler($/;"	f	namespace:Nan
+SetCallHandler	node_modules/nan/nan.h	/^inline void SetCallHandler($/;"	f	namespace:Nan
+SetCaptureMessage	node_modules/nan/nan.h	/^  inline void SetCaptureMessage(bool value) {$/;"	f	class:Nan::TryCatch
+SetCounterFunction	node_modules/nan/nan.h	/^  void SetCounterFunction(v8::CounterLookupCallback cb) {$/;"	f	namespace:Nan
+SetCreateHistogramFunction	node_modules/nan/nan.h	/^  void SetCreateHistogramFunction(v8::CreateHistogramCallback cb) {$/;"	f	namespace:Nan
+SetEmptyString	node_modules/nan/nan_callbacks_12_inl.h	/^  inline void SetEmptyString() {$/;"	f	class:ReturnValue
+SetEmptyString	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline void SetEmptyString() {$/;"	f	class:ReturnValue
+SetErrorMessage	node_modules/nan/nan.h	/^  void SetErrorMessage(const char *msg) {$/;"	f	class:Nan::AsyncWorker
+SetFunction	node_modules/nan/nan.h	/^  inline void SetFunction(const v8::Local<v8::Function> &fn) {$/;"	f	class:Nan::Callback
+SetIndexedPropertyHandler	node_modules/nan/nan.h	/^inline void SetIndexedPropertyHandler($/;"	f	namespace:Nan
+SetInstanceTemplate	node_modules/nan/nan.h	/^inline void SetInstanceTemplate($/;"	f	namespace:Nan
+SetInternalFieldPointer	node_modules/nan/nan.h	/^  inline void SetInternalFieldPointer($/;"	f	namespace:Nan
+SetIsolateData	node_modules/nan/nan.h	/^  inline void SetIsolateData($/;"	f	namespace:Nan
+SetMethod	node_modules/nan/nan.h	/^inline void SetMethod($/;"	f	namespace:Nan
+SetMethodAux	node_modules/nan/nan.h	/^SetMethodAux(T recv,$/;"	f	namespace:Nan::imp
+SetNamedPropertyHandler	node_modules/nan/nan.h	/^inline void SetNamedPropertyHandler($/;"	f	namespace:Nan
+SetNull	node_modules/nan/nan_callbacks_12_inl.h	/^  inline void SetNull() {$/;"	f	class:ReturnValue
+SetNull	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline void SetNull() {$/;"	f	class:ReturnValue
+SetPrivate	node_modules/nan/nan_private.h	/^inline Maybe<bool> SetPrivate($/;"	f
+SetPrototype	node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<bool> SetPrototype($/;"	f
+SetPrototype	node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<bool> SetPrototype($/;"	f
+SetPrototypeMethod	node_modules/nan/nan.h	/^inline void SetPrototypeMethod($/;"	f	namespace:Nan
+SetPrototypeTemplate	node_modules/nan/nan.h	/^inline void SetPrototypeTemplate($/;"	f	namespace:Nan
+SetTemplate	node_modules/nan/nan.h	/^  inline void SetTemplate($/;"	f	namespace:Nan
+SetUndefined	node_modules/nan/nan_callbacks_12_inl.h	/^  inline void SetUndefined() {$/;"	f	class:ReturnValue
+SetUndefined	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline void SetUndefined() {$/;"	f	class:ReturnValue
+SetVerbose	node_modules/nan/nan.h	/^  inline void SetVerbose(bool value) { try_catch_.SetVerbose(value); }$/;"	f	class:Nan::TryCatch
+SetWeak	node_modules/nan/nan_persistent_12_inl.h	/^  inline void SetWeak($/;"	f	class:Global
+SetWeak	node_modules/nan/nan_weak.h	/^inline void Persistent<T, M>::SetWeak($/;"	f	class:Persistent
+SetWeak	node_modules/nan/nan_weak.h	/^inline void PersistentBase<T>::SetWeak($/;"	f	class:PersistentBase
+SetterCallback	node_modules/nan/nan_callbacks.h	/^typedef void(*SetterCallback)($/;"	t
+SetterCallbackWrapper	node_modules/nan/nan_callbacks_12_inl.h	/^void SetterCallbackWrapper($/;"	f	namespace:imp
+SetterCallbackWrapper	node_modules/nan/nan_callbacks_pre_12_inl.h	/^void SetterCallbackWrapper($/;"	f	namespace:imp
+Sig	node_modules/nan/nan_callbacks.h	/^typedef v8::Local<v8::AccessorSignature> Sig;$/;"	t	namespace:imp
+Signal	node_modules/nan/nan.h	/^    void Signal() const {$/;"	f	class:Nan::AsyncBareProgressWorker::ExecutionProgress
+Signed_Enclave_Name	Makefile	/^Signed_Enclave_Name := enclave.signed.so$/;"	m
+StackTrace	node_modules/nan/nan.h	/^  inline MaybeLocal<v8::Value> StackTrace() const {$/;"	f	class:Nan::TryCatch
+StackTrace	node_modules/nan/nan.h	/^  inline v8::MaybeLocal<v8::Value> StackTrace() const {$/;"	f	class:Nan::TryCatch
+Stringify	node_modules/nan/nan_json.h	/^  Nan::MaybeLocal<v8::String> Stringify(v8::Local<v8::Object> json_object) {$/;"	f	class:JSON
+Stringify	node_modules/nan/nan_json.h	/^  Nan::MaybeLocal<v8::String> Stringify(v8::Local<v8::Object> json_object,$/;"	f	class:JSON
+TARGET	build/hello.target.mk	/^TARGET := hello$/;"	m
+TOKEN_FILENAME	App/App.h	52;"	d
+TOOLSET	build/Makefile	/^TOOLSET := target$/;"	m
+TOOLSET	build/hello.target.mk	/^$(OBJS): TOOLSET := $(TOOLSET)$/;"	m
+TOOLSET	build/hello.target.mk	/^$(builddir)\/hello.node: TOOLSET := $(TOOLSET)$/;"	m
+TOOLSET	build/hello.target.mk	/^$(obj).target\/hello.node: TOOLSET := $(TOOLSET)$/;"	m
+TOOLSET	build/hello.target.mk	/^TOOLSET := target$/;"	m
+TRUE	App/App.h	45;"	d
+TYPE_CHECK	node_modules/nan/nan.h	139;"	d
+TYPE_CHECK	node_modules/nan/nan.h	2756;"	d
+Tap	node_modules/nan/nan.h	/^  explicit Tap(v8::Local<v8::Value> t) : t_() {$/;"	f	struct:Nan::Tap
+Tap	node_modules/nan/nan.h	/^struct Tap {$/;"	s	namespace:Nan
+This	node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Local<v8::Object> This() const { return info_.This(); }$/;"	f	class:FunctionCallbackInfo
+This	node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Local<v8::Object> This() const { return info_.This(); }$/;"	f	class:PropertyCallbackInfo
+This	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Local<v8::Object> This() const { return args_.This(); }$/;"	f	class:FunctionCallbackInfo
+This	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Local<v8::Object> This() const { return info_.This(); }$/;"	f	class:PropertyCallbackInfoBase
+ThrowError	node_modules/nan/nan.h	/^  inline void ThrowError(v8::Local<v8::Value> error) {$/;"	f	namespace:Nan
+To	node_modules/nan/nan_converters.h	/^typename imp::ToFactory<T>::return_t To(v8::Local<v8::Value> val) {$/;"	f
+To	node_modules/nan/nan_new.h	/^To<v8::Int32>(v8::Local<v8::Integer> i) {$/;"	f	namespace:imp
+To	node_modules/nan/nan_new.h	/^To<v8::Integer>(v8::Local<v8::Integer> i) {$/;"	f	namespace:imp
+To	node_modules/nan/nan_new.h	/^To<v8::Uint32>(v8::Local<v8::Integer> i) {$/;"	f	namespace:imp
+ToArrayIndex	node_modules/nan/nan_maybe_43_inl.h	/^MaybeLocal<v8::Uint32> ToArrayIndex(v8::Local<v8::Value> val) {$/;"	f
+ToArrayIndex	node_modules/nan/nan_maybe_pre_43_inl.h	/^MaybeLocal<v8::Uint32> ToArrayIndex(v8::Handle<v8::Value> val) {$/;"	f
+ToDetailString	node_modules/nan/nan_maybe_43_inl.h	/^MaybeLocal<v8::String> ToDetailString(v8::Local<v8::Value> val) {$/;"	f
+ToDetailString	node_modules/nan/nan_maybe_pre_43_inl.h	/^MaybeLocal<v8::String> ToDetailString(v8::Handle<v8::Value> val) {$/;"	f
+ToFactory	node_modules/nan/nan_converters.h	/^struct ToFactory<v8::Function> : ToFactoryBase<v8::Function> {$/;"	s	namespace:imp
+ToFactoryBase	node_modules/nan/nan_converters.h	/^template<typename T> struct ToFactoryBase {$/;"	s	namespace:imp
+ToLocal	node_modules/nan/nan_maybe_pre_43_inl.h	/^  inline bool ToLocal(v8::Local<S> *out) const {$/;"	f	class:MaybeLocal
+ToLocalChecked	node_modules/nan/nan_maybe_pre_43_inl.h	/^  inline v8::Local<T> ToLocalChecked() const {$/;"	f	class:MaybeLocal
+Trts_Library_Name	Makefile	/^	Trts_Library_Name := sgx_trts$/;"	m
+Trts_Library_Name	Makefile	/^	Trts_Library_Name := sgx_trts_sim$/;"	m
+True	node_modules/nan/nan.h	/^  inline v8::Local<v8::Boolean> True() {$/;"	f	namespace:Nan
+TryCatch	node_modules/nan/nan.h	/^  TryCatch() : try_catch_(v8::Isolate::GetCurrent()) {}$/;"	f	class:Nan::TryCatch
+TryCatch	node_modules/nan/nan.h	/^class TryCatch {$/;"	c	namespace:Nan
+TypedArrayContents	node_modules/nan/nan_typedarray_contents.h	/^  inline explicit TypedArrayContents(v8::Local<v8::Value> from) :$/;"	f	class:TypedArrayContents
+TypedArrayContents	node_modules/nan/nan_typedarray_contents.h	/^class TypedArrayContents {$/;"	c
+UCS2	node_modules/nan/nan.h	/^enum Encoding {ASCII, UTF8, BASE64, UCS2, BINARY, HEX, BUFFER};$/;"	e	enum:Nan::Encoding
+ULP	Enclave/Edger8rSyntax/Types.cpp	44;"	d	file:
+UNUSED	Enclave/Edger8rSyntax/Types.cpp	42;"	d	file:
+UTF8	node_modules/nan/nan.h	/^enum Encoding {ASCII, UTF8, BASE64, UCS2, BINARY, HEX, BUFFER};$/;"	e	enum:Nan::Encoding
+UV_VERSION_PATCH	node_modules/nan/nan.h	76;"	d
+UnboundScript	node_modules/nan/nan.h	/^typedef v8::Script             UnboundScript;$/;"	t	namespace:Nan
+UnboundScript	node_modules/nan/nan.h	/^typedef v8::UnboundScript      UnboundScript;$/;"	t	namespace:Nan
+Uncompilable	node_modules/nan/nan_persistent_pre_12_inl.h	/^  template<typename O> inline static void Uncompilable() {$/;"	f	class:NonCopyablePersistentTraits
+Undefined	node_modules/nan/nan.h	/^  inline v8::Local<v8::Primitive> Undefined() {$/;"	f	namespace:Nan
+Unref	node_modules/nan/nan_object_wrap.h	/^  virtual void Unref() {$/;"	f	class:ObjectWrap
+Unwrap	node_modules/nan/nan_object_wrap.h	/^  static inline T* Unwrap(v8::Local<v8::Object> object) {$/;"	f	class:ObjectWrap
+Urts_Library_Name	Makefile	/^	Urts_Library_Name := sgx_urts$/;"	m
+Urts_Library_Name	Makefile	/^	Urts_Library_Name := sgx_urts_sim$/;"	m
+Utf8String	node_modules/nan/nan.h	/^  inline explicit Utf8String(v8::Local<v8::Value> from) :$/;"	f	class:Nan::Utf8String
+Utf8String	node_modules/nan/nan.h	/^class Utf8String {$/;"	c	namespace:Nan
+Value	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Handle<T> Value() {$/;"	f	class:imp::ReturnValueImp
+ValueFactoryBase	node_modules/nan/nan_converters.h	/^template<typename T> struct ValueFactoryBase { typedef Maybe<T> return_t; };$/;"	s	namespace:imp
+WeakCallback	node_modules/nan/nan_object_wrap.h	/^  WeakCallback(v8::WeakCallbackInfo<ObjectWrap> const& info) {$/;"	f	class:ObjectWrap
+WeakCallbackInfo	node_modules/nan/nan_weak.h	/^  WeakCallbackInfo($/;"	f	class:WeakCallbackInfo
+WeakCallbackInfo	node_modules/nan/nan_weak.h	/^class WeakCallbackInfo {$/;"	c
+WeakCallbackType	node_modules/nan/nan.h	/^  WeakCallbackType(E other) : type(other) {}  \/\/ NOLINT(runtime\/explicit)$/;"	f	struct:Nan::WeakCallbackType
+WeakCallbackType	node_modules/nan/nan.h	/^  typedef v8::WeakCallbackType WeakCallbackType;$/;"	t	namespace:Nan
+WeakCallbackType	node_modules/nan/nan.h	/^struct WeakCallbackType {$/;"	s	namespace:Nan
+WorkComplete	node_modules/nan/nan.h	/^  virtual void WorkComplete() {$/;"	f	class:Nan::AsyncWorker
+WorkComplete	node_modules/nan/nan.h	/^  void WorkComplete() {$/;"	f	class:Nan::AsyncProgressQueueWorker
+WorkProgress	node_modules/nan/nan.h	/^  void WorkProgress() {$/;"	f	class:Nan::AsyncProgressQueueWorker
+WorkProgress	node_modules/nan/nan.h	/^  void WorkProgress() {$/;"	f	class:Nan::AsyncProgressWorkerBase
+Wrap	node_modules/nan/nan_object_wrap.h	/^  inline void Wrap(v8::Local<v8::Object> object) {$/;"	f	class:ObjectWrap
+X	node_modules/nan/nan.h	1187;"	d
+X	node_modules/nan/nan.h	1215;"	d
+X	node_modules/nan/nan.h	775;"	d
+X	node_modules/nan/nan.h	804;"	d
+X	node_modules/nan/nan_converters.h	28;"	d
+X	node_modules/nan/nan_converters.h	42;"	d
+X	node_modules/nan/nan_converters.h	44;"	d
+X	node_modules/nan/nan_converters.h	56;"	d
+X	node_modules/nan/nan_converters_43_inl.h	12;"	d
+X	node_modules/nan/nan_converters_43_inl.h	30;"	d
+X	node_modules/nan/nan_converters_43_inl.h	32;"	d
+X	node_modules/nan/nan_converters_43_inl.h	46;"	d
+X	node_modules/nan/nan_converters_pre_43_inl.h	12;"	d
+X	node_modules/nan/nan_converters_pre_43_inl.h	26;"	d
+X	node_modules/nan/nan_converters_pre_43_inl.h	28;"	d
+X	node_modules/nan/nan_converters_pre_43_inl.h	40;"	d
+_APP_H_	App/App.h	34;"	d
+_ENCLAVE_H_	Enclave/Enclave.h	34;"	d
+_sgx_errlist_t	App/App.cpp	/^typedef struct _sgx_errlist_t {$/;"	s	file:
+abs_builddir	build/Makefile	/^abs_builddir := $(abspath $(builddir))$/;"	m
+abs_obj	build/Makefile	/^abs_obj := $(abspath $(obj))$/;"	m
+abs_srcdir	build/Makefile	/^abs_srcdir := $(abspath $(srcdir))$/;"	m
+all_deps	build/Makefile	/^all_deps :=$/;"	m
+almost_equal	Enclave/Edger8rSyntax/Types.cpp	/^bool  almost_equal(double x, double y)$/;"	f
+almost_equal	Enclave/Edger8rSyntax/Types.cpp	/^bool  almost_equal(float x, float y)$/;"	f
+args_	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  const v8::Arguments &args_;$/;"	m	class:FunctionCallbackInfo
+array_t	Include/user_types.h	/^typedef int array_t[10];$/;"	t
+async	node_modules/nan/nan.h	/^  uv_async_t async;$/;"	m	class:Nan::AsyncBareProgressWorkerBase
+async_lock	node_modules/nan/nan.h	/^  uv_mutex_t async_lock;$/;"	m	class:Nan::AsyncBareProgressWorker
+async_lock	node_modules/nan/nan.h	/^  uv_mutex_t async_lock;$/;"	m	class:Nan::AsyncProgressQueueWorker
+async_resource	node_modules/nan/nan.h	/^  AsyncResource *async_resource;$/;"	m	class:Nan::AsyncWorker
+asyncdata_	node_modules/nan/nan.h	/^  T *asyncdata_;$/;"	m	class:Nan::AsyncProgressWorkerBase
+asyncdata_	node_modules/nan/nan.h	/^  std::queue<std::pair<T*, size_t> > asyncdata_;$/;"	m	class:Nan::AsyncProgressQueueWorker
+asyncsize_	node_modules/nan/nan.h	/^  size_t asyncsize_;$/;"	m	class:Nan::AsyncProgressWorkerBase
+base64_encode	node_modules/nan/nan_string_bytes.h	/^static size_t base64_encode(const char* src,$/;"	f	namespace:imp
+base64_encoded_size	node_modules/nan/nan_string_bytes.h	301;"	d
+base64_encoded_size	node_modules/nan/nan_string_bytes.h	37;"	d
+bindings	node_modules/bindings/bindings.js	/^    opts = { bindings: opts }$/;"	p	class:opts
+buf	Enclave/TrustedLibrary/Thread.cpp	/^    int buf[BUFFER_SIZE];$/;"	m	struct:__anon1	file:
+buffer	Enclave/TrustedLibrary/Thread.cpp	/^static cond_buffer_t buffer = {{0, 0, 0, 0, 0, 0}, 0, 0, 0,$/;"	v	file:
+buffer_t	Include/user_types.h	/^typedef void *buffer_t;$/;"	t
+builddir	build/Makefile	/^builddir ?= $(builddir_name)\/$(BUILDTYPE)$/;"	m
+builddir_name	build/Makefile	/^builddir_name ?= .$/;"	m
+callback	node_modules/nan/nan.h	/^  Callback *callback;$/;"	m	class:Nan::AsyncWorker
+callback_	node_modules/nan/nan_weak.h	/^  Callback callback_;$/;"	m	class:WeakCallbackInfo
+checksum_internal	Enclave/Edger8rSyntax/Pointers.cpp	/^int32_t checksum_internal(char *buf, size_t count)$/;"	f
+cmd_alink	build/Makefile	/^cmd_alink = rm -f $@ && $(AR.$(TOOLSET)) crs $@ $(filter %.o,$^)$/;"	m
+cmd_alink_thin	build/Makefile	/^cmd_alink_thin = rm -f $@ && $(AR.$(TOOLSET)) crsT $@ $(filter %.o,$^)$/;"	m
+cmd_cc	build/Makefile	/^cmd_cc = $(CC.$(TOOLSET)) $(GYP_CFLAGS) $(DEPFLAGS) $(CFLAGS.$(TOOLSET)) -c -o $@ $<$/;"	m
+cmd_copy	build/Makefile	/^cmd_copy = rm -rf "$@" && cp -af "$<" "$@"$/;"	m
+cmd_cxx	build/Makefile	/^cmd_cxx = $(CXX.$(TOOLSET)) $(GYP_CXXFLAGS) $(DEPFLAGS) $(CXXFLAGS.$(TOOLSET)) -c -o $@ $<$/;"	m
+cmd_link	build/Makefile	/^cmd_link = $(LINK.$(TOOLSET)) $(GYP_LDFLAGS) $(LDFLAGS.$(TOOLSET)) -o $@ -Wl,--start-group $(LD_INPUTS) $(LIBS) -Wl,--end-group$/;"	m
+cmd_regen_makefile	build/Makefile	/^cmd_regen_makefile = cd $(srcdir); \/root\/.nvm\/versions\/node\/v9.11.2\/lib\/node_modules\/node-gyp\/gyp\/gyp_main.py -fmake --ignore-environment "--toplevel-dir=." -I\/root\/sgx\/sgxsdk\/SampleCode\/SampleEnclave\/build\/config.gypi -I\/root\/.nvm\/versions\/node\/v9.11.2\/lib\/node_modules\/node-gyp\/addon.gypi -I\/root\/.node-gyp\/9.11.2\/include\/node\/common.gypi "--depth=." "-Goutput_dir=." "--generator-output=build" "-Dlibrary=shared_library" "-Dvisibility=default" "-Dnode_root_dir=\/root\/.node-gyp\/9.11.2" "-Dnode_gyp_dir=\/root\/.nvm\/versions\/node\/v9.11.2\/lib\/node_modules\/node-gyp" "-Dnode_lib_file=\/root\/.node-gyp\/9.11.2\/<(target_arch)\/node.lib" "-Dmodule_root_dir=\/root\/sgx\/sgxsdk\/SampleCode\/SampleEnclave" "-Dnode_engine=v8" binding.gyp$/;"	m
+cmd_solink	build/Makefile	/^cmd_solink = $(LINK.$(TOOLSET)) -shared $(GYP_LDFLAGS) $(LDFLAGS.$(TOOLSET)) -Wl,-soname=$(@F) -o $@ -Wl,--whole-archive $(LD_INPUTS) -Wl,--no-whole-archive $(LIBS)$/;"	m
+cmd_solink_module	build/Makefile	/^cmd_solink_module = $(LINK.$(TOOLSET)) -shared $(GYP_LDFLAGS) $(LDFLAGS.$(TOOLSET)) -Wl,-soname=$(@F) -o $@ -Wl,--start-group $(filter-out FORCE_DO_CMD, $^) -Wl,--end-group $(LIBS)$/;"	m
+cmd_touch	build/Makefile	/^cmd_touch = touch $@$/;"	m
+command_changed	build/Makefile	/^command_changed = $(or $(subst $(cmd_$(1)),,$(cmd_$(call replace_spaces,$@))),\\$/;"	m
+cond_buffer_t	Enclave/TrustedLibrary/Thread.cpp	/^} cond_buffer_t;$/;"	t	typeref:struct:__anon1	file:
+contains_non_ascii	node_modules/nan/nan_string_bytes.h	/^static bool contains_non_ascii(const char* src, size_t len) {$/;"	f	namespace:imp
+contains_non_ascii_slow	node_modules/nan/nan_string_bytes.h	/^static bool contains_non_ascii_slow(const char* buf, size_t len) {$/;"	f	namespace:imp
+context	node_modules/nan/nan.h	/^  node::async_context context;$/;"	m	class:Nan::AsyncResource
+convert	node_modules/nan/nan.h	/^  inline static MaybeLocal<T> convert(MaybeLocal<T> v) {$/;"	f	struct:Nan::imp::Maybefier
+convert	node_modules/nan/nan.h	/^  inline static MaybeLocal<T> convert(v8::Local<T> v) {$/;"	f	struct:Nan::imp::Maybefier
+convert	node_modules/nan/nan_converters.h	/^  static inline return_t convert(v8::Local<v8::Value> val) {$/;"	f	struct:imp::ToFactory
+counter	App/TrustedLibrary/Thread.cpp	/^static size_t counter = 0;$/;"	v	file:
+d_files	build/Makefile	/^d_files := $(wildcard $(foreach f,$(all_deps),$(depsdir)\/$(f).d))$/;"	m
+data_	node_modules/nan/nan_callbacks_12_inl.h	/^  const v8::Local<v8::Value> data_;$/;"	m	class:FunctionCallbackInfo
+data_	node_modules/nan/nan_callbacks_12_inl.h	/^  const v8::Local<v8::Value> data_;$/;"	m	class:PropertyCallbackInfo
+data_	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  const v8::Local<v8::Value> data_;$/;"	m	class:PropertyCallbackInfoBase
+data_	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  v8::Local<v8::Value> data_;$/;"	m	class:FunctionCallbackInfo
+data_	node_modules/nan/nan_typedarray_contents.h	/^  T*      data_;$/;"	m	class:TypedArrayContents
+data_consumer	App/TrustedLibrary/Thread.cpp	/^void data_consumer(void)$/;"	f
+data_producer	App/TrustedLibrary/Thread.cpp	/^void data_producer(void)$/;"	f
+depfile	build/Makefile	/^depfile = $(depsdir)\/$(call replace_spaces,$@).d$/;"	m
+depsdir	build/Makefile	/^depsdir := $(builddir)\/.deps$/;"	m
+dirx	build/Makefile	/^dirx = $(call unreplace_spaces,$(dir $(call replace_spaces,$1)))$/;"	m
+do_cmd	build/Makefile	/^define do_cmd$/;"	m
+do_postbuilds	build/Makefile	/^define do_postbuilds$/;"	m
+ecall_addr	Enclave/Enclave_t.c	/^	struct {void* ecall_addr; uint8_t is_priv;} ecall_table[32];$/;"	m	struct:__anon2::__anon3	file:
+ecall_array_in	App/Enclave_u.c	/^sgx_status_t ecall_array_in(sgx_enclave_id_t eid, int arr[4])$/;"	f
+ecall_array_in	Enclave/Edger8rSyntax/Arrays.cpp	/^void ecall_array_in(int arr[4])$/;"	f
+ecall_array_in_out	App/Enclave_u.c	/^sgx_status_t ecall_array_in_out(sgx_enclave_id_t eid, int arr[4])$/;"	f
+ecall_array_in_out	Enclave/Edger8rSyntax/Arrays.cpp	/^void ecall_array_in_out(int arr[4])$/;"	f
+ecall_array_isary	App/Enclave_u.c	/^sgx_status_t ecall_array_isary(sgx_enclave_id_t eid, array_t arr)$/;"	f
+ecall_array_isary	Enclave/Edger8rSyntax/Arrays.cpp	/^void ecall_array_isary(array_t arr)$/;"	f
+ecall_array_out	App/Enclave_u.c	/^sgx_status_t ecall_array_out(sgx_enclave_id_t eid, int arr[4])$/;"	f
+ecall_array_out	Enclave/Edger8rSyntax/Arrays.cpp	/^void ecall_array_out(int arr[4])$/;"	f
+ecall_array_user_check	App/Enclave_u.c	/^sgx_status_t ecall_array_user_check(sgx_enclave_id_t eid, int arr[4])$/;"	f
+ecall_array_user_check	Enclave/Edger8rSyntax/Arrays.cpp	/^void ecall_array_user_check(int arr[4])$/;"	f
+ecall_consumer	App/Enclave_u.c	/^sgx_status_t ecall_consumer(sgx_enclave_id_t eid)$/;"	f
+ecall_consumer	Enclave/TrustedLibrary/Thread.cpp	/^void ecall_consumer(void)$/;"	f
+ecall_exception	App/Enclave_u.c	/^sgx_status_t ecall_exception(sgx_enclave_id_t eid)$/;"	f
+ecall_exception	Enclave/TrustedLibrary/Libcxx.cpp	/^void ecall_exception(void)$/;"	f
+ecall_function_private	App/Enclave_u.c	/^sgx_status_t ecall_function_private(sgx_enclave_id_t eid, int* retval)$/;"	f
+ecall_function_private	Enclave/Edger8rSyntax/Functions.cpp	/^int ecall_function_private(void)$/;"	f
+ecall_function_public	App/Enclave_u.c	/^sgx_status_t ecall_function_public(sgx_enclave_id_t eid)$/;"	f
+ecall_function_public	Enclave/Edger8rSyntax/Functions.cpp	/^void ecall_function_public(void)$/;"	f
+ecall_increase_counter	App/Enclave_u.c	/^sgx_status_t ecall_increase_counter(sgx_enclave_id_t eid, size_t* retval)$/;"	f
+ecall_increase_counter	Enclave/TrustedLibrary/Thread.cpp	/^size_t ecall_increase_counter(void)$/;"	f
+ecall_libc_functions	App/TrustedLibrary/Libc.cpp	/^uint32_t ecall_libc_functions(void)$/;"	f
+ecall_libcxx_functions	App/TrustedLibrary/Libcxx.cpp	/^void ecall_libcxx_functions(void)$/;"	f
+ecall_malloc_free	App/Enclave_u.c	/^sgx_status_t ecall_malloc_free(sgx_enclave_id_t eid)$/;"	f
+ecall_malloc_free	Enclave/TrustedLibrary/Libc.cpp	/^void ecall_malloc_free(void)$/;"	f
+ecall_map	App/Enclave_u.c	/^sgx_status_t ecall_map(sgx_enclave_id_t eid)$/;"	f
+ecall_map	Enclave/TrustedLibrary/Libcxx.cpp	/^void ecall_map(void)$/;"	f
+ecall_pointer_count	App/Enclave_u.c	/^sgx_status_t ecall_pointer_count(sgx_enclave_id_t eid, int* arr, size_t cnt)$/;"	f
+ecall_pointer_count	Enclave/Edger8rSyntax/Pointers.cpp	/^void ecall_pointer_count(int *arr, size_t count)$/;"	f
+ecall_pointer_in	App/Enclave_u.c	/^sgx_status_t ecall_pointer_in(sgx_enclave_id_t eid, int* val)$/;"	f
+ecall_pointer_in	Enclave/Edger8rSyntax/Pointers.cpp	/^void ecall_pointer_in(int *val)$/;"	f
+ecall_pointer_in_out	App/Enclave_u.c	/^sgx_status_t ecall_pointer_in_out(sgx_enclave_id_t eid, int* val)$/;"	f
+ecall_pointer_in_out	Enclave/Edger8rSyntax/Pointers.cpp	/^void ecall_pointer_in_out(int *val)$/;"	f
+ecall_pointer_isptr_readonly	App/Enclave_u.c	/^sgx_status_t ecall_pointer_isptr_readonly(sgx_enclave_id_t eid, buffer_t buf, size_t len)$/;"	f
+ecall_pointer_isptr_readonly	Enclave/Edger8rSyntax/Pointers.cpp	/^void ecall_pointer_isptr_readonly(buffer_t buf, size_t len)$/;"	f
+ecall_pointer_out	App/Enclave_u.c	/^sgx_status_t ecall_pointer_out(sgx_enclave_id_t eid, int* val)$/;"	f
+ecall_pointer_out	Enclave/Edger8rSyntax/Pointers.cpp	/^void ecall_pointer_out(int *val)$/;"	f
+ecall_pointer_size	App/Enclave_u.c	/^sgx_status_t ecall_pointer_size(sgx_enclave_id_t eid, void* ptr, size_t len)$/;"	f
+ecall_pointer_size	Enclave/Edger8rSyntax/Pointers.cpp	/^void ecall_pointer_size(void *ptr, size_t len)$/;"	f
+ecall_pointer_string	App/Enclave_u.c	/^sgx_status_t ecall_pointer_string(sgx_enclave_id_t eid, char* str)$/;"	f
+ecall_pointer_string	Enclave/Edger8rSyntax/Pointers.cpp	/^void ecall_pointer_string(char *str)$/;"	f
+ecall_pointer_string_const	App/Enclave_u.c	/^sgx_status_t ecall_pointer_string_const(sgx_enclave_id_t eid, const char* str)$/;"	f
+ecall_pointer_string_const	Enclave/Edger8rSyntax/Pointers.cpp	/^void ecall_pointer_string_const(const char *str)$/;"	f
+ecall_pointer_user_check	App/Enclave_u.c	/^sgx_status_t ecall_pointer_user_check(sgx_enclave_id_t eid, size_t* retval, void* val, size_t sz)$/;"	f
+ecall_pointer_user_check	Enclave/Edger8rSyntax/Pointers.cpp	/^size_t ecall_pointer_user_check(void *val, size_t sz)$/;"	f
+ecall_producer	App/Enclave_u.c	/^sgx_status_t ecall_producer(sgx_enclave_id_t eid)$/;"	f
+ecall_producer	Enclave/TrustedLibrary/Thread.cpp	/^void ecall_producer(void)$/;"	f
+ecall_sgx_cpuid	App/Enclave_u.c	/^sgx_status_t ecall_sgx_cpuid(sgx_enclave_id_t eid, uint32_t* retval)$/;"	f
+ecall_sgx_cpuid	Enclave/TrustedLibrary/Libc.cpp	/^uint32_t ecall_sgx_cpuid()$/;"	f
+ecall_table	Enclave/Enclave_t.c	/^	struct {void* ecall_addr; uint8_t is_priv;} ecall_table[32];$/;"	m	struct:__anon2	typeref:struct:__anon2::__anon3	file:
+ecall_thread_functions	App/TrustedLibrary/Thread.cpp	/^void ecall_thread_functions(void)$/;"	f
+ecall_type_char	App/Enclave_u.c	/^sgx_status_t ecall_type_char(sgx_enclave_id_t eid, char val)$/;"	f
+ecall_type_char	Enclave/Edger8rSyntax/Types.cpp	/^void ecall_type_char(char val)$/;"	f
+ecall_type_double	App/Enclave_u.c	/^sgx_status_t ecall_type_double(sgx_enclave_id_t eid, double val)$/;"	f
+ecall_type_double	Enclave/Edger8rSyntax/Types.cpp	/^void ecall_type_double(double val)$/;"	f
+ecall_type_enum_union	App/Enclave_u.c	/^sgx_status_t ecall_type_enum_union(sgx_enclave_id_t eid, enum enum_foo_t val1, union union_foo_t* val2)$/;"	f
+ecall_type_enum_union	Enclave/Edger8rSyntax/Types.cpp	/^void ecall_type_enum_union(enum enum_foo_t val1, union union_foo_t *val2)$/;"	f
+ecall_type_float	App/Enclave_u.c	/^sgx_status_t ecall_type_float(sgx_enclave_id_t eid, float val)$/;"	f
+ecall_type_float	Enclave/Edger8rSyntax/Types.cpp	/^void ecall_type_float(float val)$/;"	f
+ecall_type_int	App/Enclave_u.c	/^sgx_status_t ecall_type_int(sgx_enclave_id_t eid, int val)$/;"	f
+ecall_type_int	Enclave/Edger8rSyntax/Types.cpp	/^void ecall_type_int(int val)$/;"	f
+ecall_type_size_t	App/Enclave_u.c	/^sgx_status_t ecall_type_size_t(sgx_enclave_id_t eid, size_t val)$/;"	f
+ecall_type_size_t	Enclave/Edger8rSyntax/Types.cpp	/^void ecall_type_size_t(size_t val)$/;"	f
+ecall_type_struct	App/Enclave_u.c	/^sgx_status_t ecall_type_struct(sgx_enclave_id_t eid, struct struct_foo_t val)$/;"	f
+ecall_type_struct	Enclave/Edger8rSyntax/Types.cpp	/^void ecall_type_struct(struct struct_foo_t val)$/;"	f
+ecall_type_wchar_t	App/Enclave_u.c	/^sgx_status_t ecall_type_wchar_t(sgx_enclave_id_t eid, wchar_t val)$/;"	f
+ecall_type_wchar_t	Enclave/Edger8rSyntax/Types.cpp	/^void ecall_type_wchar_t(wchar_t val)$/;"	f
+edger8r_array_attributes	App/Edger8rSyntax/Arrays.cpp	/^void edger8r_array_attributes(void)$/;"	f
+edger8r_function_attributes	App/Edger8rSyntax/Functions.cpp	/^void edger8r_function_attributes(void)$/;"	f
+edger8r_pointer_attributes	App/Edger8rSyntax/Pointers.cpp	/^void edger8r_pointer_attributes(void)$/;"	f
+edger8r_type_attributes	App/Edger8rSyntax/Types.cpp	/^void edger8r_type_attributes(void)$/;"	f
+empty	build/Makefile	/^empty :=$/;"	m
+end	node_modules/nan/nan.h	/^  inline void end() {$/;"	f	struct:Nan::Tap
+entry_table	Enclave/Enclave_t.c	/^	uint8_t entry_table[11][32];$/;"	m	struct:__anon4	file:
+enum_foo_t	App/Enclave_u.h	/^typedef enum enum_foo_t {$/;"	g
+enum_foo_t	App/Enclave_u.h	/^} enum_foo_t;$/;"	t	typeref:enum:enum_foo_t
+enum_foo_t	Enclave/Enclave_t.h	/^typedef enum enum_foo_t {$/;"	g
+enum_foo_t	Enclave/Enclave_t.h	/^} enum_foo_t;$/;"	t	typeref:enum:enum_foo_t
+err	App/App.cpp	/^    sgx_status_t err;$/;"	m	struct:_sgx_errlist_t	file:
+errmsg_	node_modules/nan/nan.h	/^  char *errmsg_;$/;"	m	class:Nan::AsyncWorker
+escape_quotes	build/Makefile	/^escape_quotes = $(subst ','\\'',$(1))$/;"	m
+escape_vars	build/Makefile	/^escape_vars = $(subst $$,$$$$,$(1))$/;"	m
+exact_echo	build/Makefile	/^exact_echo = printf '%s\\n' '$(call escape_quotes,$(1))'$/;"	m
+fixup_dep	build/Makefile	/^define fixup_dep$/;"	m
+force_ascii	node_modules/nan/nan_string_bytes.h	/^static void force_ascii(const char* src, char* dst, size_t len) {$/;"	f	namespace:imp
+force_ascii_slow	node_modules/nan/nan_string_bytes.h	/^static void force_ascii_slow(const char* src, char* dst, size_t len) {$/;"	f	namespace:imp
+g_dyn_entry_table	Enclave/Enclave_t.c	/^} g_dyn_entry_table = {$/;"	v	typeref:struct:__anon4
+g_ecall_table	Enclave/Enclave_t.c	/^} g_ecall_table = {$/;"	v	typeref:struct:__anon2
+getrand	App/App.cpp	/^int SGX_CDECL getrand()$/;"	f
+global_counter	Enclave/TrustedLibrary/Thread.cpp	/^static size_t global_counter = 0;$/;"	v	file:
+global_eid	App/App.cpp	/^sgx_enclave_id_t global_eid = 0;$/;"	v
+global_mutex	Enclave/TrustedLibrary/Thread.cpp	/^static sgx_thread_mutex_t global_mutex = SGX_THREAD_MUTEX_INITIALIZER;$/;"	v	file:
+handle	node_modules/nan/nan_object_wrap.h	/^  inline v8::Local<v8::Object> handle() const {$/;"	f	class:ObjectWrap
+handle_	node_modules/nan/nan.h	/^  Persistent<v8::Function> handle_;$/;"	m	class:Nan::Callback
+handle_	node_modules/nan/nan_object_wrap.h	/^  Persistent<v8::Object> handle_;$/;"	m	class:ObjectWrap
+has_value_	node_modules/nan/nan_maybe_pre_43_inl.h	/^  bool has_value_;$/;"	m	class:Maybe
+hex_encode	node_modules/nan/nan_string_bytes.h	/^static size_t hex_encode(const char* src, size_t slen, char* dst, size_t dlen) {$/;"	f	namespace:imp
+imp	node_modules/nan/nan.h	/^namespace imp {$/;"	n	namespace:Nan
+imp	node_modules/nan/nan_callbacks.h	/^namespace imp {$/;"	n
+imp	node_modules/nan/nan_callbacks_12_inl.h	/^namespace imp {$/;"	n
+imp	node_modules/nan/nan_callbacks_pre_12_inl.h	/^namespace imp {$/;"	n
+imp	node_modules/nan/nan_converters.h	/^namespace imp {$/;"	n
+imp	node_modules/nan/nan_define_own_property_helper.h	/^namespace imp {$/;"	n
+imp	node_modules/nan/nan_implementation_12_inl.h	/^namespace imp {$/;"	n
+imp	node_modules/nan/nan_implementation_pre_12_inl.h	/^namespace imp {$/;"	n
+imp	node_modules/nan/nan_new.h	/^namespace imp {  \/\/ scnr$/;"	n
+imp	node_modules/nan/nan_new.h	/^namespace imp {$/;"	n
+imp	node_modules/nan/nan_string_bytes.h	/^namespace imp {$/;"	n
+increase_counter	App/TrustedLibrary/Thread.cpp	/^void increase_counter(void)$/;"	f
+info_	node_modules/nan/nan_callbacks_12_inl.h	/^  const v8::FunctionCallbackInfo<T> &info_;$/;"	m	class:FunctionCallbackInfo
+info_	node_modules/nan/nan_callbacks_12_inl.h	/^  const v8::PropertyCallbackInfo<T> &info_;$/;"	m	class:PropertyCallbackInfo
+info_	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  const v8::AccessorInfo &info_;$/;"	m	class:PropertyCallbackInfoBase
+initialize_enclave	App/App.cpp	/^int initialize_enclave(void)$/;"	f
+internal_fields_	node_modules/nan/nan_weak.h	/^  void *internal_fields_[kInternalFieldsInWeakCallback];$/;"	m	class:WeakCallbackInfo
+invoke	node_modules/nan/nan_weak.h	/^void WeakCallbackInfo<T>::invoke(NAN_WEAK_CALLBACK_SIG_ data) {$/;"	f	class:WeakCallbackInfo
+invokeparameter	node_modules/nan/nan_weak.h	/^WeakCallbackInfo<T>::invokeparameter(NAN_WEAK_PARAMETER_CALLBACK_SIG_ data) {$/;"	f	class:WeakCallbackInfo
+invoketwofield	node_modules/nan/nan_weak.h	/^WeakCallbackInfo<T>::invoketwofield(NAN_WEAK_TWOFIELD_CALLBACK_SIG_ data) {$/;"	f	class:WeakCallbackInfo
+is_priv	Enclave/Enclave_t.c	/^	struct {void* ecall_addr; uint8_t is_priv;} ecall_table[32];$/;"	m	struct:__anon2::__anon3	file:
+isolate_	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  v8::Isolate *isolate_;$/;"	m	class:ReturnValue
+isolate_	node_modules/nan/nan_weak.h	/^  v8::Isolate *isolate_;$/;"	m	class:WeakCallbackInfo
+kAccessorFieldCount	node_modules/nan/nan_callbacks.h	/^static const int kAccessorFieldCount =           3;$/;"	m	namespace:imp
+kArgsLength	node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kArgsLength = 6;$/;"	m	class:PropertyCallbackInfo
+kArgsLength	node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kArgsLength = 7;$/;"	m	class:FunctionCallbackInfo
+kArgsLength	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kArgsLength = 6;$/;"	m	class:PropertyCallbackInfoBase
+kArgsLength	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kArgsLength = 7;$/;"	m	class:FunctionCallbackInfo
+kCalleeIndex	node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kCalleeIndex = 5;$/;"	m	class:FunctionCallbackInfo
+kCalleeIndex	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kCalleeIndex = 5;$/;"	m	class:FunctionCallbackInfo
+kContextSaveIndex	node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kContextSaveIndex = 6;$/;"	m	class:FunctionCallbackInfo
+kContextSaveIndex	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kContextSaveIndex = 6;$/;"	m	class:FunctionCallbackInfo
+kDataIndex	node_modules/nan/nan_callbacks.h	/^static const int kDataIndex =                    0;$/;"	m	namespace:imp
+kDataIndex	node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kDataIndex = 4;$/;"	m	class:FunctionCallbackInfo
+kDataIndex	node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kDataIndex = 4;$/;"	m	class:PropertyCallbackInfo
+kDataIndex	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kDataIndex = 4;$/;"	m	class:FunctionCallbackInfo
+kDataIndex	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kDataIndex = 4;$/;"	m	class:PropertyCallbackInfoBase
+kFunctionFieldCount	node_modules/nan/nan_callbacks.h	/^static const int kFunctionFieldCount =           2;$/;"	m	namespace:imp
+kFunctionIndex	node_modules/nan/nan_callbacks.h	/^static const int kFunctionIndex =                1;$/;"	m	namespace:imp
+kGetterIndex	node_modules/nan/nan_callbacks.h	/^static const int kGetterIndex =                  1;$/;"	m	namespace:imp
+kHolderIndex	node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kHolderIndex = 0;$/;"	m	class:FunctionCallbackInfo
+kHolderIndex	node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kHolderIndex = 0;$/;"	m	class:PropertyCallbackInfo
+kHolderIndex	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kHolderIndex = 0;$/;"	m	class:FunctionCallbackInfo
+kHolderIndex	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kHolderIndex = 0;$/;"	m	class:PropertyCallbackInfoBase
+kIndexPropertyDeleterIndex	node_modules/nan/nan_callbacks.h	/^static const int kIndexPropertyDeleterIndex =    4;$/;"	m	namespace:imp
+kIndexPropertyEnumeratorIndex	node_modules/nan/nan_callbacks.h	/^static const int kIndexPropertyEnumeratorIndex = 3;$/;"	m	namespace:imp
+kIndexPropertyFieldCount	node_modules/nan/nan_callbacks.h	/^static const int kIndexPropertyFieldCount =      6;$/;"	m	namespace:imp
+kIndexPropertyGetterIndex	node_modules/nan/nan_callbacks.h	/^static const int kIndexPropertyGetterIndex =     1;$/;"	m	namespace:imp
+kIndexPropertyQueryIndex	node_modules/nan/nan_callbacks.h	/^static const int kIndexPropertyQueryIndex =      5;$/;"	m	namespace:imp
+kIndexPropertySetterIndex	node_modules/nan/nan_callbacks.h	/^static const int kIndexPropertySetterIndex =     2;$/;"	m	namespace:imp
+kInternalFields	node_modules/nan/nan.h	/^  enum E {kParameter, kInternalFields};$/;"	e	enum:Nan::WeakCallbackType::E
+kInternalFieldsInWeakCallback	node_modules/nan/nan_weak.h	/^static const int kInternalFieldsInWeakCallback = 2;$/;"	v
+kIsolateIndex	node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kIsolateIndex = 1;$/;"	m	class:FunctionCallbackInfo
+kIsolateIndex	node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kIsolateIndex = 1;$/;"	m	class:PropertyCallbackInfo
+kIsolateIndex	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kIsolateIndex = 1;$/;"	m	class:FunctionCallbackInfo
+kIsolateIndex	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kIsolateIndex = 1;$/;"	m	class:PropertyCallbackInfoBase
+kMaxLength	node_modules/nan/nan.h	/^  static const size_t kMaxLength = 0x3fffffff;$/;"	m	namespace:Nan::imp
+kNoInternalFieldIndex	node_modules/nan/nan_weak.h	/^static const int kNoInternalFieldIndex = -1;$/;"	v
+kParameter	node_modules/nan/nan.h	/^  enum E {kParameter, kInternalFields};$/;"	e	enum:Nan::WeakCallbackType::E
+kPropertyDeleterIndex	node_modules/nan/nan_callbacks.h	/^static const int kPropertyDeleterIndex =         4;$/;"	m	namespace:imp
+kPropertyEnumeratorIndex	node_modules/nan/nan_callbacks.h	/^static const int kPropertyEnumeratorIndex =      3;$/;"	m	namespace:imp
+kPropertyFieldCount	node_modules/nan/nan_callbacks.h	/^static const int kPropertyFieldCount =           6;$/;"	m	namespace:imp
+kPropertyGetterIndex	node_modules/nan/nan_callbacks.h	/^static const int kPropertyGetterIndex =          1;$/;"	m	namespace:imp
+kPropertyQueryIndex	node_modules/nan/nan_callbacks.h	/^static const int kPropertyQueryIndex =           5;$/;"	m	namespace:imp
+kPropertySetterIndex	node_modules/nan/nan_callbacks.h	/^static const int kPropertySetterIndex =          2;$/;"	m	namespace:imp
+kReplaceInvalidUtf8	node_modules/nan/nan.h	/^  static const unsigned kReplaceInvalidUtf8 = 0;$/;"	m	namespace:Nan::imp
+kReplaceInvalidUtf8	node_modules/nan/nan.h	/^  static const unsigned kReplaceInvalidUtf8 = v8::String::REPLACE_INVALID_UTF8;$/;"	m	namespace:Nan::imp
+kResetInDestructor	node_modules/nan/nan_persistent_pre_12_inl.h	/^  static const bool kResetInDestructor = false;$/;"	m	class:NonCopyablePersistentTraits
+kResetInDestructor	node_modules/nan/nan_persistent_pre_12_inl.h	/^  static const bool kResetInDestructor = true;$/;"	m	struct:CopyablePersistentTraits
+kReturnValueDefaultValueIndex	node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kReturnValueDefaultValueIndex = 2;$/;"	m	class:FunctionCallbackInfo
+kReturnValueDefaultValueIndex	node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kReturnValueDefaultValueIndex = 2;$/;"	m	class:PropertyCallbackInfo
+kReturnValueDefaultValueIndex	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kReturnValueDefaultValueIndex = 2;$/;"	m	class:FunctionCallbackInfo
+kReturnValueDefaultValueIndex	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kReturnValueDefaultValueIndex = 2;$/;"	m	class:PropertyCallbackInfoBase
+kReturnValueIndex	node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kReturnValueIndex = 3;$/;"	m	class:FunctionCallbackInfo
+kReturnValueIndex	node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kReturnValueIndex = 3;$/;"	m	class:PropertyCallbackInfo
+kReturnValueIndex	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kReturnValueIndex = 3;$/;"	m	class:FunctionCallbackInfo
+kReturnValueIndex	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kReturnValueIndex = 3;$/;"	m	class:PropertyCallbackInfoBase
+kSetterIndex	node_modules/nan/nan_callbacks.h	/^static const int kSetterIndex =                  2;$/;"	m	namespace:imp
+kThisIndex	node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kThisIndex = 5;$/;"	m	class:PropertyCallbackInfo
+kThisIndex	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kThisIndex = 5;$/;"	m	class:PropertyCallbackInfoBase
+length	node_modules/nan/nan.h	/^  inline int length() const {$/;"	f	class:Nan::Utf8String
+length	node_modules/nan/nan_typedarray_contents.h	/^  inline size_t length() const      { return length_; }$/;"	f	class:TypedArrayContents
+length_	node_modules/nan/nan.h	/^  int length_;$/;"	m	class:Nan::Utf8String
+length_	node_modules/nan/nan_typedarray_contents.h	/^  size_t  length_;$/;"	m	class:TypedArrayContents
+less	Enclave/TrustedLibrary/Thread.cpp	/^    sgx_thread_cond_t less;$/;"	m	struct:__anon1	file:
+main	main.cpp	/^int main() {$/;"	f
+more	Enclave/TrustedLibrary/Thread.cpp	/^    sgx_thread_cond_t more;$/;"	m	struct:__anon1	file:
+ms_arr	App/Enclave_u.c	/^	array_t*  ms_arr;$/;"	m	struct:ms_ecall_array_isary_t	file:
+ms_arr	App/Enclave_u.c	/^	int* ms_arr;$/;"	m	struct:ms_ecall_array_in_out_t	file:
+ms_arr	App/Enclave_u.c	/^	int* ms_arr;$/;"	m	struct:ms_ecall_array_in_t	file:
+ms_arr	App/Enclave_u.c	/^	int* ms_arr;$/;"	m	struct:ms_ecall_array_out_t	file:
+ms_arr	App/Enclave_u.c	/^	int* ms_arr;$/;"	m	struct:ms_ecall_array_user_check_t	file:
+ms_arr	App/Enclave_u.c	/^	int* ms_arr;$/;"	m	struct:ms_ecall_pointer_count_t	file:
+ms_arr	Enclave/Enclave_t.c	/^	array_t*  ms_arr;$/;"	m	struct:ms_ecall_array_isary_t	file:
+ms_arr	Enclave/Enclave_t.c	/^	int* ms_arr;$/;"	m	struct:ms_ecall_array_in_out_t	file:
+ms_arr	Enclave/Enclave_t.c	/^	int* ms_arr;$/;"	m	struct:ms_ecall_array_in_t	file:
+ms_arr	Enclave/Enclave_t.c	/^	int* ms_arr;$/;"	m	struct:ms_ecall_array_out_t	file:
+ms_arr	Enclave/Enclave_t.c	/^	int* ms_arr;$/;"	m	struct:ms_ecall_array_user_check_t	file:
+ms_arr	Enclave/Enclave_t.c	/^	int* ms_arr;$/;"	m	struct:ms_ecall_pointer_count_t	file:
+ms_buf	App/Enclave_u.c	/^	buffer_t ms_buf;$/;"	m	struct:ms_ecall_pointer_isptr_readonly_t	file:
+ms_buf	Enclave/Enclave_t.c	/^	buffer_t ms_buf;$/;"	m	struct:ms_ecall_pointer_isptr_readonly_t	file:
+ms_cnt	App/Enclave_u.c	/^	size_t ms_cnt;$/;"	m	struct:ms_ecall_pointer_count_t	file:
+ms_cnt	Enclave/Enclave_t.c	/^	size_t ms_cnt;$/;"	m	struct:ms_ecall_pointer_count_t	file:
+ms_cpuinfo	App/Enclave_u.c	/^	int* ms_cpuinfo;$/;"	m	struct:ms_sgx_oc_cpuidex_t	file:
+ms_cpuinfo	Enclave/Enclave_t.c	/^	int* ms_cpuinfo;$/;"	m	struct:ms_sgx_oc_cpuidex_t	file:
+ms_ecall_array_in_out_t	App/Enclave_u.c	/^typedef struct ms_ecall_array_in_out_t {$/;"	s	file:
+ms_ecall_array_in_out_t	App/Enclave_u.c	/^} ms_ecall_array_in_out_t;$/;"	t	typeref:struct:ms_ecall_array_in_out_t	file:
+ms_ecall_array_in_out_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_array_in_out_t {$/;"	s	file:
+ms_ecall_array_in_out_t	Enclave/Enclave_t.c	/^} ms_ecall_array_in_out_t;$/;"	t	typeref:struct:ms_ecall_array_in_out_t	file:
+ms_ecall_array_in_t	App/Enclave_u.c	/^typedef struct ms_ecall_array_in_t {$/;"	s	file:
+ms_ecall_array_in_t	App/Enclave_u.c	/^} ms_ecall_array_in_t;$/;"	t	typeref:struct:ms_ecall_array_in_t	file:
+ms_ecall_array_in_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_array_in_t {$/;"	s	file:
+ms_ecall_array_in_t	Enclave/Enclave_t.c	/^} ms_ecall_array_in_t;$/;"	t	typeref:struct:ms_ecall_array_in_t	file:
+ms_ecall_array_isary_t	App/Enclave_u.c	/^typedef struct ms_ecall_array_isary_t {$/;"	s	file:
+ms_ecall_array_isary_t	App/Enclave_u.c	/^} ms_ecall_array_isary_t;$/;"	t	typeref:struct:ms_ecall_array_isary_t	file:
+ms_ecall_array_isary_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_array_isary_t {$/;"	s	file:
+ms_ecall_array_isary_t	Enclave/Enclave_t.c	/^} ms_ecall_array_isary_t;$/;"	t	typeref:struct:ms_ecall_array_isary_t	file:
+ms_ecall_array_out_t	App/Enclave_u.c	/^typedef struct ms_ecall_array_out_t {$/;"	s	file:
+ms_ecall_array_out_t	App/Enclave_u.c	/^} ms_ecall_array_out_t;$/;"	t	typeref:struct:ms_ecall_array_out_t	file:
+ms_ecall_array_out_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_array_out_t {$/;"	s	file:
+ms_ecall_array_out_t	Enclave/Enclave_t.c	/^} ms_ecall_array_out_t;$/;"	t	typeref:struct:ms_ecall_array_out_t	file:
+ms_ecall_array_user_check_t	App/Enclave_u.c	/^typedef struct ms_ecall_array_user_check_t {$/;"	s	file:
+ms_ecall_array_user_check_t	App/Enclave_u.c	/^} ms_ecall_array_user_check_t;$/;"	t	typeref:struct:ms_ecall_array_user_check_t	file:
+ms_ecall_array_user_check_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_array_user_check_t {$/;"	s	file:
+ms_ecall_array_user_check_t	Enclave/Enclave_t.c	/^} ms_ecall_array_user_check_t;$/;"	t	typeref:struct:ms_ecall_array_user_check_t	file:
+ms_ecall_function_private_t	App/Enclave_u.c	/^typedef struct ms_ecall_function_private_t {$/;"	s	file:
+ms_ecall_function_private_t	App/Enclave_u.c	/^} ms_ecall_function_private_t;$/;"	t	typeref:struct:ms_ecall_function_private_t	file:
+ms_ecall_function_private_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_function_private_t {$/;"	s	file:
+ms_ecall_function_private_t	Enclave/Enclave_t.c	/^} ms_ecall_function_private_t;$/;"	t	typeref:struct:ms_ecall_function_private_t	file:
+ms_ecall_increase_counter_t	App/Enclave_u.c	/^typedef struct ms_ecall_increase_counter_t {$/;"	s	file:
+ms_ecall_increase_counter_t	App/Enclave_u.c	/^} ms_ecall_increase_counter_t;$/;"	t	typeref:struct:ms_ecall_increase_counter_t	file:
+ms_ecall_increase_counter_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_increase_counter_t {$/;"	s	file:
+ms_ecall_increase_counter_t	Enclave/Enclave_t.c	/^} ms_ecall_increase_counter_t;$/;"	t	typeref:struct:ms_ecall_increase_counter_t	file:
+ms_ecall_pointer_count_t	App/Enclave_u.c	/^typedef struct ms_ecall_pointer_count_t {$/;"	s	file:
+ms_ecall_pointer_count_t	App/Enclave_u.c	/^} ms_ecall_pointer_count_t;$/;"	t	typeref:struct:ms_ecall_pointer_count_t	file:
+ms_ecall_pointer_count_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_pointer_count_t {$/;"	s	file:
+ms_ecall_pointer_count_t	Enclave/Enclave_t.c	/^} ms_ecall_pointer_count_t;$/;"	t	typeref:struct:ms_ecall_pointer_count_t	file:
+ms_ecall_pointer_in_out_t	App/Enclave_u.c	/^typedef struct ms_ecall_pointer_in_out_t {$/;"	s	file:
+ms_ecall_pointer_in_out_t	App/Enclave_u.c	/^} ms_ecall_pointer_in_out_t;$/;"	t	typeref:struct:ms_ecall_pointer_in_out_t	file:
+ms_ecall_pointer_in_out_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_pointer_in_out_t {$/;"	s	file:
+ms_ecall_pointer_in_out_t	Enclave/Enclave_t.c	/^} ms_ecall_pointer_in_out_t;$/;"	t	typeref:struct:ms_ecall_pointer_in_out_t	file:
+ms_ecall_pointer_in_t	App/Enclave_u.c	/^typedef struct ms_ecall_pointer_in_t {$/;"	s	file:
+ms_ecall_pointer_in_t	App/Enclave_u.c	/^} ms_ecall_pointer_in_t;$/;"	t	typeref:struct:ms_ecall_pointer_in_t	file:
+ms_ecall_pointer_in_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_pointer_in_t {$/;"	s	file:
+ms_ecall_pointer_in_t	Enclave/Enclave_t.c	/^} ms_ecall_pointer_in_t;$/;"	t	typeref:struct:ms_ecall_pointer_in_t	file:
+ms_ecall_pointer_isptr_readonly_t	App/Enclave_u.c	/^typedef struct ms_ecall_pointer_isptr_readonly_t {$/;"	s	file:
+ms_ecall_pointer_isptr_readonly_t	App/Enclave_u.c	/^} ms_ecall_pointer_isptr_readonly_t;$/;"	t	typeref:struct:ms_ecall_pointer_isptr_readonly_t	file:
+ms_ecall_pointer_isptr_readonly_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_pointer_isptr_readonly_t {$/;"	s	file:
+ms_ecall_pointer_isptr_readonly_t	Enclave/Enclave_t.c	/^} ms_ecall_pointer_isptr_readonly_t;$/;"	t	typeref:struct:ms_ecall_pointer_isptr_readonly_t	file:
+ms_ecall_pointer_out_t	App/Enclave_u.c	/^typedef struct ms_ecall_pointer_out_t {$/;"	s	file:
+ms_ecall_pointer_out_t	App/Enclave_u.c	/^} ms_ecall_pointer_out_t;$/;"	t	typeref:struct:ms_ecall_pointer_out_t	file:
+ms_ecall_pointer_out_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_pointer_out_t {$/;"	s	file:
+ms_ecall_pointer_out_t	Enclave/Enclave_t.c	/^} ms_ecall_pointer_out_t;$/;"	t	typeref:struct:ms_ecall_pointer_out_t	file:
+ms_ecall_pointer_size_t	App/Enclave_u.c	/^typedef struct ms_ecall_pointer_size_t {$/;"	s	file:
+ms_ecall_pointer_size_t	App/Enclave_u.c	/^} ms_ecall_pointer_size_t;$/;"	t	typeref:struct:ms_ecall_pointer_size_t	file:
+ms_ecall_pointer_size_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_pointer_size_t {$/;"	s	file:
+ms_ecall_pointer_size_t	Enclave/Enclave_t.c	/^} ms_ecall_pointer_size_t;$/;"	t	typeref:struct:ms_ecall_pointer_size_t	file:
+ms_ecall_pointer_string_const_t	App/Enclave_u.c	/^typedef struct ms_ecall_pointer_string_const_t {$/;"	s	file:
+ms_ecall_pointer_string_const_t	App/Enclave_u.c	/^} ms_ecall_pointer_string_const_t;$/;"	t	typeref:struct:ms_ecall_pointer_string_const_t	file:
+ms_ecall_pointer_string_const_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_pointer_string_const_t {$/;"	s	file:
+ms_ecall_pointer_string_const_t	Enclave/Enclave_t.c	/^} ms_ecall_pointer_string_const_t;$/;"	t	typeref:struct:ms_ecall_pointer_string_const_t	file:
+ms_ecall_pointer_string_t	App/Enclave_u.c	/^typedef struct ms_ecall_pointer_string_t {$/;"	s	file:
+ms_ecall_pointer_string_t	App/Enclave_u.c	/^} ms_ecall_pointer_string_t;$/;"	t	typeref:struct:ms_ecall_pointer_string_t	file:
+ms_ecall_pointer_string_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_pointer_string_t {$/;"	s	file:
+ms_ecall_pointer_string_t	Enclave/Enclave_t.c	/^} ms_ecall_pointer_string_t;$/;"	t	typeref:struct:ms_ecall_pointer_string_t	file:
+ms_ecall_pointer_user_check_t	App/Enclave_u.c	/^typedef struct ms_ecall_pointer_user_check_t {$/;"	s	file:
+ms_ecall_pointer_user_check_t	App/Enclave_u.c	/^} ms_ecall_pointer_user_check_t;$/;"	t	typeref:struct:ms_ecall_pointer_user_check_t	file:
+ms_ecall_pointer_user_check_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_pointer_user_check_t {$/;"	s	file:
+ms_ecall_pointer_user_check_t	Enclave/Enclave_t.c	/^} ms_ecall_pointer_user_check_t;$/;"	t	typeref:struct:ms_ecall_pointer_user_check_t	file:
+ms_ecall_sgx_cpuid_t	App/Enclave_u.c	/^typedef struct ms_ecall_sgx_cpuid_t {$/;"	s	file:
+ms_ecall_sgx_cpuid_t	App/Enclave_u.c	/^} ms_ecall_sgx_cpuid_t;$/;"	t	typeref:struct:ms_ecall_sgx_cpuid_t	file:
+ms_ecall_sgx_cpuid_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_sgx_cpuid_t {$/;"	s	file:
+ms_ecall_sgx_cpuid_t	Enclave/Enclave_t.c	/^} ms_ecall_sgx_cpuid_t;$/;"	t	typeref:struct:ms_ecall_sgx_cpuid_t	file:
+ms_ecall_type_char_t	App/Enclave_u.c	/^typedef struct ms_ecall_type_char_t {$/;"	s	file:
+ms_ecall_type_char_t	App/Enclave_u.c	/^} ms_ecall_type_char_t;$/;"	t	typeref:struct:ms_ecall_type_char_t	file:
+ms_ecall_type_char_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_type_char_t {$/;"	s	file:
+ms_ecall_type_char_t	Enclave/Enclave_t.c	/^} ms_ecall_type_char_t;$/;"	t	typeref:struct:ms_ecall_type_char_t	file:
+ms_ecall_type_double_t	App/Enclave_u.c	/^typedef struct ms_ecall_type_double_t {$/;"	s	file:
+ms_ecall_type_double_t	App/Enclave_u.c	/^} ms_ecall_type_double_t;$/;"	t	typeref:struct:ms_ecall_type_double_t	file:
+ms_ecall_type_double_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_type_double_t {$/;"	s	file:
+ms_ecall_type_double_t	Enclave/Enclave_t.c	/^} ms_ecall_type_double_t;$/;"	t	typeref:struct:ms_ecall_type_double_t	file:
+ms_ecall_type_enum_union_t	App/Enclave_u.c	/^typedef struct ms_ecall_type_enum_union_t {$/;"	s	file:
+ms_ecall_type_enum_union_t	App/Enclave_u.c	/^} ms_ecall_type_enum_union_t;$/;"	t	typeref:struct:ms_ecall_type_enum_union_t	file:
+ms_ecall_type_enum_union_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_type_enum_union_t {$/;"	s	file:
+ms_ecall_type_enum_union_t	Enclave/Enclave_t.c	/^} ms_ecall_type_enum_union_t;$/;"	t	typeref:struct:ms_ecall_type_enum_union_t	file:
+ms_ecall_type_float_t	App/Enclave_u.c	/^typedef struct ms_ecall_type_float_t {$/;"	s	file:
+ms_ecall_type_float_t	App/Enclave_u.c	/^} ms_ecall_type_float_t;$/;"	t	typeref:struct:ms_ecall_type_float_t	file:
+ms_ecall_type_float_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_type_float_t {$/;"	s	file:
+ms_ecall_type_float_t	Enclave/Enclave_t.c	/^} ms_ecall_type_float_t;$/;"	t	typeref:struct:ms_ecall_type_float_t	file:
+ms_ecall_type_int_t	App/Enclave_u.c	/^typedef struct ms_ecall_type_int_t {$/;"	s	file:
+ms_ecall_type_int_t	App/Enclave_u.c	/^} ms_ecall_type_int_t;$/;"	t	typeref:struct:ms_ecall_type_int_t	file:
+ms_ecall_type_int_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_type_int_t {$/;"	s	file:
+ms_ecall_type_int_t	Enclave/Enclave_t.c	/^} ms_ecall_type_int_t;$/;"	t	typeref:struct:ms_ecall_type_int_t	file:
+ms_ecall_type_size_t_t	App/Enclave_u.c	/^typedef struct ms_ecall_type_size_t_t {$/;"	s	file:
+ms_ecall_type_size_t_t	App/Enclave_u.c	/^} ms_ecall_type_size_t_t;$/;"	t	typeref:struct:ms_ecall_type_size_t_t	file:
+ms_ecall_type_size_t_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_type_size_t_t {$/;"	s	file:
+ms_ecall_type_size_t_t	Enclave/Enclave_t.c	/^} ms_ecall_type_size_t_t;$/;"	t	typeref:struct:ms_ecall_type_size_t_t	file:
+ms_ecall_type_struct_t	App/Enclave_u.c	/^typedef struct ms_ecall_type_struct_t {$/;"	s	file:
+ms_ecall_type_struct_t	App/Enclave_u.c	/^} ms_ecall_type_struct_t;$/;"	t	typeref:struct:ms_ecall_type_struct_t	file:
+ms_ecall_type_struct_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_type_struct_t {$/;"	s	file:
+ms_ecall_type_struct_t	Enclave/Enclave_t.c	/^} ms_ecall_type_struct_t;$/;"	t	typeref:struct:ms_ecall_type_struct_t	file:
+ms_ecall_type_wchar_t_t	App/Enclave_u.c	/^typedef struct ms_ecall_type_wchar_t_t {$/;"	s	file:
+ms_ecall_type_wchar_t_t	App/Enclave_u.c	/^} ms_ecall_type_wchar_t_t;$/;"	t	typeref:struct:ms_ecall_type_wchar_t_t	file:
+ms_ecall_type_wchar_t_t	Enclave/Enclave_t.c	/^typedef struct ms_ecall_type_wchar_t_t {$/;"	s	file:
+ms_ecall_type_wchar_t_t	Enclave/Enclave_t.c	/^} ms_ecall_type_wchar_t_t;$/;"	t	typeref:struct:ms_ecall_type_wchar_t_t	file:
+ms_leaf	App/Enclave_u.c	/^	int ms_leaf;$/;"	m	struct:ms_sgx_oc_cpuidex_t	file:
+ms_leaf	Enclave/Enclave_t.c	/^	int ms_leaf;$/;"	m	struct:ms_sgx_oc_cpuidex_t	file:
+ms_len	App/Enclave_u.c	/^	size_t ms_len;$/;"	m	struct:ms_ecall_pointer_isptr_readonly_t	file:
+ms_len	App/Enclave_u.c	/^	size_t ms_len;$/;"	m	struct:ms_ecall_pointer_size_t	file:
+ms_len	Enclave/Enclave_t.c	/^	size_t ms_len;$/;"	m	struct:ms_ecall_pointer_isptr_readonly_t	file:
+ms_len	Enclave/Enclave_t.c	/^	size_t ms_len;$/;"	m	struct:ms_ecall_pointer_size_t	file:
+ms_ocall_pointer_in_out_t	App/Enclave_u.c	/^typedef struct ms_ocall_pointer_in_out_t {$/;"	s	file:
+ms_ocall_pointer_in_out_t	App/Enclave_u.c	/^} ms_ocall_pointer_in_out_t;$/;"	t	typeref:struct:ms_ocall_pointer_in_out_t	file:
+ms_ocall_pointer_in_out_t	Enclave/Enclave_t.c	/^typedef struct ms_ocall_pointer_in_out_t {$/;"	s	file:
+ms_ocall_pointer_in_out_t	Enclave/Enclave_t.c	/^} ms_ocall_pointer_in_out_t;$/;"	t	typeref:struct:ms_ocall_pointer_in_out_t	file:
+ms_ocall_pointer_in_t	App/Enclave_u.c	/^typedef struct ms_ocall_pointer_in_t {$/;"	s	file:
+ms_ocall_pointer_in_t	App/Enclave_u.c	/^} ms_ocall_pointer_in_t;$/;"	t	typeref:struct:ms_ocall_pointer_in_t	file:
+ms_ocall_pointer_in_t	Enclave/Enclave_t.c	/^typedef struct ms_ocall_pointer_in_t {$/;"	s	file:
+ms_ocall_pointer_in_t	Enclave/Enclave_t.c	/^} ms_ocall_pointer_in_t;$/;"	t	typeref:struct:ms_ocall_pointer_in_t	file:
+ms_ocall_pointer_out_t	App/Enclave_u.c	/^typedef struct ms_ocall_pointer_out_t {$/;"	s	file:
+ms_ocall_pointer_out_t	App/Enclave_u.c	/^} ms_ocall_pointer_out_t;$/;"	t	typeref:struct:ms_ocall_pointer_out_t	file:
+ms_ocall_pointer_out_t	Enclave/Enclave_t.c	/^typedef struct ms_ocall_pointer_out_t {$/;"	s	file:
+ms_ocall_pointer_out_t	Enclave/Enclave_t.c	/^} ms_ocall_pointer_out_t;$/;"	t	typeref:struct:ms_ocall_pointer_out_t	file:
+ms_ocall_pointer_user_check_t	App/Enclave_u.c	/^typedef struct ms_ocall_pointer_user_check_t {$/;"	s	file:
+ms_ocall_pointer_user_check_t	App/Enclave_u.c	/^} ms_ocall_pointer_user_check_t;$/;"	t	typeref:struct:ms_ocall_pointer_user_check_t	file:
+ms_ocall_pointer_user_check_t	Enclave/Enclave_t.c	/^typedef struct ms_ocall_pointer_user_check_t {$/;"	s	file:
+ms_ocall_pointer_user_check_t	Enclave/Enclave_t.c	/^} ms_ocall_pointer_user_check_t;$/;"	t	typeref:struct:ms_ocall_pointer_user_check_t	file:
+ms_ocall_print_string_t	App/Enclave_u.c	/^typedef struct ms_ocall_print_string_t {$/;"	s	file:
+ms_ocall_print_string_t	App/Enclave_u.c	/^} ms_ocall_print_string_t;$/;"	t	typeref:struct:ms_ocall_print_string_t	file:
+ms_ocall_print_string_t	Enclave/Enclave_t.c	/^typedef struct ms_ocall_print_string_t {$/;"	s	file:
+ms_ocall_print_string_t	Enclave/Enclave_t.c	/^} ms_ocall_print_string_t;$/;"	t	typeref:struct:ms_ocall_print_string_t	file:
+ms_ptr	App/Enclave_u.c	/^	void* ms_ptr;$/;"	m	struct:ms_ecall_pointer_size_t	file:
+ms_ptr	Enclave/Enclave_t.c	/^	void* ms_ptr;$/;"	m	struct:ms_ecall_pointer_size_t	file:
+ms_retval	App/Enclave_u.c	/^	int ms_retval;$/;"	m	struct:ms_ecall_function_private_t	file:
+ms_retval	App/Enclave_u.c	/^	int ms_retval;$/;"	m	struct:ms_sgx_thread_set_multiple_untrusted_events_ocall_t	file:
+ms_retval	App/Enclave_u.c	/^	int ms_retval;$/;"	m	struct:ms_sgx_thread_set_untrusted_event_ocall_t	file:
+ms_retval	App/Enclave_u.c	/^	int ms_retval;$/;"	m	struct:ms_sgx_thread_setwait_untrusted_events_ocall_t	file:
+ms_retval	App/Enclave_u.c	/^	int ms_retval;$/;"	m	struct:ms_sgx_thread_wait_untrusted_event_ocall_t	file:
+ms_retval	App/Enclave_u.c	/^	size_t ms_retval;$/;"	m	struct:ms_ecall_increase_counter_t	file:
+ms_retval	App/Enclave_u.c	/^	size_t ms_retval;$/;"	m	struct:ms_ecall_pointer_user_check_t	file:
+ms_retval	App/Enclave_u.c	/^	uint32_t ms_retval;$/;"	m	struct:ms_ecall_sgx_cpuid_t	file:
+ms_retval	Enclave/Enclave_t.c	/^	int ms_retval;$/;"	m	struct:ms_ecall_function_private_t	file:
+ms_retval	Enclave/Enclave_t.c	/^	int ms_retval;$/;"	m	struct:ms_sgx_thread_set_multiple_untrusted_events_ocall_t	file:
+ms_retval	Enclave/Enclave_t.c	/^	int ms_retval;$/;"	m	struct:ms_sgx_thread_set_untrusted_event_ocall_t	file:
+ms_retval	Enclave/Enclave_t.c	/^	int ms_retval;$/;"	m	struct:ms_sgx_thread_setwait_untrusted_events_ocall_t	file:
+ms_retval	Enclave/Enclave_t.c	/^	int ms_retval;$/;"	m	struct:ms_sgx_thread_wait_untrusted_event_ocall_t	file:
+ms_retval	Enclave/Enclave_t.c	/^	size_t ms_retval;$/;"	m	struct:ms_ecall_increase_counter_t	file:
+ms_retval	Enclave/Enclave_t.c	/^	size_t ms_retval;$/;"	m	struct:ms_ecall_pointer_user_check_t	file:
+ms_retval	Enclave/Enclave_t.c	/^	uint32_t ms_retval;$/;"	m	struct:ms_ecall_sgx_cpuid_t	file:
+ms_self	App/Enclave_u.c	/^	const void* ms_self;$/;"	m	struct:ms_sgx_thread_setwait_untrusted_events_ocall_t	file:
+ms_self	App/Enclave_u.c	/^	const void* ms_self;$/;"	m	struct:ms_sgx_thread_wait_untrusted_event_ocall_t	file:
+ms_self	Enclave/Enclave_t.c	/^	const void* ms_self;$/;"	m	struct:ms_sgx_thread_setwait_untrusted_events_ocall_t	file:
+ms_self	Enclave/Enclave_t.c	/^	const void* ms_self;$/;"	m	struct:ms_sgx_thread_wait_untrusted_event_ocall_t	file:
+ms_sgx_oc_cpuidex_t	App/Enclave_u.c	/^typedef struct ms_sgx_oc_cpuidex_t {$/;"	s	file:
+ms_sgx_oc_cpuidex_t	App/Enclave_u.c	/^} ms_sgx_oc_cpuidex_t;$/;"	t	typeref:struct:ms_sgx_oc_cpuidex_t	file:
+ms_sgx_oc_cpuidex_t	Enclave/Enclave_t.c	/^typedef struct ms_sgx_oc_cpuidex_t {$/;"	s	file:
+ms_sgx_oc_cpuidex_t	Enclave/Enclave_t.c	/^} ms_sgx_oc_cpuidex_t;$/;"	t	typeref:struct:ms_sgx_oc_cpuidex_t	file:
+ms_sgx_thread_set_multiple_untrusted_events_ocall_t	App/Enclave_u.c	/^typedef struct ms_sgx_thread_set_multiple_untrusted_events_ocall_t {$/;"	s	file:
+ms_sgx_thread_set_multiple_untrusted_events_ocall_t	App/Enclave_u.c	/^} ms_sgx_thread_set_multiple_untrusted_events_ocall_t;$/;"	t	typeref:struct:ms_sgx_thread_set_multiple_untrusted_events_ocall_t	file:
+ms_sgx_thread_set_multiple_untrusted_events_ocall_t	Enclave/Enclave_t.c	/^typedef struct ms_sgx_thread_set_multiple_untrusted_events_ocall_t {$/;"	s	file:
+ms_sgx_thread_set_multiple_untrusted_events_ocall_t	Enclave/Enclave_t.c	/^} ms_sgx_thread_set_multiple_untrusted_events_ocall_t;$/;"	t	typeref:struct:ms_sgx_thread_set_multiple_untrusted_events_ocall_t	file:
+ms_sgx_thread_set_untrusted_event_ocall_t	App/Enclave_u.c	/^typedef struct ms_sgx_thread_set_untrusted_event_ocall_t {$/;"	s	file:
+ms_sgx_thread_set_untrusted_event_ocall_t	App/Enclave_u.c	/^} ms_sgx_thread_set_untrusted_event_ocall_t;$/;"	t	typeref:struct:ms_sgx_thread_set_untrusted_event_ocall_t	file:
+ms_sgx_thread_set_untrusted_event_ocall_t	Enclave/Enclave_t.c	/^typedef struct ms_sgx_thread_set_untrusted_event_ocall_t {$/;"	s	file:
+ms_sgx_thread_set_untrusted_event_ocall_t	Enclave/Enclave_t.c	/^} ms_sgx_thread_set_untrusted_event_ocall_t;$/;"	t	typeref:struct:ms_sgx_thread_set_untrusted_event_ocall_t	file:
+ms_sgx_thread_setwait_untrusted_events_ocall_t	App/Enclave_u.c	/^typedef struct ms_sgx_thread_setwait_untrusted_events_ocall_t {$/;"	s	file:
+ms_sgx_thread_setwait_untrusted_events_ocall_t	App/Enclave_u.c	/^} ms_sgx_thread_setwait_untrusted_events_ocall_t;$/;"	t	typeref:struct:ms_sgx_thread_setwait_untrusted_events_ocall_t	file:
+ms_sgx_thread_setwait_untrusted_events_ocall_t	Enclave/Enclave_t.c	/^typedef struct ms_sgx_thread_setwait_untrusted_events_ocall_t {$/;"	s	file:
+ms_sgx_thread_setwait_untrusted_events_ocall_t	Enclave/Enclave_t.c	/^} ms_sgx_thread_setwait_untrusted_events_ocall_t;$/;"	t	typeref:struct:ms_sgx_thread_setwait_untrusted_events_ocall_t	file:
+ms_sgx_thread_wait_untrusted_event_ocall_t	App/Enclave_u.c	/^typedef struct ms_sgx_thread_wait_untrusted_event_ocall_t {$/;"	s	file:
+ms_sgx_thread_wait_untrusted_event_ocall_t	App/Enclave_u.c	/^} ms_sgx_thread_wait_untrusted_event_ocall_t;$/;"	t	typeref:struct:ms_sgx_thread_wait_untrusted_event_ocall_t	file:
+ms_sgx_thread_wait_untrusted_event_ocall_t	Enclave/Enclave_t.c	/^typedef struct ms_sgx_thread_wait_untrusted_event_ocall_t {$/;"	s	file:
+ms_sgx_thread_wait_untrusted_event_ocall_t	Enclave/Enclave_t.c	/^} ms_sgx_thread_wait_untrusted_event_ocall_t;$/;"	t	typeref:struct:ms_sgx_thread_wait_untrusted_event_ocall_t	file:
+ms_str	App/Enclave_u.c	/^	char* ms_str;$/;"	m	struct:ms_ecall_pointer_string_t	file:
+ms_str	App/Enclave_u.c	/^	const char* ms_str;$/;"	m	struct:ms_ecall_pointer_string_const_t	file:
+ms_str	App/Enclave_u.c	/^	const char* ms_str;$/;"	m	struct:ms_ocall_print_string_t	file:
+ms_str	Enclave/Enclave_t.c	/^	char* ms_str;$/;"	m	struct:ms_ecall_pointer_string_t	file:
+ms_str	Enclave/Enclave_t.c	/^	const char* ms_str;$/;"	m	struct:ms_ecall_pointer_string_const_t	file:
+ms_str	Enclave/Enclave_t.c	/^	const char* ms_str;$/;"	m	struct:ms_ocall_print_string_t	file:
+ms_str_len	App/Enclave_u.c	/^	size_t ms_str_len;$/;"	m	struct:ms_ecall_pointer_string_const_t	file:
+ms_str_len	App/Enclave_u.c	/^	size_t ms_str_len;$/;"	m	struct:ms_ecall_pointer_string_t	file:
+ms_str_len	Enclave/Enclave_t.c	/^	size_t ms_str_len;$/;"	m	struct:ms_ecall_pointer_string_const_t	file:
+ms_str_len	Enclave/Enclave_t.c	/^	size_t ms_str_len;$/;"	m	struct:ms_ecall_pointer_string_t	file:
+ms_subleaf	App/Enclave_u.c	/^	int ms_subleaf;$/;"	m	struct:ms_sgx_oc_cpuidex_t	file:
+ms_subleaf	Enclave/Enclave_t.c	/^	int ms_subleaf;$/;"	m	struct:ms_sgx_oc_cpuidex_t	file:
+ms_sz	App/Enclave_u.c	/^	size_t ms_sz;$/;"	m	struct:ms_ecall_pointer_user_check_t	file:
+ms_sz	Enclave/Enclave_t.c	/^	size_t ms_sz;$/;"	m	struct:ms_ecall_pointer_user_check_t	file:
+ms_total	App/Enclave_u.c	/^	size_t ms_total;$/;"	m	struct:ms_sgx_thread_set_multiple_untrusted_events_ocall_t	file:
+ms_total	Enclave/Enclave_t.c	/^	size_t ms_total;$/;"	m	struct:ms_sgx_thread_set_multiple_untrusted_events_ocall_t	file:
+ms_val	App/Enclave_u.c	/^	char ms_val;$/;"	m	struct:ms_ecall_type_char_t	file:
+ms_val	App/Enclave_u.c	/^	double ms_val;$/;"	m	struct:ms_ecall_type_double_t	file:
+ms_val	App/Enclave_u.c	/^	float ms_val;$/;"	m	struct:ms_ecall_type_float_t	file:
+ms_val	App/Enclave_u.c	/^	int ms_val;$/;"	m	struct:ms_ecall_type_int_t	file:
+ms_val	App/Enclave_u.c	/^	int* ms_val;$/;"	m	struct:ms_ecall_pointer_in_out_t	file:
+ms_val	App/Enclave_u.c	/^	int* ms_val;$/;"	m	struct:ms_ecall_pointer_in_t	file:
+ms_val	App/Enclave_u.c	/^	int* ms_val;$/;"	m	struct:ms_ecall_pointer_out_t	file:
+ms_val	App/Enclave_u.c	/^	int* ms_val;$/;"	m	struct:ms_ocall_pointer_in_out_t	file:
+ms_val	App/Enclave_u.c	/^	int* ms_val;$/;"	m	struct:ms_ocall_pointer_in_t	file:
+ms_val	App/Enclave_u.c	/^	int* ms_val;$/;"	m	struct:ms_ocall_pointer_out_t	file:
+ms_val	App/Enclave_u.c	/^	int* ms_val;$/;"	m	struct:ms_ocall_pointer_user_check_t	file:
+ms_val	App/Enclave_u.c	/^	size_t ms_val;$/;"	m	struct:ms_ecall_type_size_t_t	file:
+ms_val	App/Enclave_u.c	/^	struct struct_foo_t ms_val;$/;"	m	struct:ms_ecall_type_struct_t	typeref:struct:ms_ecall_type_struct_t::struct_foo_t	file:
+ms_val	App/Enclave_u.c	/^	void* ms_val;$/;"	m	struct:ms_ecall_pointer_user_check_t	file:
+ms_val	App/Enclave_u.c	/^	wchar_t ms_val;$/;"	m	struct:ms_ecall_type_wchar_t_t	file:
+ms_val	Enclave/Enclave_t.c	/^	char ms_val;$/;"	m	struct:ms_ecall_type_char_t	file:
+ms_val	Enclave/Enclave_t.c	/^	double ms_val;$/;"	m	struct:ms_ecall_type_double_t	file:
+ms_val	Enclave/Enclave_t.c	/^	float ms_val;$/;"	m	struct:ms_ecall_type_float_t	file:
+ms_val	Enclave/Enclave_t.c	/^	int ms_val;$/;"	m	struct:ms_ecall_type_int_t	file:
+ms_val	Enclave/Enclave_t.c	/^	int* ms_val;$/;"	m	struct:ms_ecall_pointer_in_out_t	file:
+ms_val	Enclave/Enclave_t.c	/^	int* ms_val;$/;"	m	struct:ms_ecall_pointer_in_t	file:
+ms_val	Enclave/Enclave_t.c	/^	int* ms_val;$/;"	m	struct:ms_ecall_pointer_out_t	file:
+ms_val	Enclave/Enclave_t.c	/^	int* ms_val;$/;"	m	struct:ms_ocall_pointer_in_out_t	file:
+ms_val	Enclave/Enclave_t.c	/^	int* ms_val;$/;"	m	struct:ms_ocall_pointer_in_t	file:
+ms_val	Enclave/Enclave_t.c	/^	int* ms_val;$/;"	m	struct:ms_ocall_pointer_out_t	file:
+ms_val	Enclave/Enclave_t.c	/^	int* ms_val;$/;"	m	struct:ms_ocall_pointer_user_check_t	file:
+ms_val	Enclave/Enclave_t.c	/^	size_t ms_val;$/;"	m	struct:ms_ecall_type_size_t_t	file:
+ms_val	Enclave/Enclave_t.c	/^	struct struct_foo_t ms_val;$/;"	m	struct:ms_ecall_type_struct_t	typeref:struct:ms_ecall_type_struct_t::struct_foo_t	file:
+ms_val	Enclave/Enclave_t.c	/^	void* ms_val;$/;"	m	struct:ms_ecall_pointer_user_check_t	file:
+ms_val	Enclave/Enclave_t.c	/^	wchar_t ms_val;$/;"	m	struct:ms_ecall_type_wchar_t_t	file:
+ms_val1	App/Enclave_u.c	/^	enum enum_foo_t ms_val1;$/;"	m	struct:ms_ecall_type_enum_union_t	typeref:enum:ms_ecall_type_enum_union_t::enum_foo_t	file:
+ms_val1	Enclave/Enclave_t.c	/^	enum enum_foo_t ms_val1;$/;"	m	struct:ms_ecall_type_enum_union_t	typeref:enum:ms_ecall_type_enum_union_t::enum_foo_t	file:
+ms_val2	App/Enclave_u.c	/^	union union_foo_t* ms_val2;$/;"	m	struct:ms_ecall_type_enum_union_t	typeref:union:ms_ecall_type_enum_union_t::union_foo_t	file:
+ms_val2	Enclave/Enclave_t.c	/^	union union_foo_t* ms_val2;$/;"	m	struct:ms_ecall_type_enum_union_t	typeref:union:ms_ecall_type_enum_union_t::union_foo_t	file:
+ms_waiter	App/Enclave_u.c	/^	const void* ms_waiter;$/;"	m	struct:ms_sgx_thread_set_untrusted_event_ocall_t	file:
+ms_waiter	App/Enclave_u.c	/^	const void* ms_waiter;$/;"	m	struct:ms_sgx_thread_setwait_untrusted_events_ocall_t	file:
+ms_waiter	Enclave/Enclave_t.c	/^	const void* ms_waiter;$/;"	m	struct:ms_sgx_thread_set_untrusted_event_ocall_t	file:
+ms_waiter	Enclave/Enclave_t.c	/^	const void* ms_waiter;$/;"	m	struct:ms_sgx_thread_setwait_untrusted_events_ocall_t	file:
+ms_waiters	App/Enclave_u.c	/^	const void** ms_waiters;$/;"	m	struct:ms_sgx_thread_set_multiple_untrusted_events_ocall_t	file:
+ms_waiters	Enclave/Enclave_t.c	/^	const void** ms_waiters;$/;"	m	struct:ms_sgx_thread_set_multiple_untrusted_events_ocall_t	file:
+msg	App/App.cpp	/^    const char *msg;$/;"	m	struct:_sgx_errlist_t	file:
+mutex	Enclave/TrustedLibrary/Thread.cpp	/^    sgx_thread_mutex_t mutex;$/;"	m	struct:__anon1	file:
+nauv_key_create	node_modules/nan/nan.h	/^inline int nauv_key_create(nauv_key_t *key) {$/;"	f	namespace:Nan
+nauv_key_create	node_modules/nan/nan.h	/^inline int nauv_key_create(nauv_key_t* key) {$/;"	f	namespace:Nan
+nauv_key_delete	node_modules/nan/nan.h	/^inline void nauv_key_delete(nauv_key_t *key) {$/;"	f	namespace:Nan
+nauv_key_delete	node_modules/nan/nan.h	/^inline void nauv_key_delete(nauv_key_t* key) {$/;"	f	namespace:Nan
+nauv_key_get	node_modules/nan/nan.h	/^inline void* nauv_key_get(nauv_key_t *key) {$/;"	f	namespace:Nan
+nauv_key_get	node_modules/nan/nan.h	/^inline void* nauv_key_get(nauv_key_t* key) {$/;"	f	namespace:Nan
+nauv_key_set	node_modules/nan/nan.h	/^inline void nauv_key_set(nauv_key_t *key, void *value) {$/;"	f	namespace:Nan
+nauv_key_set	node_modules/nan/nan.h	/^inline void nauv_key_set(nauv_key_t* key, void* value) {$/;"	f	namespace:Nan
+nauv_key_t	node_modules/nan/nan.h	/^typedef pthread_key_t nauv_key_t;$/;"	t	namespace:Nan
+nauv_key_t	node_modules/nan/nan.h	/^typedef uv_key_t nauv_key_t;$/;"	t	namespace:Nan
+nauv_key_t	node_modules/nan/nan.h	/^} nauv_key_t;$/;"	t	namespace:Nan	typeref:struct:Nan::__anon6
+nextin	Enclave/TrustedLibrary/Thread.cpp	/^    int nextin;$/;"	m	struct:__anon1	file:
+nextout	Enclave/TrustedLibrary/Thread.cpp	/^    int nextout;$/;"	m	struct:__anon1	file:
+nr_ecall	Enclave/Enclave_t.c	/^	size_t nr_ecall;$/;"	m	struct:__anon2	file:
+nr_ocall	App/Enclave_u.c	/^	size_t nr_ocall;$/;"	m	struct:__anon5	file:
+nr_ocall	Enclave/Enclave_t.c	/^	size_t nr_ocall;$/;"	m	struct:__anon4	file:
+obj	build/Makefile	/^obj := $(builddir)\/obj$/;"	m
+object	node_modules/nan/nan_persistent_pre_12_inl.h	/^    Global* object;$/;"	m	struct:Global::RValue
+ocall_function_allow	App/Edger8rSyntax/Functions.cpp	/^void ocall_function_allow(void)$/;"	f
+ocall_function_allow	Enclave/Enclave_t.c	/^sgx_status_t SGX_CDECL ocall_function_allow(void)$/;"	f
+ocall_pointer_attr	App/Enclave_u.c	/^sgx_status_t ocall_pointer_attr(sgx_enclave_id_t eid)$/;"	f
+ocall_pointer_attr	Enclave/Edger8rSyntax/Pointers.cpp	/^void ocall_pointer_attr(void)$/;"	f
+ocall_pointer_in	App/Edger8rSyntax/Pointers.cpp	/^void ocall_pointer_in(int* val)$/;"	f
+ocall_pointer_in	Enclave/Enclave_t.c	/^sgx_status_t SGX_CDECL ocall_pointer_in(int* val)$/;"	f
+ocall_pointer_in_out	App/Edger8rSyntax/Pointers.cpp	/^void ocall_pointer_in_out(int* val)$/;"	f
+ocall_pointer_in_out	Enclave/Enclave_t.c	/^sgx_status_t SGX_CDECL ocall_pointer_in_out(int* val)$/;"	f
+ocall_pointer_out	App/Edger8rSyntax/Pointers.cpp	/^void ocall_pointer_out(int* val)$/;"	f
+ocall_pointer_out	Enclave/Enclave_t.c	/^sgx_status_t SGX_CDECL ocall_pointer_out(int* val)$/;"	f
+ocall_pointer_user_check	App/Edger8rSyntax/Pointers.cpp	/^void ocall_pointer_user_check(int* val)$/;"	f
+ocall_pointer_user_check	Enclave/Enclave_t.c	/^sgx_status_t SGX_CDECL ocall_pointer_user_check(int* val)$/;"	f
+ocall_print_string	App/App.cpp	/^void ocall_print_string(const char *str)$/;"	f
+ocall_print_string	Enclave/Enclave_t.c	/^sgx_status_t SGX_CDECL ocall_print_string(const char* str)$/;"	f
+ocall_table_Enclave	App/Enclave_u.c	/^} ocall_table_Enclave = {$/;"	v	typeref:struct:__anon5	file:
+occupied	Enclave/TrustedLibrary/Thread.cpp	/^    int occupied;$/;"	m	struct:__anon1	file:
+ok	node_modules/nan/nan.h	/^  inline void ok(bool isOk, const char *msg = NULL) {$/;"	f	struct:Nan::Tap
+operator !=	node_modules/nan/nan.h	/^  bool operator!=(const Callback &other) const {$/;"	f	class:Nan::Callback
+operator !=	node_modules/nan/nan.h	/^  inline bool operator!=(E other) { return !operator==(other); }$/;"	f	struct:Nan::WeakCallbackType
+operator !=	node_modules/nan/nan_maybe_pre_43_inl.h	/^  inline bool operator!=(const Maybe &other) const {$/;"	f	class:Maybe
+operator !=	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline bool operator!=(const PersistentBase<S> &that) const {$/;"	f	class:PersistentBase
+operator !=	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline bool operator!=(const v8::Local<S> &that) const {$/;"	f	class:PersistentBase
+operator ()	node_modules/nan/nan.h	/^  NAN_DEPRECATED inline v8::Local<v8::Value> operator()($/;"	f	class:Nan::Callback
+operator ()	node_modules/nan/nan.h	/^  inline MaybeLocal<v8::Value> operator()($/;"	f	class:Nan::Callback
+operator *	node_modules/nan/nan.h	/^  inline char* operator*() { return str_; }$/;"	f	class:Nan::Utf8String
+operator *	node_modules/nan/nan.h	/^  inline const char* operator*() const { return str_; }$/;"	f	class:Nan::Utf8String
+operator *	node_modules/nan/nan.h	/^  v8::Local<v8::Function> operator*() const { return GetFunction(); }$/;"	f	class:Nan::Callback
+operator *	node_modules/nan/nan_persistent_12_inl.h	/^  inline T *operator*() const { return *PersistentBase<T>::persistent; }$/;"	f	class:Persistent
+operator *	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline T *operator*() const { return *PersistentBase<T>::persistent; }$/;"	f	class:Persistent
+operator *	node_modules/nan/nan_typedarray_contents.h	/^  inline T* operator*()             { return data_;   }$/;"	f	class:TypedArrayContents
+operator *	node_modules/nan/nan_typedarray_contents.h	/^  inline const T* operator*() const { return data_;   }$/;"	f	class:TypedArrayContents
+operator =	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline Global &operator=(Global<S> rhs) {$/;"	f	class:Global
+operator =	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline Persistent &operator=(const Persistent &that) {$/;"	f	class:Persistent
+operator =	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline Persistent &operator=(const Persistent<S, M2> &that) {$/;"	f	class:Persistent
+operator ==	node_modules/nan/nan.h	/^  bool operator==(const Callback &other) const {$/;"	f	class:Nan::Callback
+operator ==	node_modules/nan/nan.h	/^  inline bool operator==(E other) { return other == this->type; }$/;"	f	struct:Nan::WeakCallbackType
+operator ==	node_modules/nan/nan_maybe_pre_43_inl.h	/^  inline bool operator==(const Maybe &other) const {$/;"	f	class:Maybe
+operator ==	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline bool operator==(const PersistentBase<S> &that) const {$/;"	f	class:PersistentBase
+operator ==	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline bool operator==(const v8::Local<S> &that) const {$/;"	f	class:PersistentBase
+operator RValue	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline operator RValue() { return RValue(this); }$/;"	f	class:Global
+operator []	node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Local<v8::Value> operator[](int i) const { return info_[i]; }$/;"	f	class:FunctionCallbackInfo
+operator []	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Local<v8::Value> operator[](int i) const { return args_[i]; }$/;"	f	class:FunctionCallbackInfo
+operator delete	node_modules/nan/nan.h	/^  void operator delete(void *, size_t) {$/;"	f	class:Nan::EscapableHandleScope
+operator delete	node_modules/nan/nan.h	/^  void operator delete(void *, size_t) {$/;"	f	class:Nan::HandleScope
+operator delete	node_modules/nan/nan_typedarray_contents.h	/^  void operator delete(void *, size_t) {$/;"	f	class:TypedArrayContents
+parameter_	node_modules/nan/nan_weak.h	/^  void *parameter_;$/;"	m	class:WeakCallbackInfo
+parse	node_modules/nan/nan_json.h	/^  inline v8::Local<v8::Value> parse(v8::Local<v8::Value> arg) {$/;"	f	class:JSON
+parse_cb_	node_modules/nan/nan_json.h	/^  Nan::Callback parse_cb_;$/;"	m	class:JSON
+pass	node_modules/nan/nan.h	/^  inline void pass(const char * msg = NULL) {$/;"	f	struct:Nan::Tap
+persistent	node_modules/nan/nan_object_wrap.h	/^  inline Persistent<v8::Object>& persistent() {$/;"	f	class:ObjectWrap
+persistent	node_modules/nan/nan_persistent_pre_12_inl.h	/^  v8::Persistent<T> persistent;$/;"	m	class:PersistentBase
+persistentHandle	node_modules/nan/nan.h	/^  Persistent<v8::Object> persistentHandle;$/;"	m	class:Nan::AsyncWorker
+persistent_	node_modules/nan/nan_weak.h	/^  v8::Persistent<v8::Value> persistent_;$/;"	m	class:WeakCallbackInfo
+plan	node_modules/nan/nan.h	/^  inline void plan(int i) {$/;"	f	struct:Nan::Tap
+prereq_changed	build/Makefile	/^prereq_changed = $(filter-out FORCE_DO_CMD,$(filter-out $|,$?))$/;"	m
+print_error_message	App/App.cpp	/^void print_error_message(sgx_status_t ret)$/;"	f
+printf	Enclave/Enclave.cpp	/^void printf(const char *fmt, ...)$/;"	f
+quiet	build/Makefile	/^  quiet=$/;"	m
+quiet	build/Makefile	/^  quiet=quiet_$/;"	m
+quiet_cmd_alink	build/Makefile	/^quiet_cmd_alink = AR($(TOOLSET)) $@$/;"	m
+quiet_cmd_alink_thin	build/Makefile	/^quiet_cmd_alink_thin = AR($(TOOLSET)) $@$/;"	m
+quiet_cmd_cc	build/Makefile	/^quiet_cmd_cc = CC($(TOOLSET)) $@$/;"	m
+quiet_cmd_copy	build/Makefile	/^quiet_cmd_copy = COPY $@$/;"	m
+quiet_cmd_cxx	build/Makefile	/^quiet_cmd_cxx = CXX($(TOOLSET)) $@$/;"	m
+quiet_cmd_link	build/Makefile	/^quiet_cmd_link = LINK($(TOOLSET)) $@$/;"	m
+quiet_cmd_regen_makefile	build/Makefile	/^quiet_cmd_regen_makefile = ACTION Regenerating $@$/;"	m
+quiet_cmd_solink	build/Makefile	/^quiet_cmd_solink = SOLINK($(TOOLSET)) $@$/;"	m
+quiet_cmd_solink_module	build/Makefile	/^quiet_cmd_solink_module = SOLINK_MODULE($(TOOLSET)) $@$/;"	m
+quiet_cmd_touch	build/Makefile	/^quiet_cmd_touch = TOUCH $@$/;"	m
+refs_	node_modules/nan/nan_object_wrap.h	/^  int refs_;  \/\/ ro$/;"	m	class:ObjectWrap
+replace_spaces	build/Makefile	/^replace_spaces = $(subst $(space),?,$1)$/;"	m
+request	node_modules/nan/nan.h	/^  uv_work_t request;$/;"	m	class:Nan::AsyncWorker
+return_t	node_modules/nan/nan_converters.h	/^  typedef MaybeLocal<T> return_t;$/;"	t	struct:imp::ToFactoryBase
+return_t	node_modules/nan/nan_converters.h	/^template<typename T> struct ValueFactoryBase { typedef Maybe<T> return_t; };$/;"	t	struct:imp::ValueFactoryBase
+return_t	node_modules/nan/nan_new.h	/^  typedef MaybeLocal<T> return_t;$/;"	t	struct:imp::MaybeFactoryBase
+return_t	node_modules/nan/nan_new.h	/^  typedef typename FactoryBase<T>::return_t return_t;$/;"	t	struct:imp::IntegerFactory
+return_t	node_modules/nan/nan_new.h	/^  typedef v8::Local<T> return_t;$/;"	t	struct:imp::FactoryBase
+return_value_	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  ReturnValue<T> return_value_;$/;"	m	class:FunctionCallbackInfo
+return_value_	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  ReturnValue<T> return_value_;$/;"	m	class:PropertyCallbackInfo
+return_value_	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  ReturnValue<v8::Array> return_value_;$/;"	m	class:PropertyCallbackInfo
+return_value_	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  ReturnValue<v8::Boolean> return_value_;$/;"	m	class:PropertyCallbackInfo
+return_value_	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  ReturnValue<v8::Integer> return_value_;$/;"	m	class:PropertyCallbackInfo
+retval_	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  v8::Persistent<T> retval_;$/;"	m	class:FunctionCallbackInfo
+retval_	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  v8::Persistent<T> retval_;$/;"	m	class:PropertyCallbackInfo
+retval_	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  v8::Persistent<v8::Array> retval_;$/;"	m	class:PropertyCallbackInfo
+retval_	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  v8::Persistent<v8::Boolean> retval_;$/;"	m	class:PropertyCallbackInfo
+retval_	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  v8::Persistent<v8::Integer> retval_;$/;"	m	class:PropertyCallbackInfo
+runInAsyncScope	node_modules/nan/nan.h	/^  inline MaybeLocal<v8::Value> runInAsyncScope($/;"	f	class:Nan::AsyncResource
+scope	node_modules/nan/nan.h	/^  v8::EscapableHandleScope scope;$/;"	m	class:Nan::EscapableHandleScope
+scope	node_modules/nan/nan.h	/^  v8::HandleScope scope;$/;"	m	class:Nan::HandleScope
+sgx_ecall_array_in	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_array_in(void* pms)$/;"	f	file:
+sgx_ecall_array_in_out	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_array_in_out(void* pms)$/;"	f	file:
+sgx_ecall_array_isary	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_array_isary(void* pms)$/;"	f	file:
+sgx_ecall_array_out	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_array_out(void* pms)$/;"	f	file:
+sgx_ecall_array_user_check	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_array_user_check(void* pms)$/;"	f	file:
+sgx_ecall_consumer	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_consumer(void* pms)$/;"	f	file:
+sgx_ecall_exception	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_exception(void* pms)$/;"	f	file:
+sgx_ecall_function_private	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_function_private(void* pms)$/;"	f	file:
+sgx_ecall_function_public	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_function_public(void* pms)$/;"	f	file:
+sgx_ecall_increase_counter	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_increase_counter(void* pms)$/;"	f	file:
+sgx_ecall_malloc_free	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_malloc_free(void* pms)$/;"	f	file:
+sgx_ecall_map	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_map(void* pms)$/;"	f	file:
+sgx_ecall_pointer_count	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_pointer_count(void* pms)$/;"	f	file:
+sgx_ecall_pointer_in	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_pointer_in(void* pms)$/;"	f	file:
+sgx_ecall_pointer_in_out	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_pointer_in_out(void* pms)$/;"	f	file:
+sgx_ecall_pointer_isptr_readonly	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_pointer_isptr_readonly(void* pms)$/;"	f	file:
+sgx_ecall_pointer_out	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_pointer_out(void* pms)$/;"	f	file:
+sgx_ecall_pointer_size	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_pointer_size(void* pms)$/;"	f	file:
+sgx_ecall_pointer_string	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_pointer_string(void* pms)$/;"	f	file:
+sgx_ecall_pointer_string_const	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_pointer_string_const(void* pms)$/;"	f	file:
+sgx_ecall_pointer_user_check	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_pointer_user_check(void* pms)$/;"	f	file:
+sgx_ecall_producer	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_producer(void* pms)$/;"	f	file:
+sgx_ecall_sgx_cpuid	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_sgx_cpuid(void* pms)$/;"	f	file:
+sgx_ecall_type_char	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_type_char(void* pms)$/;"	f	file:
+sgx_ecall_type_double	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_type_double(void* pms)$/;"	f	file:
+sgx_ecall_type_enum_union	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_type_enum_union(void* pms)$/;"	f	file:
+sgx_ecall_type_float	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_type_float(void* pms)$/;"	f	file:
+sgx_ecall_type_int	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_type_int(void* pms)$/;"	f	file:
+sgx_ecall_type_size_t	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_type_size_t(void* pms)$/;"	f	file:
+sgx_ecall_type_struct	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_type_struct(void* pms)$/;"	f	file:
+sgx_ecall_type_wchar_t	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ecall_type_wchar_t(void* pms)$/;"	f	file:
+sgx_errlist	App/App.cpp	/^static sgx_errlist_t sgx_errlist[] = {$/;"	v	file:
+sgx_errlist_t	App/App.cpp	/^} sgx_errlist_t;$/;"	t	typeref:struct:_sgx_errlist_t	file:
+sgx_oc_cpuidex	Enclave/Enclave_t.c	/^sgx_status_t SGX_CDECL sgx_oc_cpuidex(int cpuinfo[4], int leaf, int subleaf)$/;"	f
+sgx_ocall_pointer_attr	Enclave/Enclave_t.c	/^static sgx_status_t SGX_CDECL sgx_ocall_pointer_attr(void* pms)$/;"	f	file:
+sgx_thread_set_multiple_untrusted_events_ocall	Enclave/Enclave_t.c	/^sgx_status_t SGX_CDECL sgx_thread_set_multiple_untrusted_events_ocall(int* retval, const void** waiters, size_t total)$/;"	f
+sgx_thread_set_untrusted_event_ocall	Enclave/Enclave_t.c	/^sgx_status_t SGX_CDECL sgx_thread_set_untrusted_event_ocall(int* retval, const void* waiter)$/;"	f
+sgx_thread_setwait_untrusted_events_ocall	Enclave/Enclave_t.c	/^sgx_status_t SGX_CDECL sgx_thread_setwait_untrusted_events_ocall(int* retval, const void* waiter, const void* self)$/;"	f
+sgx_thread_wait_untrusted_event_ocall	Enclave/Enclave_t.c	/^sgx_status_t SGX_CDECL sgx_thread_wait_untrusted_event_ocall(int* retval, const void* self)$/;"	f
+space	build/Makefile	/^space := $(empty) $(empty)$/;"	m
+srcdir	build/Makefile	/^srcdir := ..$/;"	m
+str_	node_modules/nan/nan.h	/^  char *str_;$/;"	m	class:Nan::Utf8String
+str_st_	node_modules/nan/nan.h	/^  char str_st_[1024];$/;"	m	class:Nan::Utf8String
+stringify	node_modules/nan/nan_json.h	/^  inline v8::Local<v8::Value> stringify(v8::Local<v8::Value> arg) {$/;"	f	class:JSON
+stringify	node_modules/nan/nan_json.h	/^  inline v8::Local<v8::Value> stringify(v8::Local<v8::Value> arg,$/;"	f	class:JSON
+stringify_cb_	node_modules/nan/nan_json.h	/^  Nan::Callback stringify_cb_;$/;"	m	class:JSON
+struct_foo_0	App/Enclave_u.h	/^	uint32_t struct_foo_0;$/;"	m	struct:struct_foo_t
+struct_foo_0	Enclave/Enclave_t.h	/^	uint32_t struct_foo_0;$/;"	m	struct:struct_foo_t
+struct_foo_1	App/Enclave_u.h	/^	uint64_t struct_foo_1;$/;"	m	struct:struct_foo_t
+struct_foo_1	Enclave/Enclave_t.h	/^	uint64_t struct_foo_1;$/;"	m	struct:struct_foo_t
+struct_foo_t	App/Enclave_u.h	/^typedef struct struct_foo_t {$/;"	s
+struct_foo_t	App/Enclave_u.h	/^} struct_foo_t;$/;"	t	typeref:struct:struct_foo_t
+struct_foo_t	Enclave/Enclave_t.h	/^typedef struct struct_foo_t {$/;"	s
+struct_foo_t	Enclave/Enclave_t.h	/^} struct_foo_t;$/;"	t	typeref:struct:struct_foo_t
+sug	App/App.cpp	/^    const char *sug; \/* Suggestion *\/$/;"	m	struct:_sgx_errlist_t	file:
+t_	node_modules/nan/nan.h	/^  Persistent<v8::Object> t_;$/;"	m	struct:Nan::Tap
+table	App/Enclave_u.c	/^	void * table[11];$/;"	m	struct:__anon5	file:
+that_	node_modules/nan/nan.h	/^    AsyncBareProgressQueueWorker* const that_;$/;"	m	class:Nan::AsyncBareProgressQueueWorker::ExecutionProgress
+that_	node_modules/nan/nan.h	/^    AsyncBareProgressWorker* const that_;$/;"	m	class:Nan::AsyncBareProgressWorker::ExecutionProgress
+tls_index	node_modules/nan/nan.h	/^  DWORD tls_index;$/;"	m	struct:Nan::__anon6
+try_catch_	node_modules/nan/nan.h	/^  v8::TryCatch try_catch_;$/;"	m	class:Nan::TryCatch
+type	node_modules/nan/nan.h	/^  E type;$/;"	m	struct:Nan::WeakCallbackType
+union_foo_0	App/Enclave_u.h	/^	uint32_t union_foo_0;$/;"	m	union:union_foo_t
+union_foo_0	Enclave/Enclave_t.h	/^	uint32_t union_foo_0;$/;"	m	union:union_foo_t
+union_foo_1	App/Enclave_u.h	/^	uint32_t union_foo_1;$/;"	m	union:union_foo_t
+union_foo_1	Enclave/Enclave_t.h	/^	uint32_t union_foo_1;$/;"	m	union:union_foo_t
+union_foo_3	App/Enclave_u.h	/^	uint64_t union_foo_3;$/;"	m	union:union_foo_t
+union_foo_3	Enclave/Enclave_t.h	/^	uint64_t union_foo_3;$/;"	m	union:union_foo_t
+union_foo_t	App/Enclave_u.h	/^typedef union union_foo_t {$/;"	u
+union_foo_t	App/Enclave_u.h	/^} union_foo_t;$/;"	t	typeref:union:union_foo_t
+union_foo_t	Enclave/Enclave_t.h	/^typedef union union_foo_t {$/;"	u
+union_foo_t	Enclave/Enclave_t.h	/^} union_foo_t;$/;"	t	typeref:union:union_foo_t
+unreplace_spaces	build/Makefile	/^unreplace_spaces = $(subst ?,$(space),$1)$/;"	m
+unwrap	node_modules/nan/nan_weak.h	/^WeakCallbackInfo<T> *WeakCallbackInfo<T>::unwrap($/;"	f	class:WeakCallbackInfo
+unwrapparameter	node_modules/nan/nan_weak.h	/^WeakCallbackInfo<T> *WeakCallbackInfo<T>::unwrapparameter($/;"	f	class:WeakCallbackInfo
+unwraptwofield	node_modules/nan/nan_weak.h	/^WeakCallbackInfo<T> *WeakCallbackInfo<T>::unwraptwofield($/;"	f	class:WeakCallbackInfo
+val_	node_modules/nan/nan_maybe_pre_43_inl.h	/^  v8::Local<T> val_;$/;"	m	class:MaybeLocal
+value_	node_modules/nan/nan_callbacks_12_inl.h	/^  v8::ReturnValue<T> value_;$/;"	m	class:ReturnValue
+value_	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  v8::Persistent<T> *value_;$/;"	m	class:ReturnValue
+value_	node_modules/nan/nan_maybe_pre_43_inl.h	/^  T value_;$/;"	m	class:Maybe
+widenString	node_modules/nan/nan.h	/^widenString(std::vector<uint16_t> *ws, const uint8_t *s, int l) {$/;"	f	namespace:Nan::imp
+~AsyncBareProgressQueueWorker	node_modules/nan/nan.h	/^  virtual ~AsyncBareProgressQueueWorker() {$/;"	f	class:Nan::AsyncBareProgressQueueWorker
+~AsyncBareProgressWorker	node_modules/nan/nan.h	/^  virtual ~AsyncBareProgressWorker() {$/;"	f	class:Nan::AsyncBareProgressWorker
+~AsyncBareProgressWorkerBase	node_modules/nan/nan.h	/^  virtual ~AsyncBareProgressWorkerBase() {$/;"	f	class:Nan::AsyncBareProgressWorkerBase
+~AsyncProgressQueueWorker	node_modules/nan/nan.h	/^  virtual ~AsyncProgressQueueWorker() {$/;"	f	class:Nan::AsyncProgressQueueWorker
+~AsyncProgressWorkerBase	node_modules/nan/nan.h	/^  virtual ~AsyncProgressWorkerBase() {$/;"	f	class:Nan::AsyncProgressWorkerBase
+~AsyncResource	node_modules/nan/nan.h	/^  ~AsyncResource() {$/;"	f	class:Nan::AsyncResource
+~AsyncWorker	node_modules/nan/nan.h	/^  virtual ~AsyncWorker() {$/;"	f	class:Nan::AsyncWorker
+~Callback	node_modules/nan/nan.h	/^  ~Callback() {$/;"	f	class:Nan::Callback
+~FunctionCallbackInfo	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline ~FunctionCallbackInfo() {$/;"	f	class:FunctionCallbackInfo
+~Global	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline ~Global() { this->Reset(); }$/;"	f	class:Global
+~ObjectWrap	node_modules/nan/nan_object_wrap.h	/^  virtual ~ObjectWrap() {$/;"	f	class:ObjectWrap
+~Persistent	node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline ~Persistent() {$/;"	f	class:Persistent
+~PropertyCallbackInfo	node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline ~PropertyCallbackInfo() {$/;"	f	class:PropertyCallbackInfo
+~Tap	node_modules/nan/nan.h	/^  ~Tap() { t_.Reset(); }  \/\/ not sure if neccessary$/;"	f	struct:Nan::Tap
+~Utf8String	node_modules/nan/nan.h	/^  inline ~Utf8String() {$/;"	f	class:Nan::Utf8String
